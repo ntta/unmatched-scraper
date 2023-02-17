@@ -1,0 +1,85 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:unmatched.db"
+}
+
+model Card {
+  id                  Int        @id @default(autoincrement())
+  name                String     @unique
+  slug                String     @unique
+  type                String
+  value               Int
+  boostValue          Int
+  effectGeneral       String?
+  effectImmediately   String?
+  effectDuringCombat  String?
+  effectAfterCombat   String?
+  notes               String?
+  basketSymbol        String?
+  isBonusAttack       Boolean    @default(false)
+  bonusAttackOfCardId Int?       @unique
+  bonusAttackOfCard   Card?      @relation("BonusAttackCard", fields: [bonusAttackOfCardId], references: [id])
+  cardHasBonusAttack  Card?      @relation("BonusAttackCard")
+  deckCard            DeckCard[]
+}
+
+model Fighter {
+  id          Int           @id @default(autoincrement())
+  name        String        @unique
+  slug        String        @unique
+  attackType  String
+  hp          Int
+  deckFighter DeckFighter[]
+}
+
+model Deck {
+  id          Int           @id @default(autoincrement())
+  name        String        @unique
+  slug        String        @unique
+  special     String
+  quote       String?
+  notes       String?
+  movevement  Int
+  deckFighter DeckFighter[]
+  gameSet     GameSet       @relation(fields: [gameSetId], references: [id])
+  gameSetId   Int
+  deckCard    DeckCard[]
+}
+
+model DeckFighter {
+  deck       Deck    @relation(fields: [deckId], references: [id])
+  deckId     Int
+  fighter    Fighter @relation(fields: [fighterId], references: [id])
+  fighterId  Int
+  isHero     Boolean
+  isSidekick Boolean
+  quantity   Int
+
+  @@id([deckId, fighterId])
+}
+
+model DeckCard {
+  deck     Deck @relation(fields: [deckId], references: [id])
+  deckId   Int
+  card     Card @relation(fields: [cardId], references: [id])
+  cardId   Int
+  quantity Int
+
+  @@id([deckId, cardId])
+}
+
+model GameSet {
+  id          Int      @id @default(autoincrement())
+  name        String   @unique
+  slug        String   @unique
+  releaseDate DateTime
+  notes       String?
+  decks       Deck[]
+}
