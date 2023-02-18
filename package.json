@@ -4,14 +4,21 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tsc",
-    "start": "node dist"
+    "build": "rimraf dist && tsc",
+    "start": "npm run build && node dist",
+    "clear-db": "rimraf prisma/unmatched.db prisma/unmatched.db-journal",
+    "fresh-start": "npm run clear-db && prisma migrate dev && npm run start"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^18.13.0",
+    "prisma": "^4.10.1",
     "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.10.1",
+    "rimraf": "^4.1.2"
   }
 }
