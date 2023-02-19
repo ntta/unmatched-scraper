@@ -15,8 +15,8 @@ model Card {
   name                String        @unique
   slug                String        @unique
   type                String
-  value               Int
-  boostValue          Int
+  value               Int?
+  boostValue          Int?
   effectGeneral       String?
   effectImmediately   String?
   effectDuringCombat  String?

@@ -85,35 +85,54 @@ const main = async () => {
 
         const fighter = await getFighterByName(characterName);
 
-        // TODO: check if slug exists first
+        const existedCard = await prisma.card.findUnique({ where: { slug } });
 
-        await prisma.card.create({
-          data: {
-            name: title,
-            slug,
-            type,
-            value,
-            boostValue: boost,
-            effectGeneral: basicText,
-            effectImmediately: immediateText,
-            effectDuringCombat: duringText,
-            effectAfterCombat: afterText,
-            isBonusAttack: false,
-            deckCard: {
-              create: {
-                deckId: deck.id,
-                quantity,
-              },
+        if (!!existedCard) {
+          await prisma.deckCard.create({
+            data: {
+              deckId: deck.id,
+              cardId: existedCard.id,
+              quantity,
             },
-            cardFighter: !!fighter
-              ? {
-                  create: {
-                    fighterId: fighter.id,
-                  },
-                }
-              : undefined,
-          },
-        });
+          });
+          if (!!fighter) {
+            await prisma.cardFighter.create({
+              data: {
+                cardId: existedCard.id,
+                fighterId: fighter.id,
+              },
+            });
+          }
+        } else {
+          // TODO: fix the issue with Deadpool cards
+          await prisma.card.create({
+            data: {
+              name: title,
+              slug,
+              type,
+              value,
+              boostValue: boost,
+              effectGeneral: basicText,
+              effectImmediately: immediateText,
+              effectDuringCombat: duringText,
+              effectAfterCombat: afterText,
+              isBonusAttack: false,
+              deckCard: {
+                create: {
+                  deckId: deck.id,
+                  quantity,
+                },
+              },
+              cardFighter: !!fighter
+                ? {
+                    create: {
+                      fighterId: fighter.id,
+                    },
+                  }
+                : undefined,
+            },
+          });
+        }
       }
       //#endregion
     } catch (err) {
