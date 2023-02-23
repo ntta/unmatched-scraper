@@ -57,9 +57,9 @@ Certain fields in the JSON files may contain styled strings that offer guidance 
 When presented on an app, the styled strings should be rendered as follows:
 
 > When you place Alice, choose whether she starts the game **BIG** or **SMALL**.
-
+>
 > When Alice is **BIG**, add 2 to the value of her attack cards.
-
+>
 > When Alice is **SMALL**, add 1 to the value of her defense cards.
 
 I'll add a table to help you style things later on
