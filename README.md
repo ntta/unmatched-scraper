@@ -7,6 +7,7 @@ This app facilitates the conversion of Unmatched board game data from external s
 1. [Installation](#installation)
 2. [Data Source](#data-source)
 3. [Game Sets](#game-sets)
+4. [Styled Strings](#styled-strings)
 
 ## <a name="installation"></a> Installation
 
@@ -20,7 +21,7 @@ This app was built using Node v16.9.0 and necessitates the utilisation of Node v
 
 ## <a name="data-source"></a> Data Source
 
-Within this version, the app leverages JSON data files obtained from [Unmatched Maker](https://unmatched.cards) as the principal data source, which are subsequently imported into the database. The JSON files are stored in `src/json` and encompass the following:
+In this version, the app utilises JSON data files sourced from [Unmatched Maker](https://unmatched.cards) as the primary data source.These files are imported into the database after having been modified, potentially including the application of [Styled Strings](#styled-strings). The JSON files are stored in `src/json` and include the following:
 
 - _boards.json_
 - _cards.json_
@@ -46,3 +47,17 @@ The Unmatched game system consists of numerous sets, each comprising one to four
 - Houdini vs. The Genie
 - Marvel - For King and Country
 - Marvel - Teen Spirit
+
+## <a name="styled-strings"></a> Styled Strings
+
+Certain fields in the JSON files may contain styled strings that offer guidance to app developers regarding text formatting for display on an app. For instance, the special ability of Alice features styled strings, as illustrated below:
+
+> When you place Alice, choose whether she starts the game {{bold}}(BIG) or {{bold}}(SMALL).{{newline}}When Alice is {{bold}}(BIG), add 2 to the value of her attack cards.{{newline}}When Alice is {{bold}}(SMALL), add 1 to the value of her defense cards.
+
+When presented on an app, the styled strings should be rendered as follows:
+
+> When you place Alice, choose whether she starts the game **BIG** or **SMALL**.
+> When Alice is **BIG**, add 2 to the value of her attack cards.
+> When Alice is **SMALL**, add 1 to the value of her defense cards.
+
+I'll add a table to help you style things later on

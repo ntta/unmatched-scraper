@@ -52,7 +52,7 @@ model Fighter {
 
 model SpecialAbility {
   id          Int       @id @default(autoincrement())
-  name        String    @unique
+  name        String?
   slug        String    @unique
   description String
   fighters    Fighter[]

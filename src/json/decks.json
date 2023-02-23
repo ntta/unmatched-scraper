@@ -341,7 +341,7 @@
         }
       ],
       "slug": "alice",
-      "special": "When you place Alice, choose whether she starts the game BIG or SMALL. \nWhen Alice is BIG, add 2 to the value of her attack cards. \nWhen Alice is SMALL, add 1 to the value of her defense cards."
+      "special": "When you place Alice, choose whether she starts the game {{bold}}(BIG) or {{bold}}(SMALL).{{newline}}When Alice is {{bold}}(BIG), add 2 to the value of her attack cards.{{newline}}When Alice is {{bold}}(SMALL), add 1 to the value of her defense cards."
     },
     {
       "cards": [
@@ -2605,7 +2605,7 @@
         }
       ],
       "slug": "sinbad",
-      "special": "When you maneuver, you may move your fighters +1 space for each VOYAGE card in your discard pile."
+      "special": "When you maneuver, you may move your fighters +1 space for each {{bold}}(VOYAGE) card in your discard pile."
     },
     {
       "cards": [
@@ -7975,7 +7975,7 @@
         }
       ],
       "slug": "king-arthur",
-      "special": "When King Arthur attacks, you may BOOST that attack. Play the BOOST card, face down, along with your attack card.\r\nIf your opponent cancels the effects on your attack card, the BOOST is discarded without effect."
+      "special": "When King Arthur attacks, you may BOOST that attack. Play the BOOST card, face down, along with your attack card.{{newline}}If your opponent cancels the effects on your attack card, the BOOST is discarded without effect."
     },
     {
       "cards": [
