@@ -14,6 +14,8 @@ model Card {
   id                  Int           @id @default(autoincrement())
   name                String        @unique
   slug                String        @unique
+  quote               String?
+  notes               String?
   type                String
   value               Int?
   boostValue          Int?
@@ -21,28 +23,39 @@ model Card {
   effectImmediately   String?
   effectDuringCombat  String?
   effectAfterCombat   String?
-  quote               String?
-  notes               String?
   basketSymbol        String?
   isBonusAttack       Boolean       @default(false)
   bonusAttackOfCardId Int?          @unique
   bonusAttackOfCard   Card?         @relation("BonusAttackCard", fields: [bonusAttackOfCardId], references: [id])
-  cardHasBonusAttack  Card?         @relation("BonusAttackCard")
-  deckCard            DeckCard[]
-  cardFighter         CardFighter[]
+  bonusAttack         Card?         @relation("BonusAttackCard")
+  cardFighters        CardFighter[]
+  cardDecks           CardDeck[]
 }
 
 model Fighter {
-  id          Int           @id @default(autoincrement())
-  name        String        @unique
-  slug        String        @unique
-  attackType  String
-  hp          Int
-  isHero      Boolean
-  quantity    Int
-  deck        Deck          @relation(fields: [deckId], references: [id])
-  deckId      Int
-  cardFighter CardFighter[]
+  id               Int            @id @default(autoincrement())
+  name             String         @unique
+  slug             String         @unique
+  quote            String?
+  notes            String?
+  attackType       String
+  startHealth      Int
+  isHero           Boolean
+  quantity         Int
+  move             Int
+  deck             Deck           @relation(fields: [deckId], references: [id])
+  deckId           Int
+  cardFighters     CardFighter[]
+  specialAbility   SpecialAbility @relation(fields: [specialAbilityId], references: [id])
+  specialAbilityId Int
+}
+
+model SpecialAbility {
+  id          Int       @id @default(autoincrement())
+  name        String    @unique
+  slug        String    @unique
+  description String
+  fighters    Fighter[]
 }
 
 model CardFighter {
@@ -54,37 +67,26 @@ model CardFighter {
   @@id([cardId, fighterId])
 }
 
-model SpecialAbility {
-  id          Int    @id @default(autoincrement())
-  name        String @unique
-  slug        String @unique
-  description String
-  deck        Deck   @relation(fields: [deckId], references: [id])
-  deckId      Int
-}
-
 model Deck {
-  id               Int              @id @default(autoincrement())
-  name             String           @unique
-  slug             String           @unique
-  quote            String?
-  notes            String?
-  move             Int
-  gameSet          GameSet          @relation(fields: [gameSetId], references: [id])
-  gameSetId        Int
-  deckCard         DeckCard[]
-  specialAbilities SpecialAbility[]
-  fighters         Fighter[]
+  id        Int        @id @default(autoincrement())
+  name      String     @unique
+  slug      String     @unique
+  quote     String?
+  notes     String?
+  gameSet   GameSet    @relation(fields: [gameSetId], references: [id])
+  gameSetId Int
+  fighters  Fighter[]
+  cardDecks CardDeck[]
 }
 
-model DeckCard {
-  deck     Deck @relation(fields: [deckId], references: [id])
-  deckId   Int
+model CardDeck {
   card     Card @relation(fields: [cardId], references: [id])
   cardId   Int
+  deck     Deck @relation(fields: [deckId], references: [id])
+  deckId   Int
   quantity Int
 
-  @@id([deckId, cardId])
+  @@id([cardId, deckId])
 }
 
 model GameSet {

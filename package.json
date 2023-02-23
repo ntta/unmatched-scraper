@@ -6,8 +6,8 @@
   "scripts": {
     "build": "rimraf dist && tsc",
     "start": "npm run build && node dist",
-    "clear-db": "rimraf prisma/unmatched.db prisma/unmatched.db-journal",
-    "fresh-start": "npm run clear-db && prisma migrate dev && npm run start"
+    "clear-db": "rimraf prisma/migrations prisma/unmatched.db prisma/unmatched.db-journal",
+    "fresh-start": "npm run clear-db && prisma migrate dev --name init && npm run start"
   },
   "keywords": [],
   "author": "",
