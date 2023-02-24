@@ -47,7 +47,6 @@ const main = async () => {
         const deck = await upsertDeck(jsonDeck, gameSet.id);
 
         //#region Create fighter
-        const jsonFighters = [...jsonDeck.heroes, ...jsonDeck.sidekicks];
         // Create special ability first if it's a string
         // TODO: may need to change the special field to cater for heroes who have many specials (e.g. Moon Knight)
         // TODO: and also for special that has name, new set Teen Spirit
@@ -206,4 +205,18 @@ const lookupFighterName = async (nameOnCard: string, deckId: number) => {
 // const slugs = jsonGameSets.map((set) => set.slug);
 // fs.writeFileSync('test.json', JSON.stringify(slugs));
 
-main().then(() => console.log('DONE!'));
+// main().then(() => console.log('DONE!'));
+
+const gameSetSlugs = jsonGameSets.map((json) => json.slug);
+
+for (const gameSetSlug of gameSetSlugs) {
+  if (gameSetSlug !== 'little-red-riding-hood-vs-beowulf') continue;
+  const gameSetDecks = [];
+  for (const jsonDeck of jsonDecks) {
+    if (jsonDeck.setSlug == gameSetSlug) {
+      gameSetDecks.push(jsonDeck);
+    }
+  }
+
+  fs.writeFileSync(`./game-sets/${gameSetSlug}.json`, JSON.stringify(gameSetDecks));
+}
