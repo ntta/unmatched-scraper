@@ -100,32 +100,6 @@
       "slug": "buffy-the-vampire-slayer"
     },
     {
-      "bggLink": "https://boardgamegeek.com/boardgameexpansion/284779/unmatched-jurassic-park-grant",
-      "boards": [],
-      "decks": [{ "name": "Dr. Alan Grant", "slug": "dr-alan-grant" }],
-      "image": "",
-      "name": "Jurassic Park - Grant",
-      "notes": "Justin [wrote on Discord](https://discord.com/channels/722465956265197618/723183332522852382/895415680688603137) on October 10, 2021: \n> Also worth mentioning that the lack of time left in the [Jurassic Park] license means we are almost certainly not going to be release the Dr. Grant deck. Sorry, folks.",
-      "releaseDate": null,
-      "released": false,
-      "slug": "jurassic-park-grant"
-    },
-    {
-      "bggLink": "https://boardgamegeek.com/boardgame/326936/unmatched-teen-spirit",
-      "boards": [],
-      "decks": [
-        { "name": "Ms. Marvel", "slug": "ms-marvel" },
-        { "name": "Squirrel Girl", "slug": "squirrel-girl" },
-        { "name": "Cloak and Dagger", "slug": "cloak-and-dagger" }
-      ],
-      "image": null,
-      "name": "Marvel - Teen Spirit",
-      "notes": null,
-      "releaseDate": null,
-      "released": false,
-      "slug": "marvel-teen-spirit"
-    },
-    {
       "bggLink": "https://boardgamegeek.com/boardgame/335764/unmatched-battle-legends-volume-two",
       "boards": [{ "name": "Hanging Gardens", "slug": "hanging-gardens" }],
       "decks": [
@@ -154,35 +128,6 @@
       "releaseDate": "Sat, 19 Dec 2020 00:00:00 GMT",
       "released": true,
       "slug": "little-red-riding-hood-vs-beowulf"
-    },
-    {
-      "bggLink": "https://boardgamegeek.com/boardgame/326937/unmatched-king-and-country",
-      "boards": [],
-      "decks": [
-        { "name": "Black Widow", "slug": "black-widow" },
-        { "name": "Black Panther", "slug": "black-panther" },
-        { "name": "Winter Soldier", "slug": "winter-soldier" }
-      ],
-      "image": null,
-      "name": "Marvel - For King and Country",
-      "notes": null,
-      "releaseDate": null,
-      "released": false,
-      "slug": "marvel-for-king-and-country"
-    },
-    {
-      "bggLink": null,
-      "boards": [],
-      "decks": [
-        { "name": "Rosie the Riveter", "slug": "rosie-the-riveter" },
-        { "name": "William Shakespeare", "slug": "william-shakespeare" }
-      ],
-      "image": "",
-      "name": "Design Contest Sets",
-      "notes": "This is a placeholder for the sets that will contain 10 (!) fan-made decks from Restoration's [Design Contest](https://restorationgames.com/unmatched-design-contest/). From the press release announcing the winners:\r\n\r\n> Restoration Games originally intended to select only four winning decks and had planned to feature\r\nthem in a single set. However, due to the overwhelming response to the contest and high quality of the submissions, eight additional decks were chosen as unofficial \u201crunners-up\u201d and will also appear in future sets. Those additional entrants and their decks will be revealed when the sets are announced.",
-      "releaseDate": null,
-      "released": false,
-      "slug": "design-contest-sets"
     },
     {
       "bggLink": "https://boardgamegeek.com/boardgameexpansion/335386/unmatched-deadpool",
@@ -254,5 +199,5 @@
       "slug": "marvel-hells-kitchen"
     }
   ],
-  "total": 17
+  "total": 13
 }

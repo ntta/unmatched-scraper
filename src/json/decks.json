@@ -322,7 +322,8 @@
           "hp": 13,
           "name": "Alice",
           "quantity": 1,
-          "slug": "alice"
+          "slug": "alice",
+          "nameOnCard": "ALICE"
         }
       ],
       "movement": 2,
@@ -337,7 +338,8 @@
           "hp": 8,
           "name": "The Jabberwock",
           "quantity": 1,
-          "slug": "the-jabberwock"
+          "slug": "the-jabberwock",
+          "nameOnCard": "THE JABBERWOCK"
         }
       ],
       "slug": "alice",
@@ -462,7 +464,7 @@
           "basicText": "Move the Jackalope up to 5 spaces. You may move the Jackalope through spaces containing opposing fighters. Then deal 2 damage to any one fighter adjacent to the Jackalope.",
           "boost": 2,
           "card_notes": null,
-          "characterName": "JACKALOPE",
+          "characterName": "THE JACKALOPE",
           "deck_card_notes": null,
           "duringText": null,
           "image": "https://static.unmatched.cards/images/umdb/decks/bigfoot/jackalope-horns.png",
@@ -600,7 +602,8 @@
           "hp": 16,
           "name": "Bigfoot",
           "quantity": 1,
-          "slug": "bigfoot"
+          "slug": "bigfoot",
+          "nameOnCard": "BIGFOOT"
         }
       ],
       "movement": 3,
@@ -615,7 +618,8 @@
           "hp": 6,
           "name": "The Jackalope",
           "quantity": 1,
-          "slug": "the-jackalope"
+          "slug": "the-jackalope",
+          "nameOnCard": "THE JACKALOPE"
         }
       ],
       "slug": "bigfoot",
@@ -1257,7 +1261,8 @@
           "hp": 14,
           "name": "Bruce Lee",
           "quantity": 1,
-          "slug": "bruce-lee"
+          "slug": "bruce-lee",
+          "nameOnCard": "BRUCE LEE"
         }
       ],
       "movement": 3,
@@ -1441,15 +1446,16 @@
           "hp": 17,
           "name": "Daredevil",
           "quantity": 1,
-          "slug": "daredevil"
+          "slug": "daredevil",
+          "nameOnCard": "DAREDEVIL"
         }
       ],
       "movement": 3,
       "name": "Daredevil",
       "notes": "When you BLIND BOOST, you discard the top card of your deck and add its BOOST value onto the card you played in combat. Daredevil's ability cannot be canceled. Follow the normal resolution rules: Defender resolves first. ",
       "quote": null,
-      "set": "Hell's Kitchen",
-      "setSlug": "hells-kitchen",
+      "set": "Marvel - Hell's Kitchen",
+      "setSlug": "marvel-hells-kitchen",
       "sidekicks": [],
       "slug": "daredevil",
       "special": "DURING COMBAT: If you have 2 or fewer cards in your hand, you may BLIND BOOST your attack or defense.\r\n(If you have other DURING COMBAT effects, choose the order.)"
@@ -1690,7 +1696,8 @@
           "hp": 16,
           "name": "Medusa",
           "quantity": 1,
-          "slug": "medusa"
+          "slug": "medusa",
+          "nameOnCard": "MEDUSA"
         }
       ],
       "movement": 3,
@@ -1705,7 +1712,8 @@
           "hp": 1,
           "name": "Harpies",
           "quantity": 3,
-          "slug": "harpies"
+          "slug": "harpies",
+          "nameOnCard": "HARPY"
         }
       ],
       "slug": "medusa",
@@ -1953,7 +1961,8 @@
           "hp": 13,
           "name": "Robin Hood",
           "quantity": 1,
-          "slug": "robin-hood"
+          "slug": "robin-hood",
+          "nameOnCard": "ROBIN HOOD"
         }
       ],
       "movement": 2,
@@ -1968,7 +1977,8 @@
           "hp": 1,
           "name": "Outlaws",
           "quantity": 4,
-          "slug": "outlaws"
+          "slug": "outlaws",
+          "nameOnCard": "OUTLAW"
         }
       ],
       "slug": "robin-hood",
@@ -2230,7 +2240,8 @@
           "hp": 16,
           "name": "Sherlock Holmes",
           "quantity": 1,
-          "slug": "sherlock-holmes"
+          "slug": "sherlock-holmes",
+          "nameOnCard": "HOLMES"
         }
       ],
       "movement": 2,
@@ -2245,7 +2256,8 @@
           "hp": 8,
           "name": "Dr. Watson",
           "quantity": 1,
-          "slug": "dr-watson"
+          "slug": "dr-watson",
+          "nameOnCard": "DR. WATSON"
         }
       ],
       "slug": "sherlock-holmes",
@@ -2326,7 +2338,7 @@
           "basicText": null,
           "boost": 1,
           "card_notes": null,
-          "characterName": "PORTER",
+          "characterName": "THE PORTER",
           "deck_card_notes": null,
           "duringText": null,
           "image": "https://static.unmatched.cards/images/umdb/decks/sinbad/by-fortune-and-fate.png",
@@ -2586,7 +2598,8 @@
           "hp": 15,
           "name": "Sinbad",
           "quantity": 1,
-          "slug": "sinbad"
+          "slug": "sinbad",
+          "nameOnCard": "SINBAD"
         }
       ],
       "movement": 2,
@@ -2601,7 +2614,8 @@
           "hp": 6,
           "name": "The Porter",
           "quantity": 1,
-          "slug": "the-porter"
+          "slug": "the-porter",
+          "nameOnCard": "THE PORTER"
         }
       ],
       "slug": "sinbad",
@@ -2890,7 +2904,8 @@
           "hp": 14,
           "name": "Buffy",
           "quantity": 1,
-          "slug": "buffy"
+          "slug": "buffy",
+          "nameOnCard": "BUFFY"
         }
       ],
       "movement": 3,
@@ -2903,26 +2918,22 @@
         {
           "attack_type": "melee",
           "hp": 6,
-          "name": "Giles or Xander",
+          "name": "Giles",
           "quantity": 1,
-          "slug": "giles-or-xander"
+          "slug": "giles",
+          "nameOnCard": "GILES"
+        },
+        {
+          "attack_type": "melee",
+          "hp": 6,
+          "name": "Xander",
+          "quantity": 1,
+          "slug": "xander",
+          "nameOnCard": "XANDER"
         }
       ],
       "slug": "buffy",
       "special": "Buffy may move through spaces containing opposing fighters (including when she is moved by effects)."
-    },
-    {
-      "cards": [],
-      "heroes": [],
-      "movement": null,
-      "name": "Dr. Alan Grant",
-      "notes": "Justin [wrote on Discord](https://discordapp.com/channels/722465956265197618/723183332522852382/725759754030284890) on June 25, 2020: \n> Grant's not \"cancelled\". We're just waiting to see how the other sets go before we make a final determination on how a third set might go. We're extremely unlikely to do him as a solo pack as we initially envisioned, but there hasn't been any final decision on what a third JP set would look like exactly.\n",
-      "quote": null,
-      "set": "Jurassic Park - Grant",
-      "setSlug": "jurassic-park-grant",
-      "sidekicks": [],
-      "slug": "dr-alan-grant",
-      "special": null
     },
     {
       "cards": [
@@ -3188,7 +3199,8 @@
           "hp": 16,
           "name": "Angel",
           "quantity": 1,
-          "slug": "angel"
+          "slug": "angel",
+          "nameOnCard": "ANGEL"
         }
       ],
       "movement": 2,
@@ -3203,7 +3215,8 @@
           "hp": 8,
           "name": "Faith",
           "quantity": 1,
-          "slug": "faith"
+          "slug": "faith",
+          "nameOnCard": "FAITH"
         }
       ],
       "slug": "angel",
@@ -3475,7 +3488,8 @@
           "hp": 15,
           "name": "Spike",
           "quantity": 1,
-          "slug": "spike"
+          "slug": "spike",
+          "nameOnCard": "SPIKE"
         }
       ],
       "movement": 2,
@@ -3490,7 +3504,8 @@
           "hp": 7,
           "name": "Drusilla",
           "quantity": 1,
-          "slug": "drusilla"
+          "slug": "drusilla",
+          "nameOnCard": "DRUSILLA"
         }
       ],
       "slug": "spike",
@@ -3781,9 +3796,10 @@
         {
           "attack_type": "melee",
           "hp": 13,
-          "name": "Dr. Sattler",
+          "name": "Dr. Ellie Sattler",
           "quantity": 1,
-          "slug": "dr-sattler"
+          "slug": "dr-ellie-sattler",
+          "nameOnCard": "DR. SATTLER"
         }
       ],
       "movement": 2,
@@ -3791,14 +3807,15 @@
       "notes": "Whenever either of your fighters moves to a new space, place and insight token in their new space. Tokens may be placed in spaces with other tokens, including other insight tokens.\r\nThere tokens have no effect themselves but any of your cards interact with them. When you remove insight tokens from the board, return them to your supply. You can place them on the board again in the future.\r\nIf you would place an insight token but don't have any in your supply, nothing happens.",
       "quote": null,
       "set": "Jurassic Park - Sattler vs. T-Rex",
-      "setSlug": "jurassic-park-sattler-vs-t-rex",
+      "setSlug": "jurassic-park-dr-sattler-vs-t-rex",
       "sidekicks": [
         {
           "attack_type": "melee",
           "hp": 7,
-          "name": "Dr. Malcolm",
+          "name": "Dr. IAN Malcolm",
           "quantity": 1,
-          "slug": "dr-malcolm"
+          "slug": "dr-ian-malcolm",
+          "nameOnCard": "DR. MALCOLM"
         }
       ],
       "slug": "dr-ellie-sattler",
@@ -4053,7 +4070,8 @@
           "hp": 17,
           "name": "Beowulf",
           "quantity": 1,
-          "slug": "beowulf"
+          "slug": "beowulf",
+          "nameOnCard": "BEOWULF"
         }
       ],
       "movement": 2,
@@ -4068,37 +4086,12 @@
           "hp": 9,
           "name": "Wiglaf",
           "quantity": 1,
-          "slug": "wiglaf"
+          "slug": "wiglaf",
+          "nameOnCard": "WIGLAF"
         }
       ],
       "slug": "beowulf",
       "special": "Beowulf starts with 1 Rage.\nWhen Beowulf is dealt damage, he gains 1 Rage.\nBeowulf has a maximum of 3 rage."
-    },
-    {
-      "cards": [],
-      "heroes": [],
-      "movement": null,
-      "name": "Ms. Marvel",
-      "notes": null,
-      "quote": null,
-      "set": "Teen Spirit",
-      "setSlug": "teen-spirit",
-      "sidekicks": [],
-      "slug": "ms-marvel",
-      "special": null
-    },
-    {
-      "cards": [],
-      "heroes": [],
-      "movement": null,
-      "name": "Squirrel Girl",
-      "notes": null,
-      "quote": null,
-      "set": "Teen Spirit",
-      "setSlug": "teen-spirit",
-      "sidekicks": [],
-      "slug": "squirrel-girl",
-      "special": null
     },
     {
       "cards": [
@@ -4352,7 +4345,8 @@
           "hp": 18,
           "name": "Achilles",
           "quantity": 1,
-          "slug": "achilles"
+          "slug": "achilles",
+          "nameOnCard": "ACHILLES"
         }
       ],
       "movement": 2,
@@ -4367,63 +4361,12 @@
           "hp": 6,
           "name": "Patroclus",
           "quantity": 1,
-          "slug": "patroclus"
+          "slug": "patroclus",
+          "nameOnCard": "PATROCLUS"
         }
       ],
       "slug": "achilles",
       "special": "When Patroclus is defeated, discard 2 random cards.\r\nWhile Patroclus is defeated:\r\n> Add +2 to the value of all Achilles' attacks.\r\n> If Achilles wins combat, draw 1 card."
-    },
-    {
-      "cards": [],
-      "heroes": [],
-      "movement": null,
-      "name": "Cloak and Dagger",
-      "notes": null,
-      "quote": null,
-      "set": "Teen Spirit",
-      "setSlug": "teen-spirit",
-      "sidekicks": [],
-      "slug": "cloak-and-dagger",
-      "special": null
-    },
-    {
-      "cards": [],
-      "heroes": [],
-      "movement": null,
-      "name": "Black Widow",
-      "notes": null,
-      "quote": null,
-      "set": "For King and Country",
-      "setSlug": "for-king-and-country",
-      "sidekicks": [],
-      "slug": "black-widow",
-      "special": null
-    },
-    {
-      "cards": [],
-      "heroes": [],
-      "movement": null,
-      "name": "Black Panther",
-      "notes": null,
-      "quote": null,
-      "set": "For King and Country",
-      "setSlug": "for-king-and-country",
-      "sidekicks": [],
-      "slug": "black-panther",
-      "special": null
-    },
-    {
-      "cards": [],
-      "heroes": [],
-      "movement": null,
-      "name": "Winter Soldier",
-      "notes": null,
-      "quote": null,
-      "set": "For King and Country",
-      "setSlug": "for-king-and-country",
-      "sidekicks": [],
-      "slug": "winter-soldier",
-      "special": null
     },
     {
       "cards": [
@@ -4638,7 +4581,8 @@
           "hp": 14,
           "name": "Little Red",
           "quantity": 1,
-          "slug": "little-red"
+          "slug": "little-red",
+          "nameOnCard": "LITTLE RED"
         }
       ],
       "movement": 2,
@@ -4653,7 +4597,8 @@
           "hp": 9,
           "name": "Huntsman",
           "quantity": 1,
-          "slug": "huntsman"
+          "slug": "huntsman",
+          "nameOnCard": "HUNTSMAN"
         }
       ],
       "slug": "little-red",
@@ -4932,7 +4877,8 @@
           "hp": 14,
           "name": "Willow",
           "quantity": 1,
-          "slug": "willow"
+          "slug": "willow",
+          "nameOnCard": "WILLOW"
         }
       ],
       "movement": 2,
@@ -4947,7 +4893,8 @@
           "hp": 6,
           "name": "Tara",
           "quantity": 1,
-          "slug": "tara"
+          "slug": "tara",
+          "nameOnCard": "TARA"
         }
       ],
       "slug": "willow",
@@ -5217,9 +5164,18 @@
         {
           "attack_type": "melee",
           "hp": 16,
-          "name": "Jekyll & Hyde",
+          "name": "Dr. Jekyll",
           "quantity": 1,
-          "slug": "jekyll-hyde"
+          "slug": "dr-jekyll",
+          "nameOnCard": "DR. JEKYLL"
+        },
+        {
+          "attack_type": "melee",
+          "hp": 16,
+          "name": "Mr. Hyde",
+          "quantity": 1,
+          "slug": "mr-hyde",
+          "nameOnCard": "MR. HYDE"
         }
       ],
       "movement": 2,
@@ -5231,19 +5187,6 @@
       "sidekicks": [],
       "slug": "jekyll-hyde",
       "special": "Start the game as Dr. Jekyll. At the start of your turn, you may transform into Dr. Jekyll or Mr. Hyde.\nWhile Mr. Hyde: After you Maneuver, take 1 damage.\nUse the transformation token to indicate what he currently is."
-    },
-    {
-      "cards": [],
-      "heroes": [],
-      "movement": null,
-      "name": "Rosie the Riveter",
-      "notes": "One of the [design contest](https://restorationgames.com/unmatched-design-contest/) winners, by Chet Dudick & Charles Peters.\r\n\r\nFrom the Restoration [Twitter](https://twitter.com/RestorationGame/status/1370016829322756096):\r\n\r\n> Chet, whose daughter is always asking to play a female hero, was committed to doing one for the contest. As we well know, finding good female candidates (that aren't witches) isn't easy. So he took a true feminist icon and figured out a way to make it work in Unmatched.\r\n> As Rosie, you'll build a powerful mech suit. Each upgrade will change how you play as they come on line. So you're always finding new ways to win each game with different configurations. A great puzzle to solve.",
-      "quote": null,
-      "set": "Design Contest Sets",
-      "setSlug": "design-contest-sets",
-      "sidekicks": [],
-      "slug": "rosie-the-riveter",
-      "special": null
     },
     {
       "cards": [
@@ -5492,22 +5435,24 @@
           "hp": 13,
           "name": "Luke Cage",
           "quantity": 1,
-          "slug": "luke-cage"
+          "slug": "luke-cage",
+          "nameOnCard": "LUKE CAGE"
         }
       ],
       "movement": 2,
       "name": "Luke Cage",
       "notes": null,
       "quote": null,
-      "set": "Redemption Row",
-      "setSlug": "redemption-row",
+      "set": "Marvel - Redemption Row",
+      "setSlug": "marvel-redemption-row",
       "sidekicks": [
         {
           "attack_type": "ranged",
           "hp": 6,
           "name": "Misty Knight",
           "quantity": 1,
-          "slug": "misty-knight"
+          "slug": "misty-knight",
+          "nameOnCard": "MISTY KNIGHT"
         }
       ],
       "slug": "luke-cage",
@@ -5769,7 +5714,8 @@
           "hp": 16,
           "name": "Bloody Mary",
           "quantity": 1,
-          "slug": "bloody-mary"
+          "slug": "bloody-mary",
+          "nameOnCard": "BLOODY MARY"
         }
       ],
       "movement": 3,
@@ -6020,19 +5966,6 @@
       "special": "At the start of your turn, you may take 1 damage to summon a Clone in an empty space adjacent to Sun Wukong.\nDo not start with any Clones on the board."
     },
     {
-      "cards": [],
-      "heroes": [],
-      "movement": null,
-      "name": "William Shakespeare",
-      "notes": "One of the [design contest](https://restorationgames.com/unmatched-design-contest/) winners, by Jonathan Guberman.\r\n\r\nFrom the Restoration [Twitter](https://twitter.com/RestorationGame/status/1370392596942630912):\r\n\r\n> Jonathan is a big Shakespeare fan, so much so that his other entry was one of the Bard's many notable characters. But there's a far cry from designing a fighter that's a vengeful Dane with a sword and the audacity of a hero armed only with a quill. We loved it.\r\n> As Shakespeare, the play's thing -- like, the actual words. I hesitate to reveal the mechanical hook, because it's so delightfully clever. So, all I'll do is drop this quote that encapsulates the game oh so well: \"From ancient grudge break to new mutiny.\"",
-      "quote": null,
-      "set": "Design Contest Sets",
-      "setSlug": "design-contest-sets",
-      "sidekicks": [],
-      "slug": "william-shakespeare",
-      "special": null
-    },
-    {
       "cards": [
         {
           "afterText": "You may spend 1 Hellfire to draw 2 cards.",
@@ -6271,15 +6204,16 @@
           "hp": 17,
           "name": "Ghost Rider",
           "quantity": 1,
-          "slug": "ghost-rider"
+          "slug": "ghost-rider",
+          "nameOnCard": "GHOST RIDER"
         }
       ],
       "movement": 2,
       "name": "Ghost Rider",
       "notes": "If you spend a Hellfire to use Ghost Rider's ability, your movement value is set to 4, and cannot be increased by BOOSTING your maneuver.",
       "quote": null,
-      "set": "Redemption Row",
-      "setSlug": "redemption-row",
+      "set": "Marvel - Redemption Row",
+      "setSlug": "marvel-redemption-row",
       "sidekicks": [],
       "slug": "ghost-rider",
       "special": "Ghost Rider starts the game with 5 Hellfire. When you maneuver you may spend 1 Hellfire. If you do, increase Ghost Rider's move value to 4, and he mave move through opposing fighters. Then deal 1 damage to each opposing fighter he moved through."
@@ -6291,7 +6225,7 @@
           "basicText": null,
           "boost": 2,
           "card_notes": null,
-          "characterName": "Deadpool",
+          "characterName": "DEADPOOL",
           "deck_card_notes": null,
           "duringText": "If there is food on the table, the value of this card is 5 instead.",
           "image": null,
@@ -6308,7 +6242,7 @@
           "basicText": "Tee-hee!",
           "boost": 2,
           "card_notes": null,
-          "characterName": "Deadpool (sticker)",
+          "characterName": "DEADPOOL",
           "deck_card_notes": "The card is [Eat Me](/umdb/cards/eat-me) from [Alice](/umdb/decks/alice)'s deck, with Deadpool's \"hand-made\" alterations.",
           "duringText": "Say \"eat me\" to your opponent.",
           "image": null,
@@ -6325,7 +6259,7 @@
           "basicText": null,
           "boost": 1,
           "card_notes": "",
-          "characterName": "Deadpool",
+          "characterName": "DEADPOOL",
           "deck_card_notes": "Art is from the cover of [Deadpool #58](https://www.marvel.com/comics/issue/40201/deadpool_2008_58).",
           "duringText": null,
           "image": null,
@@ -6342,7 +6276,7 @@
           "basicText": null,
           "boost": 4,
           "card_notes": null,
-          "characterName": "Deadp\u2665\ufe0f\u2665\ufe0fl",
+          "characterName": "DEADPOOL",
           "deck_card_notes": null,
           "duringText": null,
           "image": null,
@@ -6359,7 +6293,7 @@
           "basicText": null,
           "boost": 1,
           "card_notes": null,
-          "characterName": "Deadpool",
+          "characterName": "DEADPOOL",
           "deck_card_notes": null,
           "duringText": null,
           "image": null,
@@ -6376,7 +6310,7 @@
           "basicText": "Shuffle 5 cards from your discard pile into your deck. Recover 1 health.",
           "boost": 1,
           "card_notes": null,
-          "characterName": "Deadpool",
+          "characterName": "DEADPOOL",
           "deck_card_notes": null,
           "duringText": null,
           "image": null,
@@ -6393,7 +6327,7 @@
           "basicText": null,
           "boost": 4,
           "card_notes": null,
-          "characterName": "Deadpool",
+          "characterName": "DEADPOOL",
           "deck_card_notes": null,
           "duringText": null,
           "image": null,
@@ -6410,7 +6344,7 @@
           "basicText": null,
           "boost": 3,
           "card_notes": null,
-          "characterName": "Deadpool",
+          "characterName": "DEADPOOL",
           "deck_card_notes": null,
           "duringText": null,
           "image": null,
@@ -6427,7 +6361,7 @@
           "basicText": "Guess the name of a card in your opponent's hand. Your opponent must discard all cards with that name. Otherwise they say \"go fish\" and you draw a card.",
           "boost": 2,
           "card_notes": null,
-          "characterName": "Deadpool",
+          "characterName": "DEADPOOL",
           "deck_card_notes": "Card image is from [Deadpool vs. Thanos #2](https://www.marvel.com/comics/issue/53721/deadpool_vs_thanos_2015_2).",
           "duringText": null,
           "image": null,
@@ -6444,7 +6378,7 @@
           "basicText": "Move to a space in a yellow-ish zone. Then move to a different space in a yellow-ish zone.",
           "boost": 2,
           "card_notes": null,
-          "characterName": "Deadpool",
+          "characterName": "DEADPOOL",
           "deck_card_notes": "Card image is a modified double yellow card from [Candy Land](https://boardgamegeek.com/boardgame/5048/candy-land).",
           "duringText": null,
           "image": null,
@@ -6461,7 +6395,7 @@
           "basicText": null,
           "boost": 1,
           "card_notes": null,
-          "characterName": "Deadpool",
+          "characterName": "DEADPOOL",
           "deck_card_notes": "Image is a [Fijian 2 dollar bill](http://banknote.ws/COLLECTION/countries/AUS/FIJ/FIJ0109.htm) with the Deadpool logo drawn over the seal.",
           "duringText": null,
           "image": null,
@@ -6478,7 +6412,7 @@
           "basicText": null,
           "boost": 1,
           "card_notes": null,
-          "characterName": "Deadp\ud83d\udc41\ud83d\udc41l",
+          "characterName": "DEADPOOL",
           "deck_card_notes": null,
           "duringText": null,
           "image": null,
@@ -6495,7 +6429,7 @@
           "basicText": null,
           "boost": 6,
           "card_notes": null,
-          "characterName": "DP",
+          "characterName": "DEADPOOL",
           "deck_card_notes": null,
           "duringText": null,
           "image": null,
@@ -6512,7 +6446,7 @@
           "basicText": null,
           "boost": 3,
           "card_notes": null,
-          "characterName": "Deadp$$l",
+          "characterName": "DEADPOOL",
           "deck_card_notes": null,
           "duringText": "You may BOOST this card.",
           "image": null,
@@ -6529,7 +6463,7 @@
           "basicText": null,
           "boost": 1,
           "card_notes": null,
-          "characterName": "Deadpool",
+          "characterName": "DEADPOOL",
           "deck_card_notes": null,
           "duringText": null,
           "image": null,
@@ -6546,7 +6480,7 @@
           "basicText": null,
           "boost": 2,
           "card_notes": null,
-          "characterName": "Cable's only True Friend",
+          "characterName": "DEADPOOL",
           "deck_card_notes": null,
           "duringText": null,
           "image": null,
@@ -6563,7 +6497,7 @@
           "basicText": null,
           "boost": 1,
           "card_notes": null,
-          "characterName": "Deadpool",
+          "characterName": "DEADPOOL",
           "deck_card_notes": null,
           "duringText": null,
           "image": null,
@@ -6580,7 +6514,7 @@
           "basicText": null,
           "boost": 4,
           "card_notes": "",
-          "characterName": "Deadpool",
+          "characterName": "DEADPOOL",
           "deck_card_notes": null,
           "duringText": "If you made an exploding noise when you revealed the card the value of this card is 4.",
           "image": null,
@@ -6597,7 +6531,7 @@
           "basicText": null,
           "boost": 1,
           "card_notes": null,
-          "characterName": "Deadpool (icon)",
+          "characterName": "DEADPOOL",
           "deck_card_notes": null,
           "duringText": null,
           "image": null,
@@ -6614,7 +6548,7 @@
           "basicText": null,
           "boost": 1,
           "card_notes": null,
-          "characterName": "Deadpool",
+          "characterName": "DEADPOOL",
           "deck_card_notes": "Art is from [Deadpool: The Gauntlet #13](https://www.marvel.com/comics/issue/47296/deadpool_the_gauntlet_infinite_comic_2014_13).",
           "duringText": null,
           "image": null,
@@ -6631,7 +6565,7 @@
           "basicText": null,
           "boost": 1,
           "card_notes": null,
-          "characterName": "Deadpool",
+          "characterName": "DEADPOOL",
           "deck_card_notes": "Art is from a [Deadpool (2015) #7 variant cover](https://www.marvel.com/comics/issue/58450/deadpool_2015_7_christopher_action_figure_variant/christopher_action_figure_variant).",
           "duringText": null,
           "image": null,
@@ -6648,7 +6582,7 @@
           "basicText": null,
           "boost": 1,
           "card_notes": null,
-          "characterName": "Pool",
+          "characterName": "DEADPOOL",
           "deck_card_notes": null,
           "duringText": null,
           "image": null,
@@ -6665,7 +6599,7 @@
           "basicText": "Tip your figure over. Make a fainting noise. Recover 2 health. Reset your figure.",
           "boost": 2,
           "card_notes": null,
-          "characterName": "Dr. Deadpool",
+          "characterName": "DEADPOOL",
           "deck_card_notes": "The card is a painted-over version of Dr. Watson's [Administer Aid](/umdb/cards/administer-aid) card from the [Sherlock Holmes](/umdb/decks/sherlock-holmes) deck.",
           "duringText": null,
           "image": "https://static.unmatched.cards/images/umdb/decks/deadpool/faint.png",
@@ -6682,7 +6616,7 @@
           "basicText": null,
           "boost": 1,
           "card_notes": null,
-          "characterName": "Deadpool (icon)",
+          "characterName": "DEADPOOL",
           "deck_card_notes": "The card art is a modified version of [Dracula](/umdb/decks/dracula)'s [Feint](/umdb/cards/feint) card.",
           "duringText": null,
           "image": "https://static.unmatched.cards/images/umdb/decks/deadpool/feint.png",
@@ -6725,7 +6659,7 @@
           "basicText": "This card can't be canceled!",
           "boost": 2,
           "card_notes": null,
-          "characterName": "Merc with a mouth",
+          "characterName": "DEADPOOL",
           "deck_card_notes": "The card art is a modified version of [Robin Hood](/umdb/decks/robin-hood)'s [Feint](/umdb/cards/feint) card.",
           "duringText": null,
           "image": "https://static.unmatched.cards/images/umdb/decks/deadpool/super-feint.png",
@@ -6742,7 +6676,7 @@
           "basicText": null,
           "boost": 2,
           "card_notes": null,
-          "characterName": "Deadpool",
+          "characterName": "DEADPOOL",
           "deck_card_notes": null,
           "duringText": "If your opponent's name is on this card, its value is 4.",
           "image": "https://static.unmatched.cards/images/umdb/decks/deadpool/call-me.png",
@@ -6759,7 +6693,7 @@
           "basicText": null,
           "boost": 1,
           "card_notes": null,
-          "characterName": "Deadpool",
+          "characterName": "DEADPOOL",
           "deck_card_notes": "The card is a modified version of [Invisible Man](/umdb/decks/invisible-man)'s [Step Lightly](/umdb/cards/step-lightly).",
           "duringText": "If this card isn't sleeved, its value is 5.",
           "image": "https://static.unmatched.cards/images/umdb/decks/deadpool/i-m-not-wearing-pants.png",
@@ -6776,7 +6710,7 @@
           "basicText": null,
           "boost": 2,
           "card_notes": null,
-          "characterName": "Deadpool (stuck-out tongue drawing)",
+          "characterName": "DEADPOOL",
           "deck_card_notes": null,
           "duringText": null,
           "image": "https://static.unmatched.cards/images/umdb/decks/deadpool/they-have-an-amazing-buffet.png",
@@ -6793,7 +6727,7 @@
           "basicText": null,
           "boost": 2,
           "card_notes": null,
-          "characterName": "Deadpool",
+          "characterName": "DEADPOOL",
           "deck_card_notes": "The card art seems to be a modified form of the [1992 Impel X-Men trading cards #43](https://www.tcdb.com/ViewCard.cfm/sid/74997/cid/5337031/1992-Impel-X-Men-43-Deadpool).",
           "duringText": null,
           "image": "https://static.unmatched.cards/images/umdb/decks/deadpool/underrated-super-heroes.png",
@@ -6810,7 +6744,7 @@
           "basicText": "You may play this card as a ranged attack.",
           "boost": 2,
           "card_notes": null,
-          "characterName": "Professor Deadpool",
+          "characterName": "DEADPOOL",
           "deck_card_notes": null,
           "duringText": null,
           "image": "https://static.unmatched.cards/images/umdb/decks/deadpool/xavier-institute-faculty.png",
@@ -6829,15 +6763,16 @@
           "hp": 10,
           "name": "Deadpool",
           "quantity": 1,
-          "slug": "deadpool"
+          "slug": "deadpool",
+          "nameOnCard": "DEADPOOL"
         }
       ],
       "movement": 2,
       "name": "Deadpool",
       "notes": "All of Deadpool's cards are unique. Many are \"modified\" versions of other characters' cards.",
       "quote": null,
-      "set": "Deadpool",
-      "setSlug": "deadpool",
+      "set": "Marvel - Deadpool",
+      "setSlug": "marvel-deadpool",
       "sidekicks": [],
       "slug": "deadpool",
       "special": "After you attack, Deadpool recovers 1 health.\r\n\r\nAlso, if your opponent's real name is Logan, all your attacks are +5."
@@ -7089,7 +7024,8 @@
           "hp": 15,
           "name": "Invisible Man",
           "quantity": 1,
-          "slug": "invisible-man"
+          "slug": "invisible-man",
+          "nameOnCard": "INVISIBLE MAN"
         }
       ],
       "movement": 2,
@@ -7341,22 +7277,24 @@
           "hp": 14,
           "name": "Robert Muldoon",
           "quantity": 1,
-          "slug": "robert-muldoon"
+          "slug": "robert-muldoon",
+          "nameOnCard": "MULDOON"
         }
       ],
       "movement": 3,
-      "name": "InGen",
+      "name": "Robert Muldoon",
       "notes": "You may place a trap token in any unoccupied space in Muldoon's zone. If Muldoon's space is in more than one zone, you may pick a space in any of them. The target space cannot contain any fighters or other tokens, including other traps.\nWhen an opposing fighter enters a space with a trap, the trap goes off. The fighter must immediately stop moving and takes 1 damage. After the trap goes off, return it to the box. \nMuldoon's and his allies may land on or move through traps freely without setting them off.",
       "quote": null,
-      "set": "Jurassic Park - Ingen vs. Raptors",
+      "set": "Jurassic Park - InGen vs. Raptors",
       "setSlug": "jurassic-park-ingen-vs-raptors",
       "sidekicks": [
         {
           "attack_type": "ranged",
           "hp": 1,
-          "name": "Ingen Workers",
+          "name": "InGen Workers",
           "quantity": 3,
-          "slug": "ingen-workers"
+          "slug": "ingen-workers",
+          "nameOnCard": "INGEN WORKER"
         }
       ],
       "slug": "ingen",
@@ -7593,7 +7531,8 @@
           "hp": 15,
           "name": "Yennenga",
           "quantity": 1,
-          "slug": "yennenga"
+          "slug": "yennenga",
+          "nameOnCard": "YENNENGA"
         }
       ],
       "movement": 2,
@@ -7608,7 +7547,8 @@
           "hp": 2,
           "name": "Archers",
           "quantity": 2,
-          "slug": "archers"
+          "slug": "archers",
+          "nameOnCard": "ARCHER"
         }
       ],
       "slug": "yennenga",
@@ -7956,7 +7896,8 @@
           "hp": 18,
           "name": "King Arthur",
           "quantity": 1,
-          "slug": "king-arthur"
+          "slug": "king-arthur",
+          "nameOnCard": "KING ARTHUR"
         }
       ],
       "movement": 2,
@@ -7971,7 +7912,8 @@
           "hp": 7,
           "name": "Merlin",
           "quantity": 1,
-          "slug": "merlin"
+          "slug": "merlin",
+          "nameOnCard": "MERLIN"
         }
       ],
       "slug": "king-arthur",
@@ -8216,15 +8158,16 @@
           "hp": 14,
           "name": "Bullseye",
           "quantity": 1,
-          "slug": "bullseye"
+          "slug": "bullseye",
+          "nameOnCard": "BULLSEYE"
         }
       ],
       "movement": 2,
       "name": "Bullseye",
       "notes": "Bullseye's special 5 space attack range is in addition to also being able to attack any opposing fighter in his zone.",
       "quote": null,
-      "set": "Hell's Kitchen",
-      "setSlug": "hells-kitchen",
+      "set": "Marvel - Hell's Kitchen",
+      "setSlug": "marvel-hells-kitchen",
       "sidekicks": [],
       "slug": "bullseye",
       "special": "Bullseye can attack from up to 5 spaces away (ignoring zones)."
@@ -8459,7 +8402,8 @@
           "hp": 14,
           "name": "Houdini",
           "quantity": 1,
-          "slug": "houdini"
+          "slug": "houdini",
+          "nameOnCard": "HOUDINI"
         }
       ],
       "movement": 2,
@@ -8474,7 +8418,8 @@
           "hp": 5,
           "name": "Bess",
           "quantity": 1,
-          "slug": "bess"
+          "slug": "bess",
+          "nameOnCard": "BESS"
         }
       ],
       "slug": "harry-houdini",
@@ -8719,29 +8664,32 @@
           "hp": 16,
           "name": "Moon Knight",
           "quantity": 1,
-          "slug": "moon-knight"
+          "slug": "moon-knight",
+          "nameOnCard": "MOON KNIGHT"
         },
         {
           "attack_type": "melee",
           "hp": 16,
           "name": "Khonshu",
           "quantity": 1,
-          "slug": "khonshu"
+          "slug": "khonshu",
+          "nameOnCard": "KHONSHU"
         },
         {
           "attack_type": "melee",
           "hp": 16,
           "name": "Mr. Knight",
           "quantity": 1,
-          "slug": "mr-knight"
+          "slug": "mr-knight",
+          "nameOnCard": "MR. KNIGHT"
         }
       ],
       "movement": 3,
       "name": "Moon Knight",
       "notes": "Start the game as Moon Knight. You must change to your next form at the end of your turn. Moon Knight, Khonshu, and Mr. Knight all share the same health dial.",
       "quote": null,
-      "set": "Redemption Row",
-      "setSlug": "redemption-row",
+      "set": "Marvel - Redemption Row",
+      "setSlug": "marvel-redemption-row",
       "sidekicks": [],
       "slug": "moon-knight",
       "special": "##### Moon Knight\nAt the start of your turn, move up to 2 spaces.\n\n##### Khonshu\nKhonshu adds +2 to the value of his attack cards. He does not take damage from effects other than combat damage.\n\n##### Mr. Knight\nMr. Knight adds +1 to all his defense values.\n\nAt the end of your turn, change to your next identity (In order, Moon Knight -> Khonshu -> Mr. Knight, repeating)."
@@ -8974,7 +8922,8 @@
           "hp": 7,
           "name": "Raptors",
           "quantity": 3,
-          "slug": "raptors"
+          "slug": "raptors",
+          "nameOnCard": "RAPTOR"
         }
       ],
       "movement": 3,
@@ -9226,7 +9175,8 @@
           "hp": 16,
           "name": "The Genie",
           "quantity": 1,
-          "slug": "the-genie"
+          "slug": "the-genie",
+          "nameOnCard": "THE GENIE"
         }
       ],
       "movement": 3,
@@ -9418,29 +9368,32 @@
           "hp": 7,
           "name": "Elektra",
           "quantity": 1,
-          "slug": "elektra"
+          "slug": "elektra",
+          "nameOnCard": "ELEKTRA"
         },
         {
           "attack_type": "melee",
           "hp": 9,
           "name": "Elektra Resurrected",
           "quantity": 1,
-          "slug": "elektra-ressurected"
+          "slug": "elektra-ressurected",
+          "nameOnCard": "ELEKTRA"
         }
       ],
       "movement": 2,
       "name": "Elektra",
       "notes": "When resurrecting, only your discard pile is shuffled into your deck, not your hand of cards. When placing your fighters after you resurrect, you may place them in zones containing opposing fighters, you just cannot place two of your own fighters in the same zone as each other.",
       "quote": null,
-      "set": "Hell's Kitchen",
-      "setSlug": "hells-kitchen",
+      "set": "Marvel - Hell's Kitchen",
+      "setSlug": "marvel-hells-kitchen",
       "sidekicks": [
         {
           "attack_type": "melee",
           "hp": 1,
           "name": "The Hand",
           "quantity": 4,
-          "slug": "the-hand"
+          "slug": "the-hand",
+          "nameOnCard": "THE HAND"
         }
       ],
       "slug": "elektra",
@@ -9453,7 +9406,7 @@
           "basicText": null,
           "boost": 1,
           "card_notes": null,
-          "characterName": "T-REX",
+          "characterName": "T. REX",
           "deck_card_notes": null,
           "duringText": "You may BOOST this card.",
           "image": null,
@@ -9470,7 +9423,7 @@
           "basicText": "Move your fighter up to 1 space. Draw 1 card. Gain 1 action.",
           "boost": 2,
           "card_notes": "Versions of this card feature the fighter's name instead of \"your fighter\" in the text.",
-          "characterName": "T-REX",
+          "characterName": "T. REX",
           "deck_card_notes": null,
           "duringText": null,
           "image": null,
@@ -9487,7 +9440,7 @@
           "basicText": null,
           "boost": 3,
           "card_notes": null,
-          "characterName": "T-REX",
+          "characterName": "T. REX",
           "deck_card_notes": null,
           "duringText": "Ignore the value of your opponent's card.",
           "image": null,
@@ -9504,7 +9457,7 @@
           "basicText": null,
           "boost": 2,
           "card_notes": null,
-          "characterName": "T-REX",
+          "characterName": "T. REX",
           "deck_card_notes": null,
           "duringText": "You may BOOST this card.",
           "image": null,
@@ -9521,7 +9474,7 @@
           "basicText": null,
           "boost": 4,
           "card_notes": null,
-          "characterName": "T-REX",
+          "characterName": "T. REX",
           "deck_card_notes": null,
           "duringText": null,
           "image": null,
@@ -9538,7 +9491,7 @@
           "basicText": null,
           "boost": 3,
           "card_notes": null,
-          "characterName": "T-REX",
+          "characterName": "T. REX",
           "deck_card_notes": null,
           "duringText": "You may BOOST this card.",
           "image": null,
@@ -9555,7 +9508,7 @@
           "basicText": "Choose a card in your discard pile other than \"65 Million Years of Gut Instinct\" and return it to your hand.",
           "boost": 3,
           "card_notes": null,
-          "characterName": "T-REX",
+          "characterName": "T. REX",
           "deck_card_notes": null,
           "duringText": null,
           "image": null,
@@ -9572,7 +9525,7 @@
           "basicText": null,
           "boost": 3,
           "card_notes": null,
-          "characterName": "T-REX",
+          "characterName": "T. REX",
           "deck_card_notes": null,
           "duringText": null,
           "image": null,
@@ -9589,7 +9542,7 @@
           "basicText": "Place T-Rex in any space in her zone. Then, each opponent with a fighter adjacent to T-Rex discards 1 random card.",
           "boost": 2,
           "card_notes": null,
-          "characterName": "T-REX",
+          "characterName": "T. REX",
           "deck_card_notes": null,
           "duringText": null,
           "image": null,
@@ -9606,7 +9559,7 @@
           "basicText": null,
           "boost": 2,
           "card_notes": null,
-          "characterName": "T-REX",
+          "characterName": "T. REX",
           "deck_card_notes": null,
           "duringText": null,
           "image": null,
@@ -9626,7 +9579,7 @@
           "basicText": null,
           "boost": 2,
           "card_notes": null,
-          "characterName": "T-REX",
+          "characterName": "T. REX",
           "deck_card_notes": null,
           "duringText": "If your fighter started this turn in a different space, this card's value is 5 instead.",
           "image": null,
@@ -9653,7 +9606,8 @@
           "hp": 27,
           "name": "T. Rex",
           "quantity": 1,
-          "slug": "t-rex"
+          "slug": "t-rex",
+          "nameOnCard": "T. REX"
         }
       ],
       "movement": 1,
@@ -9661,11 +9615,11 @@
       "notes": "Large fighters have an extended base that can occupy up to two spaces. Large fighters may start moving from any space they are in. When they do, rotate them so that the head is moving into the new space. Their tail always follows behind their head, entering the space the left. Large fighters also ignore one-way arrows on maps and cannot use secret passages.\r\nLarge fighters can attack up to 2 spaces away, even over fighters that occupy one of those spaces.",
       "quote": "ROOOOOOAAAAARR.",
       "set": "Jurassic Park - Sattler vs. T-Rex",
-      "setSlug": "jurassic-park-sattler-vs-t-rex",
+      "setSlug": "jurassic-park-dr-sattler-vs-t-rex",
       "sidekicks": [],
       "slug": "t-rex",
       "special": "T-Rex is a large fighter. (She can attack up to 2 spaces away.) At the end of your turn, draw a card."
     }
   ],
-  "total": 43
+  "total": 34
 }
