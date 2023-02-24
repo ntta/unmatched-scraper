@@ -55,7 +55,7 @@
         { "name": "Raptors", "slug": "raptors" }
       ],
       "image": "",
-      "name": "Jurassic Park - Ingen vs. Raptors",
+      "name": "Jurassic Park - InGen vs. Raptors",
       "notes": "",
       "releaseDate": "Wed, 29 Apr 2020 00:00:00 GMT",
       "released": true,
@@ -119,11 +119,11 @@
         { "name": "Cloak and Dagger", "slug": "cloak-and-dagger" }
       ],
       "image": null,
-      "name": "Teen Spirit",
+      "name": "Marvel - Teen Spirit",
       "notes": null,
       "releaseDate": null,
       "released": false,
-      "slug": "teen-spirit"
+      "slug": "marvel-teen-spirit"
     },
     {
       "bggLink": "https://boardgamegeek.com/boardgame/335764/unmatched-battle-legends-volume-two",
@@ -153,7 +153,7 @@
       "notes": "",
       "releaseDate": "Sat, 19 Dec 2020 00:00:00 GMT",
       "released": true,
-      "slug": "little-red-vs-beowulf"
+      "slug": "little-red-riding-hood-vs-beowulf"
     },
     {
       "bggLink": "https://boardgamegeek.com/boardgame/326937/unmatched-king-and-country",
@@ -164,11 +164,11 @@
         { "name": "Winter Soldier", "slug": "winter-soldier" }
       ],
       "image": null,
-      "name": "For King and Country",
+      "name": "Marvel - For King and Country",
       "notes": null,
       "releaseDate": null,
       "released": false,
-      "slug": "for-king-and-country"
+      "slug": "marvel-for-king-and-country"
     },
     {
       "bggLink": null,
@@ -189,11 +189,11 @@
       "boards": [],
       "decks": [{ "name": "Deadpool", "slug": "deadpool" }],
       "image": null,
-      "name": "Deadpool",
+      "name": "Marvel - Deadpool",
       "notes": null,
       "releaseDate": "Fri, 30 Jul 2021 00:00:00 GMT",
       "released": true,
-      "slug": "deadpool"
+      "slug": "marvel-deadpool"
     },
     {
       "bggLink": "https://boardgamegeek.com/boardgame/354544/unmatched-houdini-vs-genie",
@@ -218,11 +218,11 @@
         { "name": "Moon Knight", "slug": "moon-knight" }
       ],
       "image": null,
-      "name": "Redemption Row",
+      "name": "Marvel - Redemption Row",
       "notes": null,
       "releaseDate": "Fri, 01 Apr 2022 00:00:00 GMT",
       "released": true,
-      "slug": "redemption-row"
+      "slug": "marvel-redemption-row"
     },
     {
       "bggLink": "https://boardgamegeek.com/boardgame/284778/unmatched-jurassic-park-sattler-vs-t-rex",
@@ -232,11 +232,11 @@
         { "name": "T. Rex", "slug": "t-rex" }
       ],
       "image": "",
-      "name": "Jurassic Park - Sattler vs. T-Rex",
+      "name": "Jurassic Park - Dr. Sattler vs. T. Rex",
       "notes": "",
       "releaseDate": "Sun, 01 May 2022 00:00:00 GMT",
       "released": true,
-      "slug": "jurassic-park-sattler-vs-t-rex"
+      "slug": "jurassic-park-dr-sattler-vs-t-rex"
     },
     {
       "bggLink": "https://boardgamegeek.com/boardgame/326934/unmatched-hells-kitchen",
@@ -247,11 +247,11 @@
         { "name": "Elektra", "slug": "elektra" }
       ],
       "image": null,
-      "name": "Hell's Kitchen",
+      "name": "Marvel - Hell's Kitchen",
       "notes": null,
       "releaseDate": "Fri, 01 Apr 2022 00:00:00 GMT",
       "released": true,
-      "slug": "hells-kitchen"
+      "slug": "marvel-hells-kitchen"
     }
   ],
   "total": 17

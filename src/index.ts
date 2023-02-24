@@ -1,37 +1,89 @@
 import deckData from './json/decks.json';
 import gameSetData from './json/sets.json';
 import { PrismaClient } from '@prisma/client';
+import * as fs from 'fs';
 
 const { decks: jsonDecks } = deckData;
 const { sets: jsonGameSets } = gameSetData;
 
 const prisma = new PrismaClient();
 
-const TO_DO_GAME_SETS = ['battle-of-legends-volume-one'];
+const NOT_TO_DO_GAME_SETS = [
+  'design-contest-sets',
+  'marvel-deadpool',
+  'marvel-for-king-and-country',
+  'marvel-teen-spirit',
+  'jurassic-park-grant',
+];
+const GAME_SETS = [
+  'battle-of-legends-volume-one',
+  'robin-hood-vs-bigfoot',
+  'bruce-lee',
+  'jurassic-park-ingen-vs-raptors',
+  'cobble-and-fog',
+  'buffy-the-vampire-slayer',
+  'jurassic-park-grant',
+  'marvel-teen-spirit',
+  'battle-of-legends-volume-two',
+  'little-red-riding-hood-vs-beowulf',
+  'marvel-for-king-and-country',
+  'design-contest-sets',
+  'marvel-deadpool',
+  'houdini-vs-the-genie',
+  'marvel-redemption-row',
+  'jurassic-park-dr-sattler-vs-t-rex',
+  'marvel-hells-kitchen',
+];
 
 const main = async () => {
   for (const jsonGameSet of jsonGameSets) {
-    if (!TO_DO_GAME_SETS.includes(jsonGameSet.slug)) continue;
+    if (NOT_TO_DO_GAME_SETS.includes(jsonGameSet.slug)) continue;
 
     const gameSet = await upsertGameSet(jsonGameSet);
     //#region Create deck
     const shortenJsonDecks = jsonDecks.filter((j) => j.setSlug === jsonGameSet.slug);
     for (const jsonDeck of shortenJsonDecks) {
-      const deck = await upsertDeck(jsonDeck, gameSet.id);
+      try {
+        const deck = await upsertDeck(jsonDeck, gameSet.id);
 
-      //#region Create fighter
-      const jsonFighters = [...jsonDeck.heroes, ...jsonDeck.sidekicks];
-      // Create special ability first if it's a string
-      // TODO: may need to change the special field to cater for heroes who have many specials (e.g. Moon Knight)
-      // TODO: and also for special that has name, new set Teen Spirit
-      const specialAbility = await upsertSpecialAbility(jsonDeck.special, jsonDeck.heroes[0].slug);
+        //#region Create fighter
+        const jsonFighters = [...jsonDeck.heroes, ...jsonDeck.sidekicks];
+        // Create special ability first if it's a string
+        // TODO: may need to change the special field to cater for heroes who have many specials (e.g. Moon Knight)
+        // TODO: and also for special that has name, new set Teen Spirit
+        const specialAbility = await upsertSpecialAbility(jsonDeck.special, jsonDeck.heroes[0].slug);
 
-      const heroes = await Promise.all(
-        jsonDeck.heroes.map((json) => upsertFighter(json, jsonDeck.movement, specialAbility.id, deck.id, true))
-      );
-      const sidekicks = await Promise.all(
-        jsonDeck.heroes.map((json) => upsertFighter(json, jsonDeck.movement, specialAbility.id, deck.id, false))
-      );
+        const heroes = await Promise.all(
+          jsonDeck.heroes.map((json) => upsertFighter(json, jsonDeck.movement, specialAbility.id, deck.id, true))
+        );
+        const sidekicks = await Promise.all(
+          jsonDeck.sidekicks.map((json) => upsertFighter(json, jsonDeck.movement, specialAbility.id, deck.id, false))
+        );
+        const fighters = [...heroes, ...sidekicks];
+
+        for (const jsonCard of jsonDeck.cards) {
+          const card = await upsertCard(jsonCard);
+          const fighter = await lookupFighterName(jsonCard.characterName, deck.id);
+          if (!!fighter) {
+            await prisma.cardFighter.create({
+              data: {
+                cardId: card.id,
+                fighterId: fighter.id,
+              },
+            });
+          }
+          await prisma.cardDeck.create({
+            data: {
+              cardId: card.id,
+              deckId: deck.id,
+              quantity: jsonCard.quantity,
+            },
+          });
+        }
+      } catch (err) {
+        console.log(jsonDeck.name);
+      }
+
       //#endregion
     }
     //#endregion
@@ -103,6 +155,7 @@ const upsertFighter = async (json: any, move: number, specialAbilityId: number, 
         specialAbilityId,
         isHero,
         name: json.name,
+        nameOnCard: json.nameOnCard,
         attackType: json.attack_type,
         startHealth: json.hp,
         quantity: json.quantity,
@@ -112,5 +165,45 @@ const upsertFighter = async (json: any, move: number, specialAbilityId: number, 
 
   return fighter;
 };
+
+const upsertCard = async (json: any) => {
+  const slug: string = json.slug;
+  const card = await prisma.card.findUnique({ where: { slug } });
+
+  if (!card) {
+    return prisma.card.create({
+      data: {
+        slug,
+        name: json.title,
+        notes: json.card_notes,
+        type: json.type,
+        value: json.value,
+        boostValue: json.boost,
+        effectGeneral: json.basicText,
+        effectImmediately: json.immediateText,
+        effectDuringCombat: json.duringText,
+        effectAfterCombat: json.afterText,
+      },
+    });
+  }
+
+  return card;
+};
+
+const lookupFighterName = async (nameOnCard: string, deckId: number) => {
+  if (nameOnCard.toLowerCase() === 'any') return null;
+
+  const fighter = await prisma.fighter.findFirst({
+    where: {
+      deckId,
+      nameOnCard,
+    },
+  });
+
+  return fighter ?? null;
+};
+
+// const slugs = jsonGameSets.map((set) => set.slug);
+// fs.writeFileSync('test.json', JSON.stringify(slugs));
 
 main().then(() => console.log('DONE!'));
