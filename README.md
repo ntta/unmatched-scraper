@@ -68,10 +68,18 @@ When presented on an app, the styled strings should be rendered as follows:
 
 Please find below the mapping table for styled strings
 
-| Raw String          | Styled String              |
-| ------------------- | -------------------------- |
-| {{bold}}(bold text) | **bold text**              |
-| {{newline}}         | equivalent to `\n`         |
-| {{li}}              | <li></li>                  |
-| {{cite}}(T. Rex)    | the citation below a quote |
-| {{icon}}(Pelt)      | 🐺                         |
+| Raw String                                  | Styled String                                   |
+| ------------------------------------------- | ----------------------------------------------- |
+| {{bold}}(bold text)                         | **bold text**                                   |
+| {{newline}}                                 | equivalent to `\n`                              |
+| {{li}}                                      | <li></li>                                       |
+| {{cite}}(T. Rex)                            | the citation below a quote                      |
+| {{icon}}(Pelt)                              | 🐺                                              |
+| {{card}}(feint)                             | Link to the card Feint                          |
+| {{deck}}(alice)                             | Link to the deck Alice                          |
+| {{url}}(Click Me!)(https://github.com/ntta) | <a href="https://github.com/ntta">Click Me!</a> |
+
+### Game sets with styled strings
+
+- Little Red Riding Hood vs. Beowulf
+- Marvel - Deadpool

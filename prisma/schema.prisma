@@ -12,10 +12,11 @@ datasource db {
 
 model Card {
   id                  Int           @id @default(autoincrement())
-  name                String        @unique
+  name                String
   slug                String        @unique
   quote               String?
-  notes               String?
+  sideNotes           String?
+  gameNotes           String?
   type                String
   value               Int?
   boostValue          Int?
@@ -38,7 +39,8 @@ model Fighter {
   nameOnCard       String
   slug             String         @unique
   quote            String?
-  notes            String?
+  sideNotes        String?
+  gameNotes        String?
   attackType       String
   startHealth      Int
   isHero           Boolean
@@ -73,7 +75,8 @@ model Deck {
   name      String     @unique
   slug      String     @unique
   quote     String?
-  notes     String?
+  sideNotes String?
+  gameNotes String?
   gameSet   GameSet    @relation(fields: [gameSetId], references: [id])
   gameSetId Int
   fighters  Fighter[]
@@ -95,6 +98,7 @@ model GameSet {
   name        String   @unique
   slug        String   @unique
   releaseDate DateTime
-  notes       String?
+  sideNotes   String?
+  gameNotes   String?
   decks       Deck[]
 }

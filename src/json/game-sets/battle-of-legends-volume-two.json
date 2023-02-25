@@ -272,7 +272,7 @@
       }
     ],
     "slug": "achilles",
-    "special": "When Patroclus is defeated, discard 2 random cards.{{newline}}While Patroclus is defeated:{{newline}}{{li}} Add +2 to the value of all Achilles' attacks.{{newline}}{{li}} If Achilles wins combat, draw 1 card."
+    "special": "When Patroclus is defeated, discard 2 random cards.{{newline}}While Patroclus is defeated:{{li}} Add +2 to the value of all Achilles' attacks.{{li}} If Achilles wins combat, draw 1 card."
   },
   {
     "cards": [
