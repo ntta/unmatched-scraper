@@ -28,33 +28,7 @@
         "duringText": null,
         "image": "https://static.unmatched.cards/images/umdb/decks/beowulf/feint.png",
         "immediateText": "Cancel all effects on your opponent's card.",
-        "other_decks": [
-          { "name": "Alice", "slug": "alice" },
-          { "name": "Bigfoot", "slug": "bigfoot" },
-          { "name": "Dracula", "slug": "dracula" },
-          { "name": "Bruce Lee", "slug": "bruce-lee" },
-          { "name": "Jekyll & Hyde", "slug": "jekyll-hyde" },
-          { "name": "King Arthur", "slug": "king-arthur" },
-          { "name": "Medusa", "slug": "medusa" },
-          { "name": "Robin Hood", "slug": "robin-hood" },
-          { "name": "Moon Knight", "slug": "moon-knight" },
-          { "name": "Bloody Mary", "slug": "bloody-mary" },
-          { "name": "Ghost Rider", "slug": "ghost-rider" },
-          { "name": "Deadpool", "slug": "deadpool" },
-          { "name": "Dr. Ellie Sattler", "slug": "dr-ellie-sattler" },
-          { "name": "Achilles", "slug": "achilles" },
-          { "name": "Daredevil", "slug": "daredevil" },
-          { "name": "Bullseye", "slug": "bullseye" },
-          { "name": "The Genie", "slug": "the-genie" },
-          { "name": "Raptors", "slug": "raptors" },
-          { "name": "Sherlock Holmes", "slug": "sherlock-holmes" },
-          { "name": "Sinbad", "slug": "sinbad" },
-          { "name": "InGen", "slug": "ingen" },
-          { "name": "Willow", "slug": "willow" },
-          { "name": "Angel", "slug": "angel" },
-          { "name": "Spike", "slug": "spike" },
-          { "name": "Buffy", "slug": "buffy" }
-        ],
+        "other_decks": [],
         "quantity": 3,
         "slug": "feint",
         "title": "Feint",
@@ -68,7 +42,7 @@
         "card_notes": null,
         "characterName": "BEOWULF",
         "deck_card_notes": null,
-        "duringText": "This card's value is +1 for each Rage you have. (You do not spend Rage for this effect.)",
+        "duringText": "This card's value is +1 for each Rage you have.{{newline}}(You do not spend Rage for this effect.)",
         "image": "https://static.unmatched.cards/images/umdb/decks/beowulf/epic-poem.png",
         "immediateText": "Gain 1 Rage.",
         "other_decks": [],
@@ -85,7 +59,7 @@
         "card_notes": null,
         "characterName": "BEOWULF",
         "deck_card_notes": null,
-        "duringText": "You may spend 2 Rage to make this card's value 5 instead. You may spend 1 Rage to BOOST this card. (You may do both.)",
+        "duringText": "You may spend 2 Rage to make this card's value 5 instead.{{newline}}You may spend 1 Rage to BOOST this card.{{newline}}(You may do both.)",
         "image": "https://static.unmatched.cards/images/umdb/decks/beowulf/the-ancient-heirloom.png",
         "immediateText": null,
         "other_decks": [],
@@ -165,7 +139,7 @@
       },
       {
         "afterText": null,
-        "basicText": "Spend any amount of Rage. Choose a different effect for each Rage spent: - draw 2 cards - move Beowulf up to 4 spaces - Beowulf recovers 2 health.",
+        "basicText": "Spend any amount of Rage. Choose a different effect for each Rage spent:{{li}} draw 2 cards{{li}} move Beowulf up to 4 spaces{{li}} Beowulf recovers 2 health.",
         "boost": 3,
         "card_notes": null,
         "characterName": "BEOWULF",
@@ -224,17 +198,7 @@
         "duringText": null,
         "image": "https://static.unmatched.cards/images/umdb/decks/beowulf/skirmish.png",
         "immediateText": null,
-        "other_decks": [
-          { "name": "Alice", "slug": "alice" },
-          { "name": "Bigfoot", "slug": "bigfoot" },
-          { "name": "Bruce Lee", "slug": "bruce-lee" },
-          { "name": "Jekyll & Hyde", "slug": "jekyll-hyde" },
-          { "name": "King Arthur", "slug": "king-arthur" },
-          { "name": "Achilles", "slug": "achilles" },
-          { "name": "Yennenga", "slug": "yennenga" },
-          { "name": "Spike", "slug": "spike" },
-          { "name": "Buffy", "slug": "buffy" }
-        ],
+        "other_decks": [],
         "quantity": 3,
         "slug": "skirmish",
         "title": "Skirmish",
@@ -246,7 +210,7 @@
       { "attack_type": "melee", "hp": 17, "name": "Beowulf", "quantity": 1, "slug": "beowulf", "nameOnCard": "BEOWULF" }
     ],
     "movement": 2,
-    "name": "Beowulf",
+    "name": "BEOWULF",
     "notes": null,
     "quote": null,
     "set": "Little Red Riding Hood vs. Beowulf",
@@ -260,7 +224,7 @@
   {
     "cards": [
       {
-        "afterText": "You may return this card to your hand.\r\n🌹 Instead, you may return the top card of your discard pile to your hand.",
+        "afterText": "You may return this card to your hand.{{newline}}{{icon}}(Wolfsbane)Instead, you may return the top card of your discard pile to your hand.",
         "basicText": null,
         "boost": 3,
         "card_notes": null,
@@ -272,12 +236,13 @@
         "other_decks": [],
         "quantity": 2,
         "slug": "what-large-hands-you-have",
-        "title": "What Large Hands You Have 🐺",
+        "title": "What Large Hands You Have",
         "type": "attack",
-        "value": 2
+        "value": 2,
+        "basketSymbol": "Pelt"
       },
       {
-        "afterText": "🐺 Draw 2 cards.",
+        "afterText": "{{icon}}(Pelt)Draw 2 cards.",
         "basicText": null,
         "boost": 2,
         "card_notes": null,
@@ -289,12 +254,13 @@
         "other_decks": [],
         "quantity": 3,
         "slug": "the-wolf-s-skin",
-        "title": "The Wolf's Skin ⚔️",
+        "title": "The Wolf's Skin",
         "type": "defense",
-        "value": 2
+        "value": 2,
+        "basketSymbol": "Knife"
       },
       {
-        "afterText": "🐺  Deal damage to the opposing fighter equal to the printed value of their card.",
+        "afterText": "{{icon}}(Pelt)Deal damage to the opposing fighter equal to the printed value of their card.",
         "basicText": null,
         "boost": 2,
         "card_notes": null,
@@ -306,13 +272,14 @@
         "other_decks": [],
         "quantity": 2,
         "slug": "what-a-terrible-big-mouth-you-have",
-        "title": "What a Terrible Big Mouth You Have ⚔️",
+        "title": "What a Terrible Big Mouth You Have",
         "type": "defense",
-        "value": 2
+        "value": 2,
+        "basketSymbol": "Knife"
       },
       {
         "afterText": null,
-        "basicText": "⚔️ You may play this card as a defense card.",
+        "basicText": "{{icon}}(Knife)You may play this card as a defense card.",
         "boost": 2,
         "card_notes": null,
         "characterName": "LITTLE RED",
@@ -323,9 +290,10 @@
         "other_decks": [],
         "quantity": 2,
         "slug": "what-big-ears-you-have",
-        "title": "What Big Ears You Have 🐺",
+        "title": "What Big Ears You Have",
         "type": "attack",
-        "value": 4
+        "value": 4,
+        "basketSymbol": "Pelt"
       },
       {
         "afterText": null,
@@ -336,17 +304,18 @@
         "deck_card_notes": null,
         "duringText": null,
         "image": "https://static.unmatched.cards/images/umdb/decks/little-red/what-big-eyes-you-have.png",
-        "immediateText": "Cancel all effects on your opponent's card. \n🌹 Also ignore the value of your opponent's card.",
+        "immediateText": "Cancel all effects on your opponent's card.{{newline}}{{icon}}(Wolfsbane)Also ignore the value of your opponent's card.",
         "other_decks": [],
         "quantity": 2,
         "slug": "what-big-eyes-you-have",
-        "title": "What Big Eyes You Have 🐺",
+        "title": "What Big Eyes You Have",
         "type": "versatile",
-        "value": 3
+        "value": 3,
+        "basketSymbol": "Pelt"
       },
       {
         "afterText": null,
-        "basicText": "(🌟 counts as any one 🐺🌹⚔️ symbol.)",
+        "basicText": "({{icon}}(Wild) counts as any one symbol.)",
         "boost": 3,
         "card_notes": null,
         "characterName": "LITTLE RED",
@@ -357,13 +326,14 @@
         "other_decks": [],
         "quantity": 4,
         "slug": "what-s-that-in-my-basket",
-        "title": "What's That In My Basket? 🌟 ",
+        "title": "What's That In My Basket?",
         "type": "versatile",
-        "value": 4
+        "value": 4,
+        "basketSymbol": "Wild"
       },
       {
         "afterText": null,
-        "basicText": "🐺  Place Little Red in any space. Gain 1 action. \n⚔️ Deal 2 damage to each opposing fighter in Little Red's zone. \n🌹 Draw 3 cards.",
+        "basicText": "{{icon}}(Pelt)Place Little Red in any space. Gain 1 action.{{newline}}{{icon}}(Knife)Deal 2 damage to each opposing fighter in Little Red's zone.{{newline}}{{icon}}(Wolfsbane)Draw 3 cards.",
         "boost": 1,
         "card_notes": null,
         "characterName": "LITTLE RED",
@@ -374,15 +344,16 @@
         "other_decks": [],
         "quantity": 2,
         "slug": "never-leave-the-path",
-        "title": "Never Leave the Path 🐺",
+        "title": "Never Leave the Path",
         "type": "scheme",
-        "value": null
+        "value": null,
+        "basketSymbol": "Pelt"
       },
       {
         "afterText": null,
         "basicText": "Move Little Red up to 3 spaces. Gain 1 action.",
         "boost": 2,
-        "card_notes": "Each copy of INTO THE WOODS has one of the three symbols on it.",
+        "card_notes": "Each copy of the card has one of the three symbols on it.",
         "characterName": "LITTLE RED",
         "deck_card_notes": null,
         "duringText": null,
@@ -391,9 +362,10 @@
         "other_decks": [],
         "quantity": 3,
         "slug": "into-the-woods",
-        "title": "Into the Woods 🐺🌹⚔️",
+        "title": "Into The Woods",
         "type": "scheme",
-        "value": null
+        "value": null,
+        "basketSymbol": "Knife, Pelt, Wolfsbane"
       },
       {
         "afterText": null,
@@ -408,13 +380,14 @@
         "other_decks": [],
         "quantity": 3,
         "slug": "long-have-i-sought-you",
-        "title": "Long Have I Sought You ⚔️",
+        "title": "Long Have I Sought You",
         "type": "attack",
-        "value": 4
+        "value": 4,
+        "basketSymbol": "Knife"
       },
       {
         "afterText": null,
-        "basicText": "Little Red Recovers 2 health.\n🐺 Little Red recovers 4 health instead.",
+        "basicText": "Little Red Recovers 2 health.{{newline}}{{icon}}(Pelt)Little Red recovers 4 health instead.",
         "boost": 3,
         "card_notes": null,
         "characterName": "HUNTSMAN",
@@ -425,9 +398,10 @@
         "other_decks": [],
         "quantity": 2,
         "slug": "a-grimm-tale",
-        "title": "A Grimm Tale 🌹",
+        "title": "A Grimm Tale",
         "type": "scheme",
-        "value": null
+        "value": null,
+        "basketSymbol": "Wolfsbane"
       },
       {
         "afterText": null,
@@ -436,18 +410,19 @@
         "card_notes": null,
         "characterName": "ANY",
         "deck_card_notes": null,
-        "duringText": "⚔️ Your opponent discards 1 random card. Add its BOOST value to this card's value.",
+        "duringText": "{{icon}}(Knife)Your opponent discards 1 random card. Add its BOOST value to this card's value.",
         "image": "https://static.unmatched.cards/images/umdb/decks/little-red/stones-in-the-belly.png",
         "immediateText": null,
         "other_decks": [],
         "quantity": 3,
         "slug": "stones-in-the-belly",
-        "title": "Stones in the Belly 🌹",
+        "title": "Stones in the Belly",
         "type": "versatile",
-        "value": 2
+        "value": 2,
+        "basketSymbol": "Knife"
       },
       {
-        "afterText": "⚔️ Deal 3 damage to the opposing fighter.",
+        "afterText": "{{icon}}(Knife)Deal 3 damage to the opposing fighter.",
         "basicText": null,
         "boost": 1,
         "card_notes": null,
@@ -459,9 +434,10 @@
         "other_decks": [],
         "quantity": 2,
         "slug": "once-upon-a-time",
-        "title": "Once Upon a Time 🌹",
+        "title": "Once Upon a Time",
         "type": "versatile",
-        "value": 2
+        "value": 2,
+        "basketSymbol": "Wolfsbane"
       }
     ],
     "heroes": [
@@ -475,8 +451,8 @@
       }
     ],
     "movement": 2,
-    "name": "Little Red Riding Hood",
-    "notes": "Little Red's Basket: This starts in your discard pile. It does not count as a card. (🌟 counts as any one 🐺🌹⚔️ symbol.)",
+    "name": "LITTLE RED",
+    "notes": "Little Red has a card entitled \"LITTLE RED'S BASKET\", which indicates that \"This starts in your discard pile. It does not count as a card. ({{icon}}(Wild) counts as any one symbol.)\"",
     "quote": null,
     "set": "Little Red Riding Hood vs. Beowulf",
     "setSlug": "little-red-riding-hood-vs-beowulf",

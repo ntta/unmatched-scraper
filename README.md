@@ -74,3 +74,4 @@ Please find below the mapping table for styled strings
 | {{newline}}         | equivalent to `\n`         |
 | {{li}}              | <li></li>                  |
 | {{cite}}(T. Rex)    | the citation below a quote |
+| {{icon}}(Pelt)      | 🐺                         |
