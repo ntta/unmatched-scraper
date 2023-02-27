@@ -87,7 +87,7 @@
         "slug": "call-for-backup",
         "title": "Call for Backup",
         "type": "scheme",
-        "value": 5
+        "value": null
       },
       {
         "afterText": "Move each of your InGen Workers up to 2 spaces.",
@@ -121,7 +121,7 @@
         "slug": "remote-detonation",
         "title": "Remote Detonation",
         "type": "scheme",
-        "value": 2
+        "value": null
       },
       {
         "afterText": "Move the opposing fighter up to 3 spaces.",
@@ -315,7 +315,7 @@
         "slug": "coordinated-attack-pattern",
         "title": "Coordinated Attack Pattern",
         "type": "scheme",
-        "value": 2
+        "value": null
       },
       {
         "afterText": "If you won the combat, deal 1 damage to the opposing fighter for each of your Raptors adjacent to them.",
@@ -366,7 +366,7 @@
         "slug": "working-things-out",
         "title": "Working Things Out",
         "type": "scheme",
-        "value": 2
+        "value": null
       },
       {
         "afterText": null,

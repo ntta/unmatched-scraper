@@ -94,7 +94,7 @@
         "slug": "hoo-whaaaaaa",
         "title": "\"HOO! WHAAAAAA!\"",
         "type": "scheme",
-        "value": 2
+        "value": null
       },
       {
         "afterText": "Gain 1 action.",
@@ -213,7 +213,7 @@
         "slug": "bring-it-on",
         "title": "Bring It On",
         "type": "scheme",
-        "value": 2
+        "value": null
       },
       {
         "afterText": null,
@@ -230,7 +230,7 @@
         "slug": "one-inch-punch",
         "title": "One-Inch Punch",
         "type": "scheme",
-        "value": 2
+        "value": null
       },
       {
         "afterText": null,
@@ -247,7 +247,7 @@
         "slug": "nunchaku",
         "title": "Nunchaku",
         "type": "scheme",
-        "value": 2
+        "value": null
       },
       {
         "afterText": null,

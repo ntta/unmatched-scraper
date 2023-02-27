@@ -181,7 +181,7 @@
         "slug": "mistform",
         "title": "Mistform",
         "type": "scheme",
-        "value": 1
+        "value": null
       },
       {
         "afterText": null,
@@ -198,7 +198,7 @@
         "slug": "prey-upon",
         "title": "Prey Upon",
         "type": "scheme",
-        "value": 1
+        "value": null
       },
       {
         "afterText": null,
@@ -215,7 +215,7 @@
         "slug": "baptism-of-blood",
         "title": "Baptism of Blood",
         "type": "scheme",
-        "value": 1
+        "value": null
       },
       {
         "afterText": "If you won the combat, place Dracula in any space adjacent to the opposing fighter.",
@@ -249,7 +249,7 @@
         "slug": "ravening-seduction",
         "title": "Ravening Seduction",
         "type": "scheme",
-        "value": 1
+        "value": null
       }
     ],
     "heroes": [{ "attack_type": "melee", "hp": 13, "name": "Dracula", "quantity": 1, "slug": "dracula" }],
@@ -459,7 +459,7 @@
         "slug": "confirm-suspicion",
         "title": "Confirm Suspicion",
         "type": "scheme",
-        "value": 1
+        "value": null
       },
       {
         "afterText": null,
@@ -476,7 +476,7 @@
         "slug": "eliminate-the-impossible",
         "title": "Eliminate the Impossible",
         "type": "scheme",
-        "value": 1
+        "value": null
       },
       {
         "afterText": null,
@@ -493,7 +493,7 @@
         "slug": "master-of-disguise",
         "title": "Master of Disguise",
         "type": "scheme",
-        "value": 1
+        "value": null
       },
       {
         "afterText": null,
@@ -510,7 +510,7 @@
         "slug": "administer-aid",
         "title": "Administer Aid",
         "type": "scheme",
-        "value": 1
+        "value": null
       }
     ],
     "heroes": [
@@ -765,7 +765,7 @@
         "slug": "calming-research",
         "title": "Calming Research",
         "type": "scheme",
-        "value": 1
+        "value": null
       },
       {
         "afterText": null,
@@ -782,7 +782,7 @@
         "slug": "strange-case",
         "title": "Strange Case",
         "type": "scheme",
-        "value": 1
+        "value": null
       },
       {
         "afterText": null,
@@ -799,7 +799,7 @@
         "slug": "pure-evil",
         "title": "Pure Evil",
         "type": "scheme",
-        "value": 1
+        "value": null
       }
     ],
     "heroes": [
@@ -1017,7 +1017,7 @@
         "slug": "reign-of-terror",
         "title": "Reign of Terror",
         "type": "scheme",
-        "value": 1
+        "value": null
       },
       {
         "afterText": null,
@@ -1034,7 +1034,7 @@
         "slug": "vanish",
         "title": "Vanish",
         "type": "scheme",
-        "value": 1
+        "value": null
       },
       {
         "afterText": null,
@@ -1051,7 +1051,7 @@
         "slug": "step-lightly",
         "title": "Step Lightly",
         "type": "scheme",
-        "value": 1
+        "value": null
       },
       {
         "afterText": null,
@@ -1068,7 +1068,7 @@
         "slug": "rolling-fog",
         "title": "Rolling Fog",
         "type": "scheme",
-        "value": 1
+        "value": null
       }
     ],
     "heroes": [
