@@ -224,7 +224,7 @@
   {
     "cards": [
       {
-        "afterText": "You may return this card to your hand.{{newline}}{{icon}}(Wolfsbane)Instead, you may return the top card of your discard pile to your hand.",
+        "afterText": "You may return this card to your hand.{{newline}}{{icon}}(Wolfsbane) Instead, you may return the top card of your discard pile to your hand.",
         "basicText": null,
         "boost": 3,
         "card_notes": null,
@@ -242,7 +242,7 @@
         "basketSymbol": "Pelt"
       },
       {
-        "afterText": "{{icon}}(Pelt)Draw 2 cards.",
+        "afterText": "{{icon}}(Pelt) Draw 2 cards.",
         "basicText": null,
         "boost": 2,
         "card_notes": null,
@@ -260,7 +260,7 @@
         "basketSymbol": "Knife"
       },
       {
-        "afterText": "{{icon}}(Pelt)Deal damage to the opposing fighter equal to the printed value of their card.",
+        "afterText": "{{icon}}(Pelt) Deal damage to the opposing fighter equal to the printed value of their card.",
         "basicText": null,
         "boost": 2,
         "card_notes": null,
@@ -279,7 +279,7 @@
       },
       {
         "afterText": null,
-        "basicText": "{{icon}}(Knife)You may play this card as a defense card.",
+        "basicText": "{{icon}}(Knife) You may play this card as a defense card.",
         "boost": 2,
         "card_notes": null,
         "characterName": "LITTLE RED",
@@ -304,7 +304,7 @@
         "notes": null,
         "duringText": null,
         "image": "https://static.unmatched.cards/images/umdb/decks/little-red/what-big-eyes-you-have.png",
-        "immediateText": "Cancel all effects on your opponent's card.{{newline}}{{icon}}(Wolfsbane)Also ignore the value of your opponent's card.",
+        "immediateText": "Cancel all effects on your opponent's card.{{newline}}{{icon}}(Wolfsbane) Also ignore the value of your opponent's card.",
         "other_decks": [],
         "quantity": 2,
         "slug": "what-big-eyes-you-have",
@@ -333,7 +333,7 @@
       },
       {
         "afterText": null,
-        "basicText": "{{icon}}(Pelt)Place Little Red in any space. Gain 1 action.{{newline}}{{icon}}(Knife)Deal 2 damage to each opposing fighter in Little Red's zone.{{newline}}{{icon}}(Wolfsbane)Draw 3 cards.",
+        "basicText": "{{icon}}(Pelt) Place Little Red in any space. Gain 1 action.{{newline}}{{icon}}(Knife) Deal 2 damage to each opposing fighter in Little Red's zone.{{newline}}{{icon}}(Wolfsbane) Draw 3 cards.",
         "boost": 1,
         "card_notes": null,
         "characterName": "LITTLE RED",
@@ -387,7 +387,7 @@
       },
       {
         "afterText": null,
-        "basicText": "Little Red Recovers 2 health.{{newline}}{{icon}}(Pelt)Little Red recovers 4 health instead.",
+        "basicText": "Little Red Recovers 2 health.{{newline}}{{icon}}(Pelt) Little Red recovers 4 health instead.",
         "boost": 3,
         "card_notes": null,
         "characterName": "HUNTSMAN",
@@ -410,7 +410,7 @@
         "card_notes": null,
         "characterName": "ANY",
         "notes": null,
-        "duringText": "{{icon}}(Knife)Your opponent discards 1 random card. Add its BOOST value to this card's value.",
+        "duringText": "{{icon}}(Knife) Your opponent discards 1 random card. Add its BOOST value to this card's value.",
         "image": "https://static.unmatched.cards/images/umdb/decks/little-red/stones-in-the-belly.png",
         "immediateText": null,
         "other_decks": [],
@@ -422,7 +422,7 @@
         "basketSymbol": "Knife"
       },
       {
-        "afterText": "{{icon}}(Knife)Deal 3 damage to the opposing fighter.",
+        "afterText": "{{icon}}(Knife) Deal 3 damage to the opposing fighter.",
         "basicText": null,
         "boost": 1,
         "card_notes": null,

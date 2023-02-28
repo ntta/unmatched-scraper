@@ -589,7 +589,7 @@
       },
       {
         "afterText": null,
-        "basicText": "Draw 2 cards.\r\nPlace a shadow token in Spike's space and each space adjacent to it.",
+        "basicText": "Draw 2 cards.{{newline}}Place a shadow token in Spike's space and each space adjacent to it.",
         "boost": 2,
         "card_notes": null,
         "characterName": "SPIKE",
@@ -814,7 +814,7 @@
         "card_notes": null,
         "characterName": "SPIKE",
         "deck_card_notes": null,
-        "duringText": "If Spike or the opposing fighter is in a space with a shadow token,  you may BOOST this card.",
+        "duringText": "If Spike or the opposing fighter is in a space with a shadow token, you may BOOST this card.",
         "image": "https://static.unmatched.cards/images/umdb/decks/spike/let-s-dance.png",
         "immediateText": null,
         "other_decks": [],
@@ -867,7 +867,7 @@
         "value": 3
       },
       {
-        "afterText": "(DARK) Become Willow.",
+        "afterText": "{{icon}}(Dark Willow) Become Willow.",
         "basicText": null,
         "boost": 2,
         "card_notes": null,
@@ -890,7 +890,7 @@
         "card_notes": null,
         "characterName": "WILLOW",
         "deck_card_notes": null,
-        "duringText": "(DARK) BLIND BOOST this card.",
+        "duringText": "{{icon}}(Dark Willow) BLIND BOOST this card.",
         "image": "https://static.unmatched.cards/images/umdb/decks/willow/black-magic.png",
         "immediateText": null,
         "other_decks": [],
@@ -902,7 +902,7 @@
       },
       {
         "afterText": null,
-        "basicText": "Draw 2 cards.\n(DARK) Discard the top 2 cards of your deck. Deal 3 damage to a sidekick in your zone (even if it's your own).",
+        "basicText": "Draw 2 cards.{{newline}}{{icon}}(Dark Willow) Discard the top 2 cards of your deck. Deal 3 damage to a sidekick in your zone {{italic}}((even if it's your own)).",
         "boost": 3,
         "card_notes": null,
         "characterName": "WILLOW",
@@ -924,7 +924,7 @@
         "card_notes": null,
         "characterName": "WILLOW",
         "deck_card_notes": null,
-        "duringText": "(DARK) BLIND BOOST this attack.",
+        "duringText": "{{icon}}(Dark Willow) BLIND BOOST this attack.",
         "image": "https://static.unmatched.cards/images/umdb/decks/willow/flayed-alive.png",
         "immediateText": null,
         "other_decks": [],
@@ -952,7 +952,7 @@
         "value": 2
       },
       {
-        "afterText": "(DARK) Move Willow to any space in her zone. Discard the top card of your deck.",
+        "afterText": "{{icon}}(Dark Willow) Move Willow to any space in her zone. Discard the top card of your deck.",
         "basicText": "",
         "boost": 3,
         "card_notes": null,

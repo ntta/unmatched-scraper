@@ -71,6 +71,7 @@ Please find below the mapping table for styled strings
 | Raw String                                  | Styled String                                   |
 | ------------------------------------------- | ----------------------------------------------- |
 | {{bold}}(bold text)                         | **bold text**                                   |
+| {{italic}}(italic text)                     | _italic text_                                   |
 | {{newline}}                                 | equivalent to `\n`                              |
 | {{li}}                                      | <li></li>                                       |
 | {{cite}}(T. Rex)                            | the citation below a quote                      |
@@ -83,6 +84,7 @@ Please find below the mapping table for styled strings
 
 - Battle of Legends, Volume One
 - Robin Hood vs. Bigfoot
+- Buffy the Vampire Slayer
 - Little Red Riding Hood vs. Beowulf
 - Marvel - Deadpool
 - Jurassic Park - Dr. Sattler vs. T. Rex
