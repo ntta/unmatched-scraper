@@ -81,7 +81,8 @@ Please find below the mapping table for styled strings
 
 ### Game sets with styled strings
 
+- Battle of Legends, Volume One
+- Robin Hood vs. Bigfoot
 - Little Red Riding Hood vs. Beowulf
 - Marvel - Deadpool
-- Battle of Legends, Volume One
 - Jurassic Park - Dr. Sattler vs. T. Rex

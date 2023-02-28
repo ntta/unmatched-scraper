@@ -24,7 +24,7 @@ model Card {
   effectImmediately   String?
   effectDuringCombat  String?
   effectAfterCombat   String?
-  basketSymbol        String?
+  symbol              String?
   isBonusAttack       Boolean       @default(false)
   bonusAttackOfCardId Int?          @unique
   bonusAttackOfCard   Card?         @relation("BonusAttackCard", fields: [bonusAttackOfCardId], references: [id])
