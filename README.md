@@ -83,3 +83,5 @@ Please find below the mapping table for styled strings
 
 - Little Red Riding Hood vs. Beowulf
 - Marvel - Deadpool
+- Battle of Legends, Volume One
+- Jurassic Park - Dr. Sattler vs. T. Rex
