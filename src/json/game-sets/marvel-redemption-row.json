@@ -224,7 +224,7 @@
       },
       {
         "afterText": null,
-        "basicText": "Place Luke Cage adjacent to the nearest opposing fighter.\r\nGain 1 action.",
+        "basicText": "Place Luke Cage adjacent to the nearest opposing fighter.{{newline}}Gain 1 action.",
         "boost": 1,
         "card_notes": null,
         "characterName": "LUKE CAGE",
@@ -267,7 +267,7 @@
       }
     ],
     "slug": "luke-cage",
-    "special": "Luke Cage takes 2 less combat damage from attacks.{{newline}}(When defending, Luke Cage wins combat if he takes no damage, even if he didn't play a card.)"
+    "special": "Luke Cage takes 2 less combat damage from attacks.{{newline}}When defending, Luke Cage wins combat if he takes no damage, even if he didn't play a card."
   },
   {
     "cards": [
@@ -306,7 +306,7 @@
         "value": 3
       },
       {
-        "afterText": "Spend any amount of Hellfire, Deal that much damage to each fighter in Ghost Rider's zone (including Ghost Rider).",
+        "afterText": "Spend any amount of Hellfire, Deal that much damage to each fighter in Ghost Rider's zone {{italic}}((including Ghost Rider)).",
         "basicText": null,
         "boost": 3,
         "card_notes": null,
@@ -423,7 +423,7 @@
         "card_notes": null,
         "characterName": "GHOST RIDER",
         "deck_card_notes": null,
-        "duringText": "This card's value is +1 for each Hellfire you have. (You do not spend Hellfire for this effect.)",
+        "duringText": "This card's value is +1 for each Hellfire you have.{{newline}}{{italic}}((You do not spend Hellfire for this effect.))",
         "image": null,
         "immediateText": null,
         "other_decks": [],
@@ -469,7 +469,7 @@
       },
       {
         "afterText": null,
-        "basicText": "Move Ghost Rider and up to one adjacent fighter up to 4 spaces each.\r\nGain 2 Hellfire. Gain 1 action.",
+        "basicText": "Move Ghost Rider and up to one adjacent fighter up to 4 spaces each.{{newline}}Gain 2 Hellfire. Gain 1 action.",
         "boost": 3,
         "card_notes": null,
         "characterName": "GHOST RIDER",
@@ -722,7 +722,7 @@
       },
       {
         "afterText": null,
-        "basicText": "Recover 2 health.\r\nIf you started your turn in a different space, gain 1 action.",
+        "basicText": "Recover 2 health.{{newline}}If you started your turn in a different space, gain 1 action.",
         "boost": 3,
         "card_notes": null,
         "characterName": "ANY",
@@ -739,7 +739,7 @@
       },
       {
         "afterText": null,
-        "basicText": "Move your fighter up to 4 spaces. They may move through opposing fighters.\r\nGain 1 action.",
+        "basicText": "Move your fighter up to 4 spaces. They may move through opposing fighters.{{newline}}Gain 1 action.",
         "boost": 3,
         "card_notes": null,
         "characterName": "ANY",
@@ -771,7 +771,8 @@
         "name": "Khonshu",
         "quantity": 1,
         "slug": "khonshu",
-        "nameOnCard": "KHONSHU"
+        "nameOnCard": "KHONSHU",
+        "quote": "You are my son.{{cite}}(Khonshu)"
       },
       {
         "attack_type": "melee",
@@ -779,7 +780,8 @@
         "name": "Mr. Knight",
         "quantity": 1,
         "slug": "mr-knight",
-        "nameOnCard": "MR. KNIGHT"
+        "nameOnCard": "MR. KNIGHT",
+        "quote": "I've died before.{{newline}}It was boring,{{newline}}so I stood up.{{cite}}(Mr. Knight)"
       }
     ],
     "movement": 3,

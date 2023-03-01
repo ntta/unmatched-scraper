@@ -471,7 +471,15 @@
       }
     ],
     "heroes": [
-      { "attack_type": "melee", "hp": 27, "name": "T. Rex", "quantity": 1, "slug": "t-rex", "nameOnCard": "T. REX" }
+      {
+        "attack_type": "melee",
+        "hp": 27,
+        "name": "T. Rex",
+        "quantity": 1,
+        "slug": "t-rex",
+        "nameOnCard": "T. REX",
+        "quote": "ROOOOOOAAAAARR.{{cite}}(T. Rex)"
+      }
     ],
     "movement": 1,
     "name": "T. Rex",
