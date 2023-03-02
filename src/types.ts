@@ -1,19 +1,29 @@
 export type Nullable<T> = undefined | null | T;
 
+export type JsonBonusAttack = {
+  slug: string;
+  title: string;
+  value: number;
+  basicText: Nullable<string>;
+  immediateText: Nullable<string>;
+  duringText: Nullable<string>;
+  afterText: Nullable<string>;
+};
+
 export type JsonCard = {
+  slug: string;
   title: string;
   type: 'attack' | 'defense' | 'versatile' | 'scheme';
   characterName: string;
-  slug: string;
   boost: number;
   value: Nullable<number>;
   notes: Nullable<string>;
   cardNotes: Nullable<string>;
   quantity: number;
-  immediateText: Nullable<string>;
-  afterText: Nullable<string>;
   basicText: Nullable<string>;
+  immediateText: Nullable<string>;
   duringText: Nullable<string>;
+  afterText: Nullable<string>;
 };
 
 export type JsonDeck = {
@@ -24,6 +34,7 @@ export type JsonDeck = {
   cards: JsonCard[];
   heroes: JsonFighter[];
   sidekicks: JsonFighter[];
+  special: Nullable<string>;
 };
 
 export type JsonFighter = {
@@ -35,5 +46,5 @@ export type JsonFighter = {
   nameOnCard: string;
   quote: Nullable<string>;
   movement: number;
-  special: string;
+  special: Nullable<string>;
 };
