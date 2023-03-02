@@ -79,14 +79,18 @@ Please find below the mapping table for styled strings
 | {{card}}(feint)                             | Link to the card Feint                          |
 | {{deck}}(alice)                             | Link to the deck Alice                          |
 | {{url}}(Click Me!)(https://github.com/ntta) | <a href="https://github.com/ntta">Click Me!</a> |
+| {{bonusAttack}}(slug)                       | Link to a bonus attack                          |
 
 ### Game sets with styled strings
 
 - Battle of Legends, Volume One
 - Bruce Lee
 - Robin Hood vs. Bigfoot
+- Cobble & Fog
 - Buffy the Vampire Slayer
 - Little Red Riding Hood vs. Beowulf
 - Marvel - Deadpool
+- Battle of Legends, Volume Two
+- Marvel - Hell's Kitchen
 - Marvel - Redemption Row
 - Jurassic Park - Dr. Sattler vs. T. Rex

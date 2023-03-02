@@ -25,7 +25,7 @@
         "cardNotes": null,
         "characterName": "DAREDEVIL",
         "notes": null,
-        "duringText": "You may BLIND BOOST this attack. (This is in addition to any BLIND BOOST from Daredevil's special ability.)",
+        "duringText": "You may BLIND BOOST this attack. {{italic}}((This is in addition to any BLIND BOOST from Daredevil's special ability.))",
         "image": null,
         "immediateText": null,
         "other_decks": [],
@@ -171,7 +171,8 @@
         "name": "Daredevil",
         "quantity": 1,
         "slug": "daredevil",
-        "nameOnCard": "DAREDEVIL"
+        "nameOnCard": "DAREDEVIL",
+        "quote": "Fear can be overcome, if you have the will.{{cite}}(Daredevil)"
       }
     ],
     "movement": 3,
@@ -182,7 +183,7 @@
     "setSlug": "marvel-hells-kitchen",
     "sidekicks": [],
     "slug": "daredevil",
-    "special": "DURING COMBAT: If you have 2 or fewer cards in your hand, you may BLIND BOOST your attack or defense.{{newline}}(If you have other DURING COMBAT effects, choose the order.)"
+    "special": "DURING COMBAT: If you have 2 or fewer cards in your hand, you may BLIND BOOST your attack or defense.{{newline}}{{italic}}((If you have other DURING COMBAT effects, choose the order.))"
   },
   {
     "cards": [
@@ -401,7 +402,7 @@
       },
       {
         "afterText": null,
-        "basicText": "Draw 2 cards.If you won a combat this turn, draw 1 additional card and gain 1 action.",
+        "basicText": "Draw 2 cards.{{newline}}If you won a combat this turn, draw 1 additional card and gain 1 action.",
         "boost": 3,
         "cardNotes": null,
         "characterName": "BULLSEYE",
@@ -424,12 +425,13 @@
         "name": "Bullseye",
         "quantity": 1,
         "slug": "bullseye",
-        "nameOnCard": "BULLSEYE"
+        "nameOnCard": "BULLSEYE",
+        "quote": "In real life, if he's quick and smart, and nasty enough -- the BAD guy wins!{{cite}}(Bullseye)"
       }
     ],
     "movement": 2,
     "name": "Bullseye",
-    "notes": "Bullseye's special 5 space attack range is in addition to also being able to attack any opposing fighter in his zone.",
+    "notes": null,
     "quote": null,
     "set": "Marvel - Hell's Kitchen",
     "setSlug": "marvel-hells-kitchen",
@@ -440,7 +442,7 @@
   {
     "cards": [
       {
-        "afterText": "Elektra takes 3 damage.RESURRECTED: Elektra takes no damage instead.",
+        "afterText": "Elektra takes 3 damage.{{icon}}(Resurrected) Elektra takes no damage instead.",
         "basicText": null,
         "boost": 1,
         "cardNotes": null,
@@ -497,7 +499,7 @@
         "cardNotes": null,
         "characterName": "ELEKTRA",
         "notes": null,
-        "duringText": "RESURRECTED: You may reveal a card named SAI from your hand. If you do, the value of this card is 5 instead.",
+        "duringText": "{{icon}}(Resurrected) You may reveal a card named {{bold}}(SAI) from your hand. If you do, the value of this card is 5 instead.",
         "image": null,
         "immediateText": null,
         "other_decks": [],
@@ -542,7 +544,7 @@
         "value": 3
       },
       {
-        "afterText": "RESURRECTED: Deal 1 damage to each adjacent opposing fighter.",
+        "afterText": "{{icon}}(Resurrected) Deal 1 damage to each adjacent opposing fighter.",
         "basicText": null,
         "boost": 1,
         "cardNotes": null,
@@ -559,7 +561,7 @@
         "value": 2
       },
       {
-        "afterText": "RESURRECTED: Move Elektra up to 3 spaces.",
+        "afterText": "{{icon}}(Resurrected) Move Elektra up to 3 spaces.",
         "basicText": null,
         "boost": 1,
         "cardNotes": null,
@@ -577,7 +579,7 @@
       },
       {
         "afterText": null,
-        "basicText": "Choose an opponent and look at their hand. Gain 1 action.RESURRECTED: Choose 1 card for them to discard.",
+        "basicText": "Choose an opponent and look at their hand. Gain 1 action.{{icon}}(Resurrected) Choose 1 card for them to discard.",
         "boost": 2,
         "cardNotes": null,
         "characterName": "ELEKTRA",
@@ -611,14 +613,23 @@
       }
     ],
     "heroes": [
-      { "attackType": "melee", "hp": 7, "name": "Elektra", "quantity": 1, "slug": "elektra", "nameOnCard": "ELEKTRA" },
+      {
+        "attackType": "melee",
+        "hp": 7,
+        "name": "Elektra",
+        "quantity": 1,
+        "slug": "elektra",
+        "nameOnCard": "ELEKTRA",
+        "special": "The first time Elektra would be defeated, remove her and all Hand from the board. She is not defeated. At the start of your next turn, Resurrect her.{{newline}}{{icon}}(Resurrected) Ignore effects with this symbol."
+      },
       {
         "attackType": "melee",
         "hp": 9,
         "name": "Elektra Resurrected",
         "quantity": 1,
         "slug": "elektra-resurected",
-        "nameOnCard": "ELEKTRA"
+        "nameOnCard": "ELEKTRA",
+        "special": "When Elektra Resurrects: Flip your health dial. Shuffle your discard pile into your deck.{{newline}}Place Elektra and all Hand back onto the board with each fighter in a different zone.{{newline}}{{icon}}(Resurrected) You must resolve effects with this symbol."
       }
     ],
     "movement": 2,
@@ -637,16 +648,6 @@
         "nameOnCard": "THE HAND"
       }
     ],
-    "slug": "elektra",
-    "special": [
-      {
-        "forFighterSlug": "elektra",
-        "description": "The first time Elektra would be defeated, remove her and all Hand from the board. She is not defeated. At the start of your next turn, Resurrect her.{{newline}}(Ignore effects with the RESURRECTED symbol.)"
-      },
-      {
-        "forFighterSlug": "elektra-resurrected",
-        "description": "When Elektra Resurrects: Flip your health dial. Shuffle your discard pile into your deck.{{newline}}Place Elektra and all Hand back onto the board with each fighter in a different zone.{{newline}}(You must resolve effects with the RESURRECTED symbol.)"
-      }
-    ]
+    "slug": "elektra"
   }
 ]

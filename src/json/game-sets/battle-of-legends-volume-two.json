@@ -19,7 +19,7 @@
         "value": 3
       },
       {
-        "afterText": "RELENTLESS ASSAULT: 3 ATK",
+        "afterText": "{{bonusAttack}}(relentless-assault)",
         "basicText": null,
         "boost": 3,
         "cardNotes": null,
@@ -33,7 +33,12 @@
         "slug": "test-for-weakness",
         "title": "Test For Weakness",
         "type": "attack",
-        "value": 1
+        "value": 1,
+        "bonusAttack": {
+          "value": 3,
+          "slug": "relentless-assault",
+          "title": "Relentless Assault"
+        }
       },
       {
         "afterText": "",
@@ -328,7 +333,7 @@
         "value": 3
       },
       {
-        "afterText": "BLOODY REPRISE: 0 ATK\nDURING COMBAT: If your opponent played a card against BLOODY REQUIEM, this attack's value is that card's printed value.",
+        "afterText": "{{bonusAttack}}(bloody-reprise)",
         "basicText": null,
         "boost": 4,
         "cardNotes": null,
@@ -342,7 +347,13 @@
         "slug": "bloody-requiem",
         "title": "Bloody Requiem",
         "type": "attack",
-        "value": 3
+        "value": 3,
+        "bonusAttack": {
+          "title": "Bloody Reprise",
+          "slug": "bloody-reprise",
+          "value": 0,
+          "duringText": "If your opponent played a card against BLOODY REQUIEM, this attack's value is that card's printed value."
+        }
       },
       {
         "afterText": null,
@@ -491,9 +502,9 @@
       },
       {
         "afterText": null,
-        "basicText": "Move your fighter up to 1 space. Draw 1 card. Gain 1 action.",
+        "basicText": "Move your fighter up to 1 space.{{newline}}Draw 1 card.{{newline}}Gain 1 action.",
         "boost": 2,
-        "cardNotes": "Versions of this card feature the fighter's name instead of \"your fighter\" in the text.",
+        "cardNotes": "The Bloody Mary version of this card says \"Bloody Mary\" instead of \"your fighter\".",
         "characterName": "BLOODY MARY",
         "notes": null,
         "duringText": null,
@@ -531,7 +542,8 @@
         "name": "Bloody Mary",
         "quantity": 1,
         "slug": "bloody-mary",
-        "nameOnCard": "BLOODY MARY"
+        "nameOnCard": "BLOODY MARY",
+        "quote": "Bloody Mary. Bloody Mary. Bloody Mary."
       }
     ],
     "movement": 3,
@@ -564,7 +576,7 @@
         "value": 2
       },
       {
-        "afterText": "If your opponent played a defense card, TRICKED YOU.\r\nTRICKED YOU: 4 ATK",
+        "afterText": "If your opponent played a defense card, {{bonusAttack}}(tricked-you).",
         "basicText": null,
         "boost": 3,
         "cardNotes": null,
@@ -578,7 +590,12 @@
         "slug": "ruyi-jingo-bang",
         "title": "Ruyi Jingo Bang",
         "type": "attack",
-        "value": 0
+        "value": 0,
+        "bonusAttack": {
+          "slug": "tricked-you",
+          "title": "Tricked You",
+          "value": 4
+        }
       },
       {
         "afterText": null,
@@ -615,7 +632,7 @@
         "value": 7
       },
       {
-        "afterText": "Take an OX FORM, TORTOISE FORM, or PHOENIX FORM from your discard pile and return it to your hand.",
+        "afterText": "Take an {{bold}}(OX FORM), {{bold}}(TORTOISE FORM), or {{bold}}(PHOENIX FORM) from your discard pile and return it to your hand.",
         "basicText": null,
         "boost": 2,
         "cardNotes": null,
@@ -796,7 +813,7 @@
         "value": 3
       },
       {
-        "afterText": "VOLLEY: 3 ATK",
+        "afterText": "{{bonusAttack}}(volley)",
         "basicText": null,
         "boost": 3,
         "cardNotes": null,
@@ -810,7 +827,12 @@
         "slug": "rain-of-arrows",
         "title": "Rain of Arrows",
         "type": "attack",
-        "value": 3
+        "value": 3,
+        "bonusAttack": {
+          "title": "Volley",
+          "slug": "volley",
+          "value": 3
+        }
       },
       {
         "afterText": "Move the opposing fighter up to 4 spaces. Your opponent discards 1 card.",

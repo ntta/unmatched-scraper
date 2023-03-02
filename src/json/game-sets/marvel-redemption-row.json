@@ -763,7 +763,8 @@
         "quantity": 1,
         "slug": "moon-knight",
         "nameOnCard": "MOON KNIGHT",
-        "quote": "I'm not real.{{cite}}(Moon Knight)"
+        "quote": "I'm not real.{{cite}}(Moon Knight)",
+        "special": "At the start of your turn, move up to 2 spaces.{{newline}}At the end of your turn, change to your next identity (Khonshu)."
       },
       {
         "attackType": "melee",
@@ -772,7 +773,8 @@
         "quantity": 1,
         "slug": "khonshu",
         "nameOnCard": "KHONSHU",
-        "quote": "You are my son.{{cite}}(Khonshu)"
+        "quote": "You are my son.{{cite}}(Khonshu)",
+        "special": "Khonshu adds +2 to the value of his attack cards. He does not take damage from effects other than combat damage.{{newline}}At the end of your turn, change to your next identity (Mr. Knight)."
       },
       {
         "attackType": "melee",
@@ -781,7 +783,8 @@
         "quantity": 1,
         "slug": "mr-knight",
         "nameOnCard": "MR. KNIGHT",
-        "quote": "I've died before.{{newline}}It was boring,{{newline}}so I stood up.{{cite}}(Mr. Knight)"
+        "quote": "I've died before.{{newline}}It was boring,{{newline}}so I stood up.{{cite}}(Mr. Knight)",
+        "special": "Mr. Knight adds +1 to all his defense values.{{newline}}At the end of your turn, change to your next identity (Moon Knight)."
       }
     ],
     "movement": 3,
@@ -792,19 +795,6 @@
     "setSlug": "marvel-redemption-row",
     "sidekicks": [],
     "slug": "moon-knight",
-    "special": [
-      {
-        "forFighterSlug": "moon-knight",
-        "description": "At the start of your turn, move up to 2 spaces.{{newline}}At the end of your turn, change to your next identity (Khonshu)."
-      },
-      {
-        "forFighterSlug": "khonshu",
-        "description": "Khonshu adds +2 to the value of his attack cards. He does not take damage from effects other than combat damage.{{newline}}At the end of your turn, change to your next identity (Mr. Knight)."
-      },
-      {
-        "forFighterSlug": "mr-knight",
-        "description": "Mr. Knight adds +1 to all his defense values.{{newline}}At the end of your turn, change to your next identity (Moon Knight)."
-      }
-    ]
+    "special": null
   }
 ]
