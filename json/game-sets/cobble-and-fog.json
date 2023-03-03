@@ -252,14 +252,25 @@
         "value": null
       }
     ],
-    "heroes": [{ "attackType": "melee", "hp": 13, "name": "Dracula", "quantity": 1, "slug": "dracula" }],
+    "heroes": [
+      { "attackType": "melee", "hp": 13, "name": "Dracula", "quantity": 1, "slug": "dracula", "nameOnCard": "DRACULA" }
+    ],
     "movement": 2,
     "name": "Dracula",
     "notes": null,
     "quote": null,
     "set": "Cobble & Fog",
     "setSlug": "cobble-and-fog",
-    "sidekicks": [{ "attackType": "melee", "hp": 1, "name": "The Sisters", "quantity": 3, "slug": "the-sisters" }],
+    "sidekicks": [
+      {
+        "attackType": "melee",
+        "hp": 1,
+        "name": "The Sisters",
+        "quantity": 3,
+        "slug": "the-sisters",
+        "nameOnCard": "SISTER"
+      }
+    ],
     "slug": "dracula",
     "special": "At the start of your turn, you may deal 1 damage to a fighter adjacent to Dracula. If you do, draw a card."
   },
