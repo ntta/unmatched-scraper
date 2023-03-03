@@ -1,5 +1,11 @@
 export type Nullable<T> = undefined | null | T;
 
+export type JsonGameSet = {
+  slug: string;
+  name: string;
+  releaseDate: string;
+};
+
 export type JsonBonusAttack = {
   slug: string;
   title: string;
@@ -35,6 +41,7 @@ export type JsonDeck = {
   heroes: JsonFighter[];
   sidekicks: JsonFighter[];
   special: Nullable<string>;
+  movement: number;
 };
 
 export type JsonFighter = {
@@ -45,6 +52,5 @@ export type JsonFighter = {
   slug: string;
   nameOnCard: string;
   quote: Nullable<string>;
-  movement: number;
   special: Nullable<string>;
 };

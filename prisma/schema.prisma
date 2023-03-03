@@ -34,10 +34,10 @@ model Card {
 }
 
 model Fighter {
-  id               Int            @id @default(autoincrement())
-  name             String         @unique
+  id               Int             @id @default(autoincrement())
+  name             String          @unique
   nameOnCard       String
-  slug             String         @unique
+  slug             String          @unique
   quote            String?
   sideNotes        String?
   gameNotes        String?
@@ -46,11 +46,11 @@ model Fighter {
   isHero           Boolean
   quantity         Int
   move             Int
-  deck             Deck           @relation(fields: [deckId], references: [id])
+  deck             Deck            @relation(fields: [deckId], references: [id])
   deckId           Int
   cardFighters     CardFighter[]
-  specialAbility   SpecialAbility @relation(fields: [specialAbilityId], references: [id])
-  specialAbilityId Int
+  specialAbility   SpecialAbility? @relation(fields: [specialAbilityId], references: [id])
+  specialAbilityId Int?
 }
 
 model SpecialAbility {

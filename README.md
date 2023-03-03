@@ -45,8 +45,8 @@ The Unmatched game system consists of numerous sets, each comprising one to four
 - Marvel - Redemption Row
 - Jurassic Park - Dr. Sattler vs. T. Rex
 - Houdini vs. The Genie
-- Marvel - For King and Country _(no data yet)_
 - Marvel - Teen Spirit _(no data yet)_
+- Marvel - For King and Country _(no data yet)_
 
 ## <a name="styled-strings"></a> 4. Styled Strings
 
@@ -86,6 +86,7 @@ Please find below the mapping table for styled strings
 - Battle of Legends, Volume One
 - Bruce Lee
 - Robin Hood vs. Bigfoot
+- Jurassic Park - InGen vs. Raptors
 - Cobble & Fog
 - Buffy the Vampire Slayer
 - Little Red Riding Hood vs. Beowulf
