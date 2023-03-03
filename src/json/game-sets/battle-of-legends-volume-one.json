@@ -977,7 +977,7 @@
         "afterText": "You may place your fighter in any space.",
         "basicText": null,
         "boost": 2,
-        "notes": "The Merlin version of this card says \"Merlin\" instead of \"your fighter\".",
+        "notes": null,
         "characterName": "MERLIN",
         "cardNotes": null,
         "duringText": "Prevent all damage.",

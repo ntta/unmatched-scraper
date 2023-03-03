@@ -17,8 +17,8 @@ export type JsonCard = {
   characterName: string;
   boost: number;
   value: Nullable<number>;
-  notes: Nullable<string>;
-  cardNotes: Nullable<string>;
+  notes: Nullable<string>; // gameNotes
+  cardNotes: Nullable<string>; // sideNotes
   quantity: number;
   basicText: Nullable<string>;
   immediateText: Nullable<string>;

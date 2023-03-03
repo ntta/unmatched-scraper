@@ -74,7 +74,7 @@
       },
       {
         "afterText": null,
-        "basicText": "Choose 2 different effects:\n- place up to 3 traps\n- place all of your defeated InGen Workers (if any) in Muldoon's zone\n- draw 2 cards",
+        "basicText": "Choose 2 different effects:{{li}} place up to 3 traps{{li}} place all of your defeated InGen Workers (if any) in Muldoon's zone{{li}} draw 2 cards",
         "boost": 3,
         "cardNotes": null,
         "characterName": "MULDOON",
@@ -244,7 +244,7 @@
     ],
     "movement": 3,
     "name": "InGen",
-    "notes": "You may place a trap token in any unoccupied space in Muldoon's zone. If Muldoon's space is in more than one zone, you may pick a space in any of them. The target space cannot contain any fighters or other tokens, including other traps.\nWhen an opposing fighter enters a space with a trap, the trap goes off. The fighter must immediately stop moving and takes 1 damage. After the trap goes off, return it to the box. \nMuldoon's and his allies may land on or move through traps freely without setting them off.",
+    "notes": "You may place a trap token in any unoccupied space in Muldoon's zone. If Muldoon's space is in more than one zone, you may pick a space in any of them. The target space cannot contain any fighters or other tokens, including other traps.{{newline}}When an opposing fighter enters a space with a trap, the trap goes off. The fighter must immediately stop moving and takes 1 damage. After the trap goes off, return it to the box.{{newline}}Muldoon's and his allies may land on or move through traps freely without setting them off.",
     "quote": null,
     "set": "Jurassic Park - InGen vs. Raptors",
     "setSlug": "jurassic-park-ingen-vs-raptors",
@@ -269,7 +269,7 @@
         "boost": 2,
         "cardNotes": null,
         "characterName": "ANY",
-        "notes": null,
+        "notes": "This card says \"AFTER COMBAT: Move your Raptor to any other space in her zone.\" in {{deck}}(raptors) deck.",
         "duringText": null,
         "image": "https://static.unmatched.cards/images/umdb/decks/raptors/disengage.png",
         "immediateText": null,
@@ -484,12 +484,19 @@
       }
     ],
     "heroes": [
-      { "attackType": "melee", "hp": 7, "name": "Raptors", "quantity": 3, "slug": "raptors", "nameOnCard": "RAPTOR" }
+      {
+        "attackType": "melee",
+        "hp": 7,
+        "name": "Raptors",
+        "quantity": 3,
+        "slug": "raptors",
+        "nameOnCard": "RAPTOR",
+        "quote": "They're lethal at eight months, and I do mean lethal.{{cite}}(Robert Muldoon)"
+      }
     ],
     "movement": 3,
     "name": "Raptors",
     "notes": null,
-    "quote": "\"They're lethal at 8 months, and I do mean lethal.\" - Robert Muldoon",
     "set": "Jurassic Park - Ingen vs. Raptors",
     "setSlug": "jurassic-park-ingen-vs-raptors",
     "sidekicks": [],
