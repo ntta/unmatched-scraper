@@ -41,7 +41,9 @@ export type JsonDeck = {
   heroes: JsonFighter[];
   sidekicks: JsonFighter[];
   special: Nullable<string>;
+  specialName: Nullable<string>;
   movement: number;
+  quote: Nullable<string>;
 };
 
 export type JsonFighter = {
@@ -53,4 +55,5 @@ export type JsonFighter = {
   nameOnCard: string;
   quote: Nullable<string>;
   special: Nullable<string>;
+  specialName: Nullable<string>;
 };

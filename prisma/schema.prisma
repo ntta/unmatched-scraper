@@ -24,6 +24,7 @@ model Card {
   effectImmediately   String?
   effectDuringCombat  String?
   effectAfterCombat   String?
+  effectBoost         String?
   symbol              String?
   isBonusAttack       Boolean       @default(false)
   bonusAttackOfCardId Int?          @unique

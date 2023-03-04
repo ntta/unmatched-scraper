@@ -542,14 +542,13 @@
         "name": "Bloody Mary",
         "quantity": 1,
         "slug": "bloody-mary",
-        "nameOnCard": "BLOODY MARY",
-        "quote": "Bloody Mary. Bloody Mary. Bloody Mary."
+        "nameOnCard": "BLOODY MARY"
       }
     ],
     "movement": 3,
     "name": "Bloody Mary",
     "notes": null,
-    "quote": null,
+    "quote": "Bloody Mary. Bloody Mary. Bloody Mary.",
     "set": "Battle of Legends, Volume Two",
     "setSlug": "battle-of-legends-volume-two",
     "sidekicks": [],

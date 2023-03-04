@@ -1,6 +1,6 @@
 import { SpecialAbility } from '@prisma/client';
 import * as fs from 'fs';
-import { FILENAMES, NOT_TO_DO_FILENAMES } from './constants';
+import { FILENAMES } from './constants';
 import { JsonDeck, JsonGameSet } from './types';
 import { upsertDeck, upsertFighter, upsertGameSet, upsertSpecialAbility } from './utils';
 
@@ -8,7 +8,7 @@ const jsonGameSets: JsonGameSet[] = JSON.parse(fs.readFileSync(`./json/sets.json
 
 const main = async () => {
   for (const filename of FILENAMES) {
-    if (NOT_TO_DO_FILENAMES.includes(filename)) continue;
+    // if (NOT_TO_DO_FILENAMES.includes(filename)) continue;
 
     // Game Set
     const jsonGameSet = jsonGameSets.find((s) => s.slug === filename.replace('.json', ''));
@@ -22,14 +22,14 @@ const main = async () => {
       // Fighters
       let specialAbility: SpecialAbility;
       if (!!jsonDeck.special) {
-        specialAbility = await upsertSpecialAbility(jsonDeck.special, deck.slug);
+        specialAbility = await upsertSpecialAbility(jsonDeck, deck.slug);
       }
 
       await Promise.all(
         jsonDeck.heroes.map((jsonFighter) =>
           upsertFighter({
             jsonFighter,
-            movement: jsonDeck.movement,
+            jsonDeck,
             deckId: deck.id,
             specialAbilityId: specialAbility?.id,
             isHero: true,
@@ -41,7 +41,7 @@ const main = async () => {
         jsonDeck.sidekicks.map((jsonFighter) =>
           upsertFighter({
             jsonFighter,
-            movement: jsonDeck.movement,
+            jsonDeck,
             deckId: deck.id,
             specialAbilityId: specialAbility?.id,
             isHero: false,

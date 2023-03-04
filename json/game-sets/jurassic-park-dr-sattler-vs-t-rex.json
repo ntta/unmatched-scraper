@@ -477,8 +477,7 @@
         "name": "T. Rex",
         "quantity": 1,
         "slug": "t-rex",
-        "nameOnCard": "T. REX",
-        "quote": "ROOOOOOAAAAARR.{{cite}}(T. Rex)"
+        "nameOnCard": "T. REX"
       }
     ],
     "movement": 1,

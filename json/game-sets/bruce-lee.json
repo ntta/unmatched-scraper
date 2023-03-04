@@ -356,14 +356,13 @@
         "name": "Bruce Lee",
         "quantity": 1,
         "slug": "bruce-lee",
-        "nameOnCard": "BRUCE LEE",
-        "quote": "The successful warrior is the average man, with laser-like focus.{{cite}}(Bruce Lee)"
+        "nameOnCard": "BRUCE LEE"
       }
     ],
     "movement": 3,
     "name": "Bruce Lee",
     "notes": null,
-    "quote": null,
+    "quote": "The successful warrior is the average man, with laser-like focus.{{cite}}(Bruce Lee)",
     "set": "Bruce Lee",
     "setSlug": "bruce-lee",
     "sidekicks": [],

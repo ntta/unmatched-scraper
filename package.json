@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "build": "rimraf dist && tsc",
-    "start": "npm run build && node dist",
+    "start": "npm run clear-db && prisma migrate dev --name init && npm run plain-start",
     "clear-db": "rimraf prisma/migrations prisma/unmatched.db prisma/unmatched.db-journal",
-    "fresh-start": "npm run clear-db && prisma migrate dev --name init && npm run start"
+    "plain-start": "npm run build && node dist"
   },
   "keywords": [],
   "author": "",

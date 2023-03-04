@@ -820,8 +820,7 @@
         "name": "Dr. Jekyll",
         "quantity": 1,
         "slug": "dr-jekyll",
-        "nameOnCard": "DR. JEKYLL",
-        "quote": "Man is not truly one, but truly two.{{cite}}(Robert Louis Stevenson)"
+        "nameOnCard": "DR. JEKYLL"
       },
       {
         "attackType": "melee",
@@ -829,14 +828,13 @@
         "name": "Mr. Hyde",
         "quantity": 1,
         "slug": "mr-hyde",
-        "nameOnCard": "MR. HYDE",
-        "quote": "Man is not truly one, but truly two.{{cite}}(Robert Louis Stevenson)"
+        "nameOnCard": "MR. HYDE"
       }
     ],
     "movement": 2,
     "name": "Jekyll & Hyde",
     "notes": null,
-    "quote": null,
+    "quote": "Man is not truly one, but truly two.{{cite}}(Robert Louis Stevenson)",
     "set": "Cobble & Fog",
     "setSlug": "cobble-and-fog",
     "sidekicks": [],
@@ -1091,14 +1089,13 @@
         "name": "Invisible Man",
         "quantity": 1,
         "slug": "invisible-man",
-        "nameOnCard": "INVISIBLE MAN",
-        "quote": "...I was only just beginning to realise the extraordinary advantage my invisibility gave me.{{cite}}(H. G. Wells)"
+        "nameOnCard": "INVISIBLE MAN"
       }
     ],
     "movement": 2,
     "name": "Invisible Man",
     "notes": null,
-    "quote": null,
+    "quote": "...I was only just beginning to realise the extraordinary advantage my invisibility gave me.{{cite}}(H. G. Wells)",
     "set": "Cobble & Fog",
     "setSlug": "cobble-and-fog",
     "sidekicks": [],

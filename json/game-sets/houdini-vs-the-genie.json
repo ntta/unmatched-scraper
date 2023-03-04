@@ -54,8 +54,9 @@
       },
       {
         "afterText": null,
-        "basicText": "BOOSTED WITH: Draw 1 card.",
+        "basicText": null,
         "boost": 3,
+        "boostEffect": "Draw 1 card.",
         "cardNotes": null,
         "characterName": "ANY",
         "notes": null,
@@ -71,8 +72,9 @@
       },
       {
         "afterText": null,
-        "basicText": "BOOSTED WITH: Look at an opponent's hand and choose a card for them to discard.\r\nDraw 3 cards. Then, put a card in your hand on top of your deck.",
+        "basicText": "Draw 3 cards. Then, put a card in your hand on top of your deck.",
         "boost": 2,
+        "boostEffect": "Look at an opponent's hand and choose a card for them to discard.",
         "cardNotes": null,
         "characterName": "BESS",
         "notes": null,
@@ -88,8 +90,9 @@
       },
       {
         "afterText": null,
-        "basicText": "BOOSTED WITH: Deal 2 damage to any fighter.",
+        "basicText": null,
         "boost": 1,
+        "boostEffect": "Deal 2 damage to any fighter.",
         "cardNotes": null,
         "characterName": "ANY",
         "notes": null,
@@ -122,8 +125,9 @@
       },
       {
         "afterText": null,
-        "basicText": "BOOSTED WITH: Draw 1 card.",
+        "basicText": null,
         "boost": 2,
+        "boostEffect": "Draw 1 card.",
         "cardNotes": null,
         "characterName": "ANY",
         "notes": null,
@@ -155,9 +159,10 @@
         "value": 4
       },
       {
-        "afterText": "If your fighter was defeated, set their health to 4 instead and place them in any space. (This effect happens even if Houdini was defeated.)",
-        "basicText": "BOOSTED WITH: Houdini recovers 2 health.\r\nThis card's effect cannot be canceled.",
+        "afterText": "If your fighter was defeated, set their health to 4 instead and place them in any space. {{italic}}((This effect happens even if Houdini was defeated.))",
+        "basicText": "This card's effect cannot be canceled.",
         "boost": 2,
+        "boostEffect": "Houdini recovers 2 health.",
         "cardNotes": null,
         "characterName": "ANY",
         "notes": null,
@@ -173,7 +178,7 @@
       },
       {
         "afterText": null,
-        "basicText": "Draw 2 cards. Gain 1 action.\r\nIf an effect would let an opponent look at your hand, you may reveal this card and cancel that effect.",
+        "basicText": "Draw 2 cards. Gain 1 action.{{newline}}If an effect would let an opponent look at your hand, you may reveal this card and cancel that effect.",
         "boost": 4,
         "cardNotes": null,
         "characterName": "HOUDINI",
@@ -207,8 +212,9 @@
       },
       {
         "afterText": null,
-        "basicText": "BOOSTED WITH: If it's your turn, gain 1 action.\r\nIf you discard this card as a result of an opponent's effect, draw 1 card.",
+        "basicText": "If you discard this card as a result of an opponent's effect, draw 1 card.",
         "boost": 1,
+        "boostEffect": "If it's your turn, gain 1 action.",
         "cardNotes": null,
         "characterName": "BESS",
         "notes": null,
@@ -227,18 +233,16 @@
       { "attackType": "melee", "hp": 14, "name": "Houdini", "quantity": 1, "slug": "houdini", "nameOnCard": "HOUDINI" }
     ],
     "movement": 2,
-    "name": "Harry Houdini",
+    "name": "Houdini",
     "quote": null,
     "set": "Houdini vs. The Genie",
     "setSlug": "houdini-vs-the-genie",
     "sidekicks": [
       { "attackType": "melee", "hp": 5, "name": "Bess", "quantity": 1, "slug": "bess", "nameOnCard": "BESS" }
     ],
-    "slug": "harry-houdini",
-    "special": {
-      "name": "Escape Artist",
-      "description": "When you take the maneuver action and BOOST, you may place Houdini in any space instead of moving. (Bess moves as normal.)"
-    }
+    "slug": "houdini",
+    "special": "When you take the maneuver action and BOOST, you may place Houdini in any space instead of moving.{{newline}}{{italic}}((Bess moves as normal.))",
+    "specialName": "Escape Artist"
   },
   {
     "cards": [
@@ -278,7 +282,7 @@
       },
       {
         "afterText": null,
-        "basicText": "Gain 1 action and choose one effect:\r\n- draw 5 cards\r\n- for the rest of your turn, your cards' values are 4 and cannot be changed\r\n- each opponent discards 2 cards",
+        "basicText": "Gain 1 action and choose one effect:{{li}} draw 5 cards{{li}} for the rest of your turn, your cards' values are 4 and cannot be changed{{li}} each opponent discards 2 cards",
         "boost": 3,
         "cardNotes": null,
         "characterName": "THE GENIE",
@@ -374,7 +378,7 @@
         "other_decks": [],
         "quantity": 3,
         "slug": "i-grant-you-death",
-        "title": "I Grant You Death",
+        "title": "I Grant You ... Death",
         "type": "versatile",
         "value": 2
       },
@@ -485,14 +489,12 @@
     ],
     "movement": 3,
     "name": "The Genie",
-    "quote": "What wouldst thou have? - The Genie",
     "set": "Houdini vs. The Genie",
     "setSlug": "houdini-vs-the-genie",
+    "quote": "What wouldst thou have?{{cite}}(The Genie)",
     "sidekicks": [],
     "slug": "the-genie",
-    "special": {
-      "name": "Infinite Power",
-      "description": "At the start of your turn, you may discard 1 card to gain 1 action."
-    }
+    "special": "At the start of your turn, you may discard 1 card to gain 1 action.",
+    "specialName": "Infinite Power"
   }
 ]

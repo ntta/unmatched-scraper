@@ -171,14 +171,13 @@
         "name": "Daredevil",
         "quantity": 1,
         "slug": "daredevil",
-        "nameOnCard": "DAREDEVIL",
-        "quote": "Fear can be overcome, if you have the will.{{cite}}(Daredevil)"
+        "nameOnCard": "DAREDEVIL"
       }
     ],
     "movement": 3,
     "name": "Daredevil",
     "notes": "When you BLIND BOOST, you discard the top card of your deck and add its BOOST value onto the card you played in combat. Daredevil's ability cannot be canceled. Follow the normal resolution rules: Defender resolves first. ",
-    "quote": null,
+    "quote": "Fear can be overcome, if you have the will.{{cite}}(Daredevil)",
     "set": "Marvel - Hell's Kitchen",
     "setSlug": "marvel-hells-kitchen",
     "sidekicks": [],
@@ -425,14 +424,13 @@
         "name": "Bullseye",
         "quantity": 1,
         "slug": "bullseye",
-        "nameOnCard": "BULLSEYE",
-        "quote": "In real life, if he's quick and smart, and nasty enough -- the BAD guy wins!{{cite}}(Bullseye)"
+        "nameOnCard": "BULLSEYE"
       }
     ],
     "movement": 2,
     "name": "Bullseye",
     "notes": null,
-    "quote": null,
+    "quote": "In real life, if he's quick and smart, and nasty enough -- the BAD guy wins!{{cite}}(Bullseye)",
     "set": "Marvel - Hell's Kitchen",
     "setSlug": "marvel-hells-kitchen",
     "sidekicks": [],

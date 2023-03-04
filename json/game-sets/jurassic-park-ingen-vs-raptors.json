@@ -490,13 +490,13 @@
         "name": "Raptors",
         "quantity": 3,
         "slug": "raptors",
-        "nameOnCard": "RAPTOR",
-        "quote": "They're lethal at eight months, and I do mean lethal.{{cite}}(Robert Muldoon)"
+        "nameOnCard": "RAPTOR"
       }
     ],
     "movement": 3,
     "name": "Raptors",
     "notes": null,
+    "quote": "They're lethal at eight months, and I do mean lethal.{{cite}}(Robert Muldoon)",
     "set": "Jurassic Park - Ingen vs. Raptors",
     "setSlug": "jurassic-park-ingen-vs-raptors",
     "sidekicks": [],
