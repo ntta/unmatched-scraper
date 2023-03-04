@@ -8,6 +8,7 @@ This app facilitates the conversion of Unmatched board game data from external s
 2. [Data Source](#data-source)
 3. [Game Sets](#game-sets)
 4. [Styled Strings](#styled-strings)
+5. [Database Schema](#database-schema)
 
 ## <a name="installation"></a> 1. Installation
 
@@ -95,3 +96,9 @@ Please find below the mapping table for styled strings
 - Marvel - Hell's Kitchen
 - Marvel - Redemption Row
 - Jurassic Park - Dr. Sattler vs. T. Rex
+- Houdini vs. The Genie
+
+## <a name="database-schema"></a> 5. Database Schema
+
+The ER diagram of the application below. For more detailed information, please refer to the `prisma/schema.prisma` file.
+<img src="unmatched.drawio.svg" />
