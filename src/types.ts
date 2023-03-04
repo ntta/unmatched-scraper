@@ -14,6 +14,7 @@ export type JsonBonusAttack = {
   immediateText: Nullable<string>;
   duringText: Nullable<string>;
   afterText: Nullable<string>;
+  type: 'attack' | 'defense' | 'versatile' | 'scheme';
 };
 
 export type JsonCard = {
@@ -30,6 +31,9 @@ export type JsonCard = {
   immediateText: Nullable<string>;
   duringText: Nullable<string>;
   afterText: Nullable<string>;
+  bonusAttack: Nullable<JsonBonusAttack>;
+  boostEffect: Nullable<string>;
+  basketSymbol: Nullable<string>;
 };
 
 export type JsonDeck = {

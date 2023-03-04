@@ -1,8 +1,8 @@
 import { SpecialAbility } from '@prisma/client';
 import * as fs from 'fs';
-import { FILENAMES } from './constants';
+import { FILENAMES, PRISMA } from './constants';
 import { JsonDeck, JsonGameSet } from './types';
-import { upsertDeck, upsertFighter, upsertGameSet, upsertSpecialAbility } from './utils';
+import { upsertCard, upsertDeck, upsertFighter, upsertGameSet, upsertSpecialAbility } from './utils';
 
 const jsonGameSets: JsonGameSet[] = JSON.parse(fs.readFileSync(`./json/sets.json`).toString())['sets'];
 
@@ -48,6 +48,34 @@ const main = async () => {
           })
         )
       );
+
+      // Cards
+      for (const jsonCard of jsonDeck.cards) {
+        const card = await upsertCard(jsonCard, deck.id);
+        if (jsonCard.characterName.toUpperCase() !== 'ANY') {
+          const fighters = await PRISMA.fighter.findMany({
+            where: { nameOnCard: jsonCard.characterName.toUpperCase() },
+          });
+
+          for (const fighter of fighters) {
+            const cardFighter = await PRISMA.cardFighter.findFirst({
+              where: {
+                cardId: card.id,
+                fighterId: fighter.id,
+              },
+            });
+
+            if (!cardFighter) {
+              await PRISMA.cardFighter.create({
+                data: {
+                  cardId: card.id,
+                  fighterId: fighter.id,
+                },
+              });
+            }
+          }
+        }
+      }
     }
   }
 };

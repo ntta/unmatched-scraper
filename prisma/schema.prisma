@@ -30,6 +30,7 @@ model Card {
   bonusAttackOfCardId Int?          @unique
   bonusAttackOfCard   Card?         @relation("BonusAttackCard", fields: [bonusAttackOfCardId], references: [id])
   bonusAttack         Card?         @relation("BonusAttackCard")
+  bonusAttackId       Int?
   cardFighters        CardFighter[]
   cardDecks           CardDeck[]
 }

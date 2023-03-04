@@ -1,6 +1,6 @@
-import { SpecialAbility } from '@prisma/client';
+import { Card, SpecialAbility } from '@prisma/client';
 import { PRISMA } from './constants';
-import { JsonDeck, JsonFighter, JsonGameSet } from './types';
+import { JsonCard, JsonDeck, JsonFighter, JsonGameSet } from './types';
 
 export const upsertGameSet = async (json: JsonGameSet) => {
   const slug: string = json.slug;
@@ -93,4 +93,101 @@ export const upsertFighter = async ({
   }
 
   return fighter;
+};
+
+export const upsertCard = async (jsonCard: JsonCard, deckId: number) => {
+  let card = await PRISMA.card.findUnique({ where: { slug: jsonCard.slug } });
+
+  if (!card) {
+    const hasBonusAttack = !!jsonCard.bonusAttack;
+    let bonusAttack: Card;
+    if (hasBonusAttack) {
+      bonusAttack = await PRISMA.card.findUnique({ where: { slug: jsonCard.bonusAttack.slug } });
+      if (!bonusAttack) {
+        bonusAttack = await PRISMA.card.create({
+          data: {
+            slug: jsonCard.bonusAttack.slug,
+            name: jsonCard.bonusAttack.title.toUpperCase(),
+            value: jsonCard.bonusAttack.value,
+            effectGeneral: jsonCard.bonusAttack.basicText,
+            effectImmediately: jsonCard.bonusAttack.immediateText,
+            effectDuringCombat: jsonCard.bonusAttack.duringText,
+            effectAfterCombat: jsonCard.bonusAttack.afterText,
+            boostValue: jsonCard.boost,
+            type: jsonCard.bonusAttack.type,
+            isBonusAttack: true,
+          },
+        });
+      }
+    }
+
+    card = await PRISMA.card.create({
+      data: {
+        slug: jsonCard.slug,
+        name: jsonCard.title.toUpperCase(),
+        sideNotes: jsonCard.cardNotes,
+        gameNotes: jsonCard.notes,
+        type: jsonCard.type,
+        value: jsonCard.type !== 'scheme' ? jsonCard.value : null,
+        boostValue: jsonCard.boost,
+        effectGeneral: jsonCard.basicText,
+        effectImmediately: jsonCard.immediateText,
+        effectDuringCombat: jsonCard.duringText,
+        effectAfterCombat: jsonCard.afterText,
+        effectBoost: jsonCard.boostEffect,
+        symbol: jsonCard.basketSymbol,
+        bonusAttackId: hasBonusAttack ? bonusAttack.id : null,
+      },
+    });
+
+    if (hasBonusAttack) {
+      card = await PRISMA.card.update({
+        where: {
+          id: bonusAttack.id,
+        },
+        data: {
+          bonusAttackOfCardId: card.id,
+        },
+      });
+    }
+  } else {
+    if (!!jsonCard.notes) {
+      card = await PRISMA.card.update({
+        where: {
+          id: card.id,
+        },
+        data: {
+          gameNotes: !!card.gameNotes ? `${card.gameNotes}{{li}} ${jsonCard.notes}` : jsonCard.notes,
+        },
+      });
+    }
+
+    if (!!jsonCard.cardNotes) {
+      card = await PRISMA.card.update({
+        where: {
+          id: card.id,
+        },
+        data: {
+          sideNotes: !!card.sideNotes ? `${card.sideNotes}{{li}} ${jsonCard.cardNotes}` : jsonCard.cardNotes,
+        },
+      });
+    }
+  }
+
+  const cardDeck = await PRISMA.cardDeck.findFirst({
+    where: {
+      cardId: card.id,
+      deckId: deckId,
+    },
+  });
+  if (!cardDeck) {
+    await PRISMA.cardDeck.create({
+      data: {
+        cardId: card.id,
+        deckId: deckId,
+        quantity: jsonCard.quantity,
+      },
+    });
+  }
+  return card;
 };
