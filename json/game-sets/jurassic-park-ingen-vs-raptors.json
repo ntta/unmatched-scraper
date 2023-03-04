@@ -269,7 +269,7 @@
         "boost": 2,
         "cardNotes": null,
         "characterName": "ANY",
-        "notes": "This card says \"AFTER COMBAT: Move your Raptor to any other space in her zone.\" in {{deck}}(raptors) deck.",
+        "notes": "In {{deck}}(raptors) deck, this card says \"AFTER COMBAT: Move your Raptor to any other space in her zone.\"",
         "duringText": null,
         "image": "https://static.unmatched.cards/images/umdb/decks/raptors/disengage.png",
         "immediateText": null,

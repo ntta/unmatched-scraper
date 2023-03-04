@@ -37,7 +37,8 @@
         "bonusAttack": {
           "value": 3,
           "slug": "relentless-assault",
-          "title": "Relentless Assault"
+          "title": "Relentless Assault",
+          "type": "attack"
         }
       },
       {
@@ -351,6 +352,7 @@
         "bonusAttack": {
           "title": "Bloody Reprise",
           "slug": "bloody-reprise",
+          "type": "attack",
           "value": 0,
           "duringText": "If your opponent played a card against BLOODY REQUIEM, this attack's value is that card's printed value."
         }
@@ -504,7 +506,7 @@
         "afterText": null,
         "basicText": "Move your fighter up to 1 space.{{newline}}Draw 1 card.{{newline}}Gain 1 action.",
         "boost": 2,
-        "notes": "This card says \"Bloody Mary\" instead of \"your fighter\" in {{deck}}(bloody-mary) deck.",
+        "notes": "In {{deck}}(bloody-mary) deck, this card says \"Bloody Mary\" instead of \"your fighter\"",
         "characterName": "BLOODY MARY",
         "cardNotes": null,
         "duringText": null,
@@ -593,7 +595,8 @@
         "bonusAttack": {
           "slug": "tricked-you",
           "title": "Tricked You",
-          "value": 4
+          "value": 4,
+          "type": "attack"
         }
       },
       {
@@ -688,7 +691,7 @@
         "afterText": "You may place your fighter in any space.",
         "basicText": null,
         "boost": 2,
-        "notes": "This card says \"Merlin\" instead of \"your fighter\" in {{deck}}(king-arthur) deck.",
+        "notes": "In {{deck}}(king-arthur) deck, this card says \"Merlin\" instead of \"your fighter\"",
         "characterName": "ANY",
         "cardNotes": null,
         "duringText": "Prevent all damage",
@@ -830,7 +833,8 @@
         "bonusAttack": {
           "title": "Volley",
           "slug": "volley",
-          "value": 3
+          "value": 3,
+          "type": "attack"
         }
       },
       {
