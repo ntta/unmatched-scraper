@@ -34,6 +34,7 @@ export type JsonCard = {
   bonusAttack: Nullable<JsonBonusAttack>;
   boostEffect: Nullable<string>;
   basketSymbol: Nullable<string>;
+  image: Nullable<string>;
 };
 
 export type JsonDeck = {

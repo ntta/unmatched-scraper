@@ -38,9 +38,15 @@ export const upsertDeck = async (json: JsonDeck, gameSetId: number) => {
   return deck;
 };
 
-export const upsertSpecialAbility = async (jsonDeck: JsonDeck, slug: string, jsonFighter?: JsonFighter) => {
+export const upsertSpecialAbility = async (
+  jsonDeck: JsonDeck,
+  slug: string,
+  jsonFighter?: JsonFighter
+) => {
   const abilitySlug = `${slug}-special-ability`;
-  const specialAbility = await PRISMA.specialAbility.findUnique({ where: { slug: abilitySlug } });
+  const specialAbility = await PRISMA.specialAbility.findUnique({
+    where: { slug: abilitySlug },
+  });
 
   if (!specialAbility) {
     return PRISMA.specialAbility.create({
@@ -68,12 +74,18 @@ export const upsertFighter = async ({
   deckId: number;
   isHero: boolean;
 }) => {
-  const fighter = await PRISMA.fighter.findUnique({ where: { slug: jsonFighter.slug } });
+  const fighter = await PRISMA.fighter.findUnique({
+    where: { slug: jsonFighter.slug },
+  });
 
   if (!fighter) {
     let specialAbility: SpecialAbility = null;
     if (isHero && !specialAbilityId) {
-      specialAbility = await upsertSpecialAbility(jsonDeck, jsonFighter.slug, jsonFighter);
+      specialAbility = await upsertSpecialAbility(
+        jsonDeck,
+        jsonFighter.slug,
+        jsonFighter
+      );
     }
     return PRISMA.fighter.create({
       data: {
@@ -102,7 +114,9 @@ export const upsertCard = async (jsonCard: JsonCard, deckId: number) => {
     const hasBonusAttack = !!jsonCard.bonusAttack;
     let bonusAttack: Card;
     if (hasBonusAttack) {
-      bonusAttack = await PRISMA.card.findUnique({ where: { slug: jsonCard.bonusAttack.slug } });
+      bonusAttack = await PRISMA.card.findUnique({
+        where: { slug: jsonCard.bonusAttack.slug },
+      });
       if (!bonusAttack) {
         bonusAttack = await PRISMA.card.create({
           data: {
@@ -157,7 +171,9 @@ export const upsertCard = async (jsonCard: JsonCard, deckId: number) => {
           id: card.id,
         },
         data: {
-          gameNotes: !!card.gameNotes ? `${card.gameNotes}{{li}} ${jsonCard.notes}` : jsonCard.notes,
+          gameNotes: !!card.gameNotes
+            ? `${card.gameNotes}{{li}} ${jsonCard.notes}`
+            : jsonCard.notes,
         },
       });
     }
@@ -168,7 +184,9 @@ export const upsertCard = async (jsonCard: JsonCard, deckId: number) => {
           id: card.id,
         },
         data: {
-          sideNotes: !!card.sideNotes ? `${card.sideNotes}{{li}} ${jsonCard.cardNotes}` : jsonCard.cardNotes,
+          sideNotes: !!card.sideNotes
+            ? `${card.sideNotes}{{li}} ${jsonCard.cardNotes}`
+            : jsonCard.cardNotes,
         },
       });
     }
