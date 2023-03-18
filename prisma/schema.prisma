@@ -99,7 +99,7 @@ model GameSet {
   id          Int      @id @default(autoincrement())
   name        String   @unique
   slug        String   @unique
-  releaseDate DateTime
+  releaseDate String
   sideNotes   String?
   gameNotes   String?
   decks       Deck[]

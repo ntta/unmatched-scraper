@@ -7,11 +7,14 @@ export const upsertGameSet = async (json: JsonGameSet) => {
   const gameSet = await PRISMA.gameSet.findUnique({ where: { slug } });
 
   if (!gameSet) {
+    const date = new Date(json.releaseDate);
     return PRISMA.gameSet.create({
       data: {
         slug,
         name: json.name,
-        releaseDate: new Date(json.releaseDate).toISOString(),
+        releaseDate: `${date.getFullYear()}-${
+          date.getMonth() + 1 < 10 ? `0${date.getMonth()}` : date.getMonth() + 1
+        }-${date.getDate() < 10 ? `0${date.getDate()}` : date.getDate()}`,
       },
     });
   }
