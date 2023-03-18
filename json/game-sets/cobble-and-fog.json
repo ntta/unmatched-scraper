@@ -367,7 +367,7 @@
         "cardNotes": null,
         "characterName": "HOLMES",
         "notes": null,
-        "duringText": "You may change the printed value of the opponent's card to its BOOST value. {{icon}}((If a card does not have a BOOST value, it is treated as 0.))",
+        "duringText": "You may change the printed value of the opponent's card to its BOOST value. <i>(If a card does not have a BOOST value, it is treated as 0.)</i>",
         "image": "https://static.unmatched.cards/images/umdb/decks/sherlock-holmes/deduce-strategy.png",
         "immediateText": null,
         "other_decks": [],

@@ -440,7 +440,7 @@
   {
     "cards": [
       {
-        "afterText": "Elektra takes 3 damage.{{icon}}(Resurrected) Elektra takes no damage instead.",
+        "afterText": "Elektra takes 3 damage.\n<icon slug='resurrected' /> Elektra takes no damage instead.",
         "basicText": null,
         "boost": 1,
         "cardNotes": null,
@@ -497,7 +497,7 @@
         "cardNotes": null,
         "characterName": "ELEKTRA",
         "notes": null,
-        "duringText": "{{icon}}(Resurrected) You may reveal a card named <b>SAI</b> from your hand. If you do, the value of this card is 5 instead.",
+        "duringText": "<icon slug='resurrected' /> You may reveal a card named <b>SAI</b> from your hand. If you do, the value of this card is 5 instead.",
         "image": null,
         "immediateText": null,
         "other_decks": [],
@@ -542,7 +542,7 @@
         "value": 3
       },
       {
-        "afterText": "{{icon}}(Resurrected) Deal 1 damage to each adjacent opposing fighter.",
+        "afterText": "<icon slug='resurrected' /> Deal 1 damage to each adjacent opposing fighter.",
         "basicText": null,
         "boost": 1,
         "cardNotes": null,
@@ -559,7 +559,7 @@
         "value": 2
       },
       {
-        "afterText": "{{icon}}(Resurrected) Move Elektra up to 3 spaces.",
+        "afterText": "<icon slug='resurrected' /> Move Elektra up to 3 spaces.",
         "basicText": null,
         "boost": 1,
         "cardNotes": null,
@@ -577,7 +577,7 @@
       },
       {
         "afterText": null,
-        "basicText": "Choose an opponent and look at their hand. Gain 1 action.{{icon}}(Resurrected) Choose 1 card for them to discard.",
+        "basicText": "Choose an opponent and look at their hand. Gain 1 action.<icon slug='resurrected' /> Choose 1 card for them to discard.",
         "boost": 2,
         "cardNotes": null,
         "characterName": "ELEKTRA",
@@ -618,7 +618,7 @@
         "quantity": 1,
         "slug": "elektra",
         "nameOnCard": "ELEKTRA",
-        "special": "The first time Elektra would be defeated, remove her and all Hand from the board. She is not defeated. At the start of your next turn, Resurrect her.\n{{icon}}(Resurrected) Ignore effects with this symbol."
+        "special": "The first time Elektra would be defeated, remove her and all Hand from the board. She is not defeated. At the start of your next turn, Resurrect her.\n<icon slug='resurrected' /> Ignore effects with this symbol."
       },
       {
         "attackType": "melee",
@@ -627,7 +627,7 @@
         "quantity": 1,
         "slug": "elektra-resurected",
         "nameOnCard": "ELEKTRA",
-        "special": "When Elektra Resurrects: Flip your health dial. Shuffle your discard pile into your deck.\nPlace Elektra and all Hand back onto the board with each fighter in a different zone.\n{{icon}}(Resurrected) You must resolve effects with this symbol."
+        "special": "When Elektra Resurrects: Flip your health dial. Shuffle your discard pile into your deck.\nPlace Elektra and all Hand back onto the board with each fighter in a different zone.\n<icon slug='resurrected' /> You must resolve effects with this symbol."
       }
     ],
     "movement": 2,

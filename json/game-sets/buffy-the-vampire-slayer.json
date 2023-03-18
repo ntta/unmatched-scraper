@@ -909,7 +909,7 @@
         "value": 3
       },
       {
-        "afterText": "{{icon}}(Dark Willow) Become Willow.",
+        "afterText": "<icon slug='dark-willow' /> Become Willow.",
         "basicText": null,
         "boost": 2,
         "cardNotes": null,
@@ -932,7 +932,7 @@
         "cardNotes": null,
         "characterName": "WILLOW",
         "notes": null,
-        "duringText": "{{icon}}(Dark Willow) BLIND BOOST this card.",
+        "duringText": "<icon slug='dark-willow' /> BLIND BOOST this card.",
         "image": "https://static.unmatched.cards/images/umdb/decks/willow/black-magic.png",
         "immediateText": null,
         "other_decks": [],
@@ -944,7 +944,7 @@
       },
       {
         "afterText": null,
-        "basicText": "Draw 2 cards.\n{{icon}}(Dark Willow) Discard the top 2 cards of your deck. Deal 3 damage to a sidekick in your zone <i>(even if it's your own)</i>.",
+        "basicText": "Draw 2 cards.\n<icon slug='dark-willow' /> Discard the top 2 cards of your deck. Deal 3 damage to a sidekick in your zone <i>(even if it's your own)</i>.",
         "boost": 3,
         "cardNotes": null,
         "characterName": "WILLOW",
@@ -966,7 +966,7 @@
         "cardNotes": null,
         "characterName": "WILLOW",
         "notes": null,
-        "duringText": "{{icon}}(Dark Willow) BLIND BOOST this attack.",
+        "duringText": "<icon slug='dark-willow' /> BLIND BOOST this attack.",
         "image": "https://static.unmatched.cards/images/umdb/decks/willow/flayed-alive.png",
         "immediateText": null,
         "other_decks": [],
@@ -994,7 +994,7 @@
         "value": 2
       },
       {
-        "afterText": "{{icon}}(Dark Willow) Move Willow to any space in her zone. Discard the top card of your deck.",
+        "afterText": "<icon slug='dark-willow' /> Move Willow to any space in her zone. Discard the top card of your deck.",
         "basicText": "",
         "boost": 3,
         "cardNotes": null,
@@ -1048,7 +1048,7 @@
         "afterText": null,
         "basicText": null,
         "boost": 2,
-        "notes": "In {{deck}}(willow) deck, even though the card text says \"abilities\", the intention is for this card to cancel \"effects\", this card was created before the wording was standardized",
+        "notes": "In <deck slug='willow' /> deck, even though the card text says \"abilities\", the intention is for this card to cancel \"effects\", this card was created before the wording was standardized",
         "characterName": "TARA",
         "cardNotes": null,
         "duringText": null,
