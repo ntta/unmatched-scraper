@@ -25,7 +25,7 @@
         "cardNotes": null,
         "characterName": "DAREDEVIL",
         "notes": null,
-        "duringText": "You may BLIND BOOST this attack. {{italic}}((This is in addition to any BLIND BOOST from Daredevil's special ability.))",
+        "duringText": "You may BLIND BOOST this attack. <i>(This is in addition to any BLIND BOOST from Daredevil's special ability.)</i>",
         "image": null,
         "immediateText": null,
         "other_decks": [],
@@ -177,12 +177,12 @@
     "movement": 3,
     "name": "Daredevil",
     "notes": "When you BLIND BOOST, you discard the top card of your deck and add its BOOST value onto the card you played in combat. Daredevil's ability cannot be canceled. Follow the normal resolution rules: Defender resolves first. ",
-    "quote": "Fear can be overcome, if you have the will.{{cite}}(Daredevil)",
+    "quote": "Fear can be overcome, if you have the will.\n<cite>Daredevil</cite>",
     "set": "Marvel - Hell's Kitchen",
     "setSlug": "marvel-hells-kitchen",
     "sidekicks": [],
     "slug": "daredevil",
-    "special": "DURING COMBAT: If you have 2 or fewer cards in your hand, you may BLIND BOOST your attack or defense.{{newline}}{{italic}}((If you have other DURING COMBAT effects, choose the order.))"
+    "special": "DURING COMBAT: If you have 2 or fewer cards in your hand, you may BLIND BOOST your attack or defense.\n<i>(If you have other DURING COMBAT effects, choose the order.)</i>"
   },
   {
     "cards": [
@@ -401,7 +401,7 @@
       },
       {
         "afterText": null,
-        "basicText": "Draw 2 cards.{{newline}}If you won a combat this turn, draw 1 additional card and gain 1 action.",
+        "basicText": "Draw 2 cards.\nIf you won a combat this turn, draw 1 additional card and gain 1 action.",
         "boost": 3,
         "cardNotes": null,
         "characterName": "BULLSEYE",
@@ -430,7 +430,7 @@
     "movement": 2,
     "name": "Bullseye",
     "notes": null,
-    "quote": "In real life, if he's quick and smart, and nasty enough -- the BAD guy wins!{{cite}}(Bullseye)",
+    "quote": "In real life, if he's quick and smart, and nasty enough -- the BAD guy wins!\n<cite>Bullseye</cite>",
     "set": "Marvel - Hell's Kitchen",
     "setSlug": "marvel-hells-kitchen",
     "sidekicks": [],
@@ -497,7 +497,7 @@
         "cardNotes": null,
         "characterName": "ELEKTRA",
         "notes": null,
-        "duringText": "{{icon}}(Resurrected) You may reveal a card named {{bold}}(SAI) from your hand. If you do, the value of this card is 5 instead.",
+        "duringText": "{{icon}}(Resurrected) You may reveal a card named <b>SAI</b> from your hand. If you do, the value of this card is 5 instead.",
         "image": null,
         "immediateText": null,
         "other_decks": [],
@@ -618,7 +618,7 @@
         "quantity": 1,
         "slug": "elektra",
         "nameOnCard": "ELEKTRA",
-        "special": "The first time Elektra would be defeated, remove her and all Hand from the board. She is not defeated. At the start of your next turn, Resurrect her.{{newline}}{{icon}}(Resurrected) Ignore effects with this symbol."
+        "special": "The first time Elektra would be defeated, remove her and all Hand from the board. She is not defeated. At the start of your next turn, Resurrect her.\n{{icon}}(Resurrected) Ignore effects with this symbol."
       },
       {
         "attackType": "melee",
@@ -627,7 +627,7 @@
         "quantity": 1,
         "slug": "elektra-resurected",
         "nameOnCard": "ELEKTRA",
-        "special": "When Elektra Resurrects: Flip your health dial. Shuffle your discard pile into your deck.{{newline}}Place Elektra and all Hand back onto the board with each fighter in a different zone.{{newline}}{{icon}}(Resurrected) You must resolve effects with this symbol."
+        "special": "When Elektra Resurrects: Flip your health dial. Shuffle your discard pile into your deck.\nPlace Elektra and all Hand back onto the board with each fighter in a different zone.\n{{icon}}(Resurrected) You must resolve effects with this symbol."
       }
     ],
     "movement": 2,

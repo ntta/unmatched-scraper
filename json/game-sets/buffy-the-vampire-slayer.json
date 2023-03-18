@@ -277,7 +277,14 @@
       }
     ],
     "heroes": [
-      { "attackType": "melee", "hp": 14, "name": "Buffy", "quantity": 1, "slug": "buffy", "nameOnCard": "BUFFY" }
+      {
+        "attackType": "melee",
+        "hp": 14,
+        "name": "Buffy",
+        "quantity": 1,
+        "slug": "buffy",
+        "nameOnCard": "BUFFY"
+      }
     ],
     "movement": 3,
     "name": "Buffy",
@@ -286,8 +293,22 @@
     "set": "Buffy the Vampire Slayer",
     "setSlug": "buffy-the-vampire-slayer",
     "sidekicks": [
-      { "attackType": "melee", "hp": 6, "name": "Giles", "quantity": 1, "slug": "giles", "nameOnCard": "GILES" },
-      { "attackType": "melee", "hp": 6, "name": "Xander", "quantity": 1, "slug": "xander", "nameOnCard": "XANDER" }
+      {
+        "attackType": "melee",
+        "hp": 6,
+        "name": "Giles",
+        "quantity": 1,
+        "slug": "giles",
+        "nameOnCard": "GILES"
+      },
+      {
+        "attackType": "melee",
+        "hp": 6,
+        "name": "Xander",
+        "quantity": 1,
+        "slug": "xander",
+        "nameOnCard": "XANDER"
+      }
     ],
     "slug": "buffy",
     "special": "Buffy may move through spaces containing opposing fighters (including when she is moved by effects)."
@@ -551,7 +572,14 @@
       }
     ],
     "heroes": [
-      { "attackType": "melee", "hp": 16, "name": "Angel", "quantity": 1, "slug": "angel", "nameOnCard": "ANGEL" }
+      {
+        "attackType": "melee",
+        "hp": 16,
+        "name": "Angel",
+        "quantity": 1,
+        "slug": "angel",
+        "nameOnCard": "ANGEL"
+      }
     ],
     "movement": 2,
     "name": "Angel",
@@ -560,7 +588,14 @@
     "set": "Buffy the Vampire Slayer",
     "setSlug": "buffy-the-vampire-slayer",
     "sidekicks": [
-      { "attackType": "melee", "hp": 8, "name": "Faith", "quantity": 1, "slug": "faith", "nameOnCard": "FAITH" }
+      {
+        "attackType": "melee",
+        "hp": 8,
+        "name": "Faith",
+        "quantity": 1,
+        "slug": "faith",
+        "nameOnCard": "FAITH"
+      }
     ],
     "slug": "angel",
     "special": "After Angel or Faith attacks, if you lost the combat, draw 1 card."
@@ -589,7 +624,7 @@
       },
       {
         "afterText": null,
-        "basicText": "Draw 2 cards.{{newline}}Place a shadow token in Spike's space and each space adjacent to it.",
+        "basicText": "Draw 2 cards.\nPlace a shadow token in Spike's space and each space adjacent to it.",
         "boost": 2,
         "cardNotes": null,
         "characterName": "SPIKE",
@@ -826,7 +861,14 @@
       }
     ],
     "heroes": [
-      { "attackType": "melee", "hp": 15, "name": "Spike", "quantity": 1, "slug": "spike", "nameOnCard": "SPIKE" }
+      {
+        "attackType": "melee",
+        "hp": 15,
+        "name": "Spike",
+        "quantity": 1,
+        "slug": "spike",
+        "nameOnCard": "SPIKE"
+      }
     ],
     "movement": 2,
     "name": "Spike",
@@ -902,7 +944,7 @@
       },
       {
         "afterText": null,
-        "basicText": "Draw 2 cards.{{newline}}{{icon}}(Dark Willow) Discard the top 2 cards of your deck. Deal 3 damage to a sidekick in your zone {{italic}}((even if it's your own)).",
+        "basicText": "Draw 2 cards.\n{{icon}}(Dark Willow) Discard the top 2 cards of your deck. Deal 3 damage to a sidekick in your zone <i>(even if it's your own)</i>.",
         "boost": 3,
         "cardNotes": null,
         "characterName": "WILLOW",
@@ -1115,7 +1157,14 @@
       }
     ],
     "heroes": [
-      { "attackType": "ranged", "hp": 14, "name": "Willow", "quantity": 1, "slug": "willow", "nameOnCard": "WILLOW" }
+      {
+        "attackType": "ranged",
+        "hp": 14,
+        "name": "Willow",
+        "quantity": 1,
+        "slug": "willow",
+        "nameOnCard": "WILLOW"
+      }
     ],
     "movement": 2,
     "name": "Willow",
@@ -1124,9 +1173,16 @@
     "set": "Buffy the Vampire Slayer",
     "setSlug": "buffy-the-vampire-slayer",
     "sidekicks": [
-      { "attackType": "ranged", "hp": 6, "name": "Tara", "quantity": 1, "slug": "tara", "nameOnCard": "TARA" }
+      {
+        "attackType": "ranged",
+        "hp": 6,
+        "name": "Tara",
+        "quantity": 1,
+        "slug": "tara",
+        "nameOnCard": "TARA"
+      }
     ],
     "slug": "willow",
-    "special": "When Willow or Tara is dealt damage, Willow becomes Dark Willow.{{newline}}At the end of your turn, if Dark Willow is adjacent to Tara, she becomes Willow."
+    "special": "When Willow or Tara is dealt damage, Willow becomes Dark Willow.\nAt the end of your turn, if Dark Willow is adjacent to Tara, she becomes Willow."
   }
 ]

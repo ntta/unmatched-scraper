@@ -42,7 +42,7 @@
         "cardNotes": null,
         "characterName": "BEOWULF",
         "notes": null,
-        "duringText": "This card's value is +1 for each Rage you have.{{newline}}(You do not spend Rage for this effect.)",
+        "duringText": "This card's value is +1 for each Rage you have.\n(You do not spend Rage for this effect.)",
         "image": "https://static.unmatched.cards/images/umdb/decks/beowulf/epic-poem.png",
         "immediateText": "Gain 1 Rage.",
         "other_decks": [],
@@ -59,7 +59,7 @@
         "cardNotes": null,
         "characterName": "BEOWULF",
         "notes": null,
-        "duringText": "You may spend 2 Rage to make this card's value 5 instead.{{newline}}You may spend 1 Rage to BOOST this card.{{newline}}(You may do both.)",
+        "duringText": "You may spend 2 Rage to make this card's value 5 instead.\nYou may spend 1 Rage to BOOST this card.\n(You may do both.)",
         "image": "https://static.unmatched.cards/images/umdb/decks/beowulf/the-ancient-heirloom.png",
         "immediateText": null,
         "other_decks": [],
@@ -139,7 +139,7 @@
       },
       {
         "afterText": null,
-        "basicText": "Spend any amount of Rage. Choose a different effect for each Rage spent:{{li}} draw 2 cards{{li}} move Beowulf up to 4 spaces{{li}} Beowulf recovers 2 health.",
+        "basicText": "Spend any amount of Rage. Choose a different effect for each Rage spent:\n<li /> draw 2 cards\n<li /> move Beowulf up to 4 spaces\n<li /> Beowulf recovers 2 health.",
         "boost": 3,
         "cardNotes": null,
         "characterName": "BEOWULF",
@@ -207,7 +207,14 @@
       }
     ],
     "heroes": [
-      { "attackType": "melee", "hp": 17, "name": "Beowulf", "quantity": 1, "slug": "beowulf", "nameOnCard": "BEOWULF" }
+      {
+        "attackType": "melee",
+        "hp": 17,
+        "name": "Beowulf",
+        "quantity": 1,
+        "slug": "beowulf",
+        "nameOnCard": "BEOWULF"
+      }
     ],
     "movement": 2,
     "name": "BEOWULF",
@@ -216,15 +223,22 @@
     "set": "Little Red Riding Hood vs. Beowulf",
     "setSlug": "little-red-riding-hood-vs-beowulf",
     "sidekicks": [
-      { "attackType": "melee", "hp": 9, "name": "Wiglaf", "quantity": 1, "slug": "wiglaf", "nameOnCard": "WIGLAF" }
+      {
+        "attackType": "melee",
+        "hp": 9,
+        "name": "Wiglaf",
+        "quantity": 1,
+        "slug": "wiglaf",
+        "nameOnCard": "WIGLAF"
+      }
     ],
     "slug": "beowulf",
-    "special": "Beowulf starts with 1 Rage.{{newline}}When Beowulf is dealt damage, he gains 1 Rage.{{newline}}Beowulf has a maximum of 3 rage."
+    "special": "Beowulf starts with 1 Rage.\nWhen Beowulf is dealt damage, he gains 1 Rage.\nBeowulf has a maximum of 3 rage."
   },
   {
     "cards": [
       {
-        "afterText": "You may return this card to your hand.{{newline}}{{icon}}(Wolfsbane) Instead, you may return the top card of your discard pile to your hand.",
+        "afterText": "You may return this card to your hand.\n{{icon}}(Wolfsbane) Instead, you may return the top card of your discard pile to your hand.",
         "basicText": null,
         "boost": 3,
         "cardNotes": null,
@@ -304,7 +318,7 @@
         "notes": null,
         "duringText": null,
         "image": "https://static.unmatched.cards/images/umdb/decks/little-red/what-big-eyes-you-have.png",
-        "immediateText": "Cancel all effects on your opponent's card.{{newline}}{{icon}}(Wolfsbane) Also ignore the value of your opponent's card.",
+        "immediateText": "Cancel all effects on your opponent's card.\n{{icon}}(Wolfsbane) Also ignore the value of your opponent's card.",
         "other_decks": [],
         "quantity": 2,
         "slug": "what-big-eyes-you-have",
@@ -333,7 +347,7 @@
       },
       {
         "afterText": null,
-        "basicText": "{{icon}}(Pelt) Place Little Red in any space. Gain 1 action.{{newline}}{{icon}}(Knife) Deal 2 damage to each opposing fighter in Little Red's zone.{{newline}}{{icon}}(Wolfsbane) Draw 3 cards.",
+        "basicText": "{{icon}}(Pelt) Place Little Red in any space. Gain 1 action.\n{{icon}}(Knife) Deal 2 damage to each opposing fighter in Little Red's zone.\n{{icon}}(Wolfsbane) Draw 3 cards.",
         "boost": 1,
         "cardNotes": null,
         "characterName": "LITTLE RED",
@@ -387,7 +401,7 @@
       },
       {
         "afterText": null,
-        "basicText": "Little Red Recovers 2 health.{{newline}}{{icon}}(Pelt) Little Red recovers 4 health instead.",
+        "basicText": "Little Red Recovers 2 health.\n{{icon}}(Pelt) Little Red recovers 4 health instead.",
         "boost": 3,
         "cardNotes": null,
         "characterName": "HUNTSMAN",
@@ -467,6 +481,6 @@
       }
     ],
     "slug": "little-red",
-    "special": "Resolve an effect on a card you play if the symbol next to the effect matches the item in your basket.{{newline}}At the start of the game, place {{bold}}(LITTLE RED'S BASKET) in your discard pile."
+    "special": "Resolve an effect on a card you play if the symbol next to the effect matches the item in your basket.\nAt the start of the game, place <b>LITTLE RED'S BASKET</b> in your discard pile."
   }
 ]

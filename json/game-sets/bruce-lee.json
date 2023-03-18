@@ -63,7 +63,7 @@
         "value": 3
       },
       {
-        "afterText": "Choose a {{bold}}(JEET KUNE DO) card in your discard pile and add it to your hand.",
+        "afterText": "Choose a <b>JEET KUNE DO</b> card in your discard pile and add it to your hand.",
         "basicText": null,
         "boost": 4,
         "cardNotes": null,
@@ -81,7 +81,7 @@
       },
       {
         "afterText": null,
-        "basicText": "Choose a {{bold}}(JEET KUNE DO) card in your discard pile and add it to your hand. Gain 1 action.",
+        "basicText": "Choose a <b>JEET KUNE DO</b> card in your discard pile and add it to your hand. Gain 1 action.",
         "boost": 3,
         "cardNotes": null,
         "characterName": "BRUCE LEE",
@@ -362,7 +362,7 @@
     "movement": 3,
     "name": "Bruce Lee",
     "notes": null,
-    "quote": "The successful warrior is the average man, with laser-like focus.{{cite}}(Bruce Lee)",
+    "quote": "The successful warrior is the average man, with laser-like focus.\n<cite>Bruce Lee</cite>",
     "set": "Bruce Lee",
     "setSlug": "bruce-lee",
     "sidekicks": [],

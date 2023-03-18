@@ -121,7 +121,7 @@
         "value": 1
       },
       {
-        "afterText": "Choose 2 different effects:{{li}} draw 2 cards{{li}} Alice recovers 3 health{{li}} place Alice in any other space",
+        "afterText": "Choose 2 different effects:\n<li /> draw 2 cards\n<li /> Alice recovers 3 health\n<li /> place Alice in any other space",
         "basicText": null,
         "boost": 4,
         "cardNotes": null,
@@ -258,7 +258,14 @@
       }
     ],
     "heroes": [
-      { "attackType": "melee", "hp": 13, "name": "Alice", "quantity": 1, "slug": "alice", "nameOnCard": "ALICE" }
+      {
+        "attackType": "melee",
+        "hp": 13,
+        "name": "Alice",
+        "quantity": 1,
+        "slug": "alice",
+        "nameOnCard": "ALICE"
+      }
     ],
     "movement": 2,
     "name": "Alice",
@@ -277,7 +284,7 @@
       }
     ],
     "slug": "alice",
-    "special": "When you place Alice, choose whether she starts the game {{bold}}(BIG) or {{bold}}(SMALL).{{newline}}When Alice is {{bold}}(BIG), add 2 to the value of her attack cards.{{newline}}When Alice is {{bold}}(SMALL), add 1 to the value of her defense cards."
+    "special": "When you place Alice, choose whether she starts the game <b>BIG</b> or <b>SMALL</b>.\nWhen Alice is <b>BIG</b>, add 2 to the value of her attack cards.\nWhen Alice is <b>SMALL</b>, add 1 to the value of her defense cards."
   },
   {
     "cards": [
@@ -470,7 +477,14 @@
       }
     ],
     "heroes": [
-      { "attackType": "ranged", "hp": 16, "name": "Medusa", "quantity": 1, "slug": "medusa", "nameOnCard": "MEDUSA" }
+      {
+        "attackType": "ranged",
+        "hp": 16,
+        "name": "Medusa",
+        "quantity": 1,
+        "slug": "medusa",
+        "nameOnCard": "MEDUSA"
+      }
     ],
     "movement": 3,
     "name": "Medusa",
@@ -479,7 +493,14 @@
     "set": "Battle of Legends, Volume One",
     "setSlug": "battle-of-legends-volume-one",
     "sidekicks": [
-      { "attackType": "melee", "hp": 1, "name": "Harpies", "quantity": 3, "slug": "harpies", "nameOnCard": "HARPY" }
+      {
+        "attackType": "melee",
+        "hp": 1,
+        "name": "Harpies",
+        "quantity": 3,
+        "slug": "harpies",
+        "nameOnCard": "HARPY"
+      }
     ],
     "slug": "medusa",
     "special": "At the start of your turn, you may deal 1 damage to an opposing fighter in Medusa's zone."
@@ -521,13 +542,13 @@
         "value": 3
       },
       {
-        "afterText": "Take all other {{bold}}(VOYAGE) cards from your discard pile and add them to your hand.",
+        "afterText": "Take all other <b>VOYAGE</b> cards from your discard pile and add them to your hand.",
         "basicText": null,
         "boost": 1,
         "cardNotes": null,
         "characterName": "SINBAD",
         "notes": null,
-        "duringText": "This card's value is +1 for each other {{bold}}(VOYAGE) card in your discard pile.",
+        "duringText": "This card's value is +1 for each other <b>VOYAGE</b> card in your discard pile.",
         "image": "https://static.unmatched.cards/images/umdb/decks/sinbad/voyage-home.png",
         "immediateText": null,
         "other_decks": [],
@@ -578,7 +599,7 @@
         "cardNotes": null,
         "characterName": "SINBAD",
         "notes": null,
-        "duringText": "This card's value is +1 for each other {{bold}}(VOYAGE) card in your discard pile.",
+        "duringText": "This card's value is +1 for each other <b>VOYAGE</b> card in your discard pile.",
         "image": "https://static.unmatched.cards/images/umdb/decks/sinbad/voyage-to-the-island-that-was-a-whale.png",
         "immediateText": null,
         "other_decks": [],
@@ -595,7 +616,7 @@
         "cardNotes": null,
         "characterName": "SINBAD",
         "notes": null,
-        "duringText": "This card's value is +1 for each other {{bold}}(VOYAGE) card in your discard pile.",
+        "duringText": "This card's value is +1 for each other <b>VOYAGE</b> card in your discard pile.",
         "image": "https://static.unmatched.cards/images/umdb/decks/sinbad/voyage-to-the-valley-of-the-giant-snakes.png",
         "immediateText": null,
         "other_decks": [],
@@ -612,7 +633,7 @@
         "cardNotes": null,
         "characterName": "SINBAD",
         "notes": null,
-        "duringText": "This card's value is +1 for each other {{bold}}(VOYAGE) card in your discard pile.",
+        "duringText": "This card's value is +1 for each other <b>VOYAGE</b> card in your discard pile.",
         "image": "https://static.unmatched.cards/images/umdb/decks/sinbad/voyage-to-the-creature-with-eyes-like-coals-of-fire.png",
         "immediateText": null,
         "other_decks": [],
@@ -629,7 +650,7 @@
         "cardNotes": null,
         "characterName": "SINBAD",
         "notes": null,
-        "duringText": "This card's value is +1 for each other {{bold}}(VOYAGE) card in your discard pile.",
+        "duringText": "This card's value is +1 for each other <b>VOYAGE</b> card in your discard pile.",
         "image": "https://static.unmatched.cards/images/umdb/decks/sinbad/voyage-to-the-cannibals-with-the-root-of-madness.png",
         "immediateText": null,
         "other_decks": [],
@@ -646,7 +667,7 @@
         "cardNotes": null,
         "characterName": "SINBAD",
         "notes": null,
-        "duringText": "This card's value is +1 for each other {{bold}}(VOYAGE) card in your discard pile.",
+        "duringText": "This card's value is +1 for each other <b>VOYAGE</b> card in your discard pile.",
         "image": "https://static.unmatched.cards/images/umdb/decks/sinbad/voyage-to-the-city-of-the-man-eating-apes.png",
         "immediateText": null,
         "other_decks": [],
@@ -663,7 +684,7 @@
         "cardNotes": null,
         "characterName": "SINBAD",
         "notes": null,
-        "duringText": "This card's value is +1 for each other {{bold}}(VOYAGE) card in your discard pile.",
+        "duringText": "This card's value is +1 for each other <b>VOYAGE</b> card in your discard pile.",
         "image": "https://static.unmatched.cards/images/umdb/decks/sinbad/voyage-to-the-city-of-the-king-of-serendib.png",
         "immediateText": null,
         "other_decks": [],
@@ -814,7 +835,14 @@
       }
     ],
     "heroes": [
-      { "attackType": "melee", "hp": 15, "name": "Sinbad", "quantity": 1, "slug": "sinbad", "nameOnCard": "SINBAD" }
+      {
+        "attackType": "melee",
+        "hp": 15,
+        "name": "Sinbad",
+        "quantity": 1,
+        "slug": "sinbad",
+        "nameOnCard": "SINBAD"
+      }
     ],
     "movement": 2,
     "name": "Sinbad",
@@ -833,7 +861,7 @@
       }
     ],
     "slug": "sinbad",
-    "special": "When you maneuver, you may move your fighters +1 space for each {{bold}}(VOYAGE) card in your discard pile."
+    "special": "When you maneuver, you may move your fighters +1 space for each <b>VOYAGE</b> card in your discard pile."
   },
   {
     "cards": [
@@ -941,7 +969,7 @@
       },
       {
         "afterText": null,
-        "basicText": "Search your deck and discard pile for the {{bold}}(EXCALIBUR) card. Add it to your hand. If you searched your deck, shuffle it.",
+        "basicText": "Search your deck and discard pile for the <b>EXCALIBUR</b> card. Add it to your hand. If you searched your deck, shuffle it.",
         "boost": 2,
         "cardNotes": null,
         "characterName": "KING ARTHUR",
@@ -1130,9 +1158,16 @@
     "set": "Battle of Legends, Volume One",
     "setSlug": "battle-of-legends-volume-one",
     "sidekicks": [
-      { "attackType": "ranged", "hp": 7, "name": "Merlin", "quantity": 1, "slug": "merlin", "nameOnCard": "MERLIN" }
+      {
+        "attackType": "ranged",
+        "hp": 7,
+        "name": "Merlin",
+        "quantity": 1,
+        "slug": "merlin",
+        "nameOnCard": "MERLIN"
+      }
     ],
     "slug": "king-arthur",
-    "special": "When King Arthur attacks, you may BOOST that attack. Play the BOOST card, face down, along with your attack card.{{newline}}If your opponent cancels the effects on your attack card, the BOOST is discarded without effect."
+    "special": "When King Arthur attacks, you may BOOST that attack. Play the BOOST card, face down, along with your attack card.\nIf your opponent cancels the effects on your attack card, the BOOST is discarded without effect."
   }
 ]

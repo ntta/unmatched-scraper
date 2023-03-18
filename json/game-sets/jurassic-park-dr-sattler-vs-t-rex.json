@@ -122,7 +122,7 @@
       },
       {
         "afterText": null,
-        "basicText": "Draw 2 cards.{{newline}}Place an insight token in Dr. Malcolm's space.{{newline}}Gain 1 action.",
+        "basicText": "Draw 2 cards.\nPlace an insight token in Dr. Malcolm's space.\nGain 1 action.",
         "boost": 2,
         "cardNotes": null,
         "characterName": "DR. MALCOLM",
@@ -290,7 +290,7 @@
       },
       {
         "afterText": null,
-        "basicText": "Move your fighter up to 1 space.{{newline}}Draw 1 card.{{newline}}Gain 1 action.",
+        "basicText": "Move your fighter up to 1 space.\nDraw 1 card.\nGain 1 action.",
         "boost": 2,
         "cardNotes": null,
         "characterName": "T. REX",
@@ -375,7 +375,7 @@
       },
       {
         "afterText": null,
-        "basicText": "Choose a card in your discard pile other than {{bold}}(65 MILLION YEARS OF GUT INSTINCT) and return it to your hand.",
+        "basicText": "Choose a card in your discard pile other than <b>65 MILLION YEARS OF GUT INSTINCT</b> and return it to your hand.",
         "boost": 3,
         "cardNotes": null,
         "characterName": "T. REX",
@@ -482,12 +482,12 @@
     ],
     "movement": 1,
     "name": "T. Rex",
-    "notes": "Large fighters have an extended base that can occupy up to two spaces. Large fighters may start moving from any space they are in. When they do, rotate them so that the head is moving into the new space. Their tail always follows behind their head, entering the space the left. Large fighters also ignore one-way arrows on maps and cannot use secret passages.{{newline}}Large fighters can attack up to 2 spaces away, even over fighters that occupy one of those spaces.",
-    "quote": "ROOOOOOAAAAARR.{{cite}}(T. Rex)",
+    "notes": "Large fighters have an extended base that can occupy up to two spaces. Large fighters may start moving from any space they are in. When they do, rotate them so that the head is moving into the new space. Their tail always follows behind their head, entering the space the left. Large fighters also ignore one-way arrows on maps and cannot use secret passages.\nLarge fighters can attack up to 2 spaces away, even over fighters that occupy one of those spaces.",
+    "quote": "ROOOOOOAAAAARR.\n<cite>T. Rex</cite>",
     "set": "Jurassic Park - Sattler vs. T-Rex",
     "setSlug": "jurassic-park-dr-sattler-vs-t-rex",
     "sidekicks": [],
     "slug": "t-rex",
-    "special": "T. Rex is a large fighter. (She can attack up to 2 spaces away.){{newline}}At the end of your turn, draw a card."
+    "special": "T. Rex is a large fighter. (She can attack up to 2 spaces away.)\nAt the end of your turn, draw a card."
   }
 ]

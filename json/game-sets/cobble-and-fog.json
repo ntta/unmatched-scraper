@@ -141,7 +141,7 @@
         "notes": null,
         "duringText": null,
         "image": "https://static.unmatched.cards/images/umdb/decks/dracula/do-my-bidding.png",
-        "immediateText": "Return your opponent's attack card to their hand. Look at their hand and choose an attack or versatile card for them to play. {{italic}}((It may be the same card.))",
+        "immediateText": "Return your opponent's attack card to their hand. Look at their hand and choose an attack or versatile card for them to play. <i>(It may be the same card.)</i>",
         "other_decks": [],
         "quantity": 2,
         "slug": "do-my-bidding",
@@ -168,7 +168,7 @@
       },
       {
         "afterText": null,
-        "basicText": "Place Dracula in any space.{{newline}}Gain 1 action.",
+        "basicText": "Place Dracula in any space.\nGain 1 action.",
         "boost": 2,
         "cardNotes": null,
         "characterName": "DRACULA",
@@ -558,7 +558,7 @@
       }
     ],
     "slug": "sherlock-holmes",
-    "special": "Effects on {{bold}}(HOLMES) and {{bold}}(DR. WATSON) cards cannot be cancelled by an opponent.{{newline}}(Effects on {{bold}}(ANY) cards can be cancelled.)"
+    "special": "Effects on <b>HOLMES</b> and <b>DR. WATSON</b> cards cannot be cancelled by an opponent.\n(Effects on <b>ANY</b> cards can be cancelled.)"
   },
   {
     "cards": [
@@ -701,7 +701,7 @@
         "value": 4
       },
       {
-        "afterText": "Place Mr. Hyde in any space in his zone.{{newline}}Transform to Dr. Jekyll.",
+        "afterText": "Place Mr. Hyde in any space in his zone.\nTransform to Dr. Jekyll.",
         "basicText": null,
         "boost": 2,
         "cardNotes": null,
@@ -770,7 +770,7 @@
       },
       {
         "afterText": null,
-        "basicText": "Recover 2 health.{{newline}}Draw up to 3 cards. Keep one and put any others on the bottom of your deck in any order.",
+        "basicText": "Recover 2 health.\nDraw up to 3 cards. Keep one and put any others on the bottom of your deck in any order.",
         "boost": 3,
         "cardNotes": null,
         "characterName": "DR. JEKYLL",
@@ -841,12 +841,12 @@
     "movement": 2,
     "name": "Jekyll & Hyde",
     "notes": null,
-    "quote": "Man is not truly one, but truly two.{{cite}}(Robert Louis Stevenson)",
+    "quote": "Man is not truly one, but truly two.\n<cite>Robert Louis Stevenson</cite>",
     "set": "Cobble & Fog",
     "setSlug": "cobble-and-fog",
     "sidekicks": [],
     "slug": "jekyll-and-hyde",
-    "special": "Start the game as Dr. Jekyll. At the start of your turn, you may transform into Dr. Jekyll or Mr. Hyde.{{newline}}{{bold}}(While Mr. Hyde): After you Maneuver, take 1 damage."
+    "special": "Start the game as Dr. Jekyll. At the start of your turn, you may transform into Dr. Jekyll or Mr. Hyde.\n<b>While Mr. Hyde</b>: After you Maneuver, take 1 damage."
   },
   {
     "cards": [
@@ -910,7 +910,7 @@
         "notes": null,
         "duringText": null,
         "image": "https://static.unmatched.cards/images/umdb/decks/invisible-man/impossible-to-see.png",
-        "immediateText": "The value of your opponent's attack or defense is 0 and cannot be changed by card effects. {{italic}}((Other card effects still happen.))",
+        "immediateText": "The value of your opponent's attack or defense is 0 and cannot be changed by card effects. <i>(Other card effects still happen.)</i>",
         "other_decks": [],
         "quantity": 2,
         "slug": "impossible-to-see",
@@ -970,7 +970,7 @@
         "value": 3
       },
       {
-        "afterText": "Draw 1 card and choose 1 effect:{{li}} move Invisible Man to a space with a fog token{{li}} move 1 fog token up to 3 spaces",
+        "afterText": "Draw 1 card and choose 1 effect:\n<li /> move Invisible Man to a space with a fog token\n<li /> move 1 fog token up to 3 spaces",
         "basicText": null,
         "boost": 2,
         "cardNotes": null,
@@ -987,7 +987,7 @@
         "value": 2
       },
       {
-        "afterText": "Move Invisible Man up to 1 space.{{newline}}Your opponent then moves a fog token up to 3 spaces.",
+        "afterText": "Move Invisible Man up to 1 space.\nYour opponent then moves a fog token up to 3 spaces.",
         "basicText": null,
         "boost": 1,
         "cardNotes": null,
@@ -1039,7 +1039,7 @@
       },
       {
         "afterText": null,
-        "basicText": "Recover 1 health. Remove Invisible Man from the board. At the start of your next turn, place Invisible Man in any space. {{italic}}((If you played this as your first action, end your turn.))",
+        "basicText": "Recover 1 health. Remove Invisible Man from the board. At the start of your next turn, place Invisible Man in any space. <i>(If you played this as your first action, end your turn.)</i>",
         "boost": 3,
         "cardNotes": null,
         "characterName": "INVISIBLE MAN",
@@ -1056,7 +1056,7 @@
       },
       {
         "afterText": null,
-        "basicText": "Deal 1 damage to one adjacent fighter. If Invisible Man is on a space with a fog token, deal 3 damage instead.{{newline}}Your opponent then moves a fog token up to 2 spaces.",
+        "basicText": "Deal 1 damage to one adjacent fighter. If Invisible Man is on a space with a fog token, deal 3 damage instead.\nYour opponent then moves a fog token up to 2 spaces.",
         "boost": 1,
         "cardNotes": null,
         "characterName": "INVISIBLE MAN",
@@ -1102,11 +1102,11 @@
     "movement": 2,
     "name": "Invisible Man",
     "notes": null,
-    "quote": "...I was only just beginning to realise the extraordinary advantage my invisibility gave me.{{cite}}(H. G. Wells)",
+    "quote": "...I was only just beginning to realise the extraordinary advantage my invisibility gave me.\n<cite>H. G. Wells</cite>",
     "set": "Cobble & Fog",
     "setSlug": "cobble-and-fog",
     "sidekicks": [],
     "slug": "invisible-man",
-    "special": "At the start of the game, after you place Invisible Man, place 3 fog tokens in separate spaces in his zone.{{newline}}When Invisible Man is on a space with a fog token, add 1 to the value of his defense cards.{{newline}}Invisible Man may move between two spaces with fog tokens as if they were adjacent."
+    "special": "At the start of the game, after you place Invisible Man, place 3 fog tokens in separate spaces in his zone.\nWhen Invisible Man is on a space with a fog token, add 1 to the value of his defense cards.\nInvisible Man may move between two spaces with fog tokens as if they were adjacent."
   }
 ]

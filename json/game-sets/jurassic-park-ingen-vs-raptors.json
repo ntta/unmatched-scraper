@@ -74,7 +74,7 @@
       },
       {
         "afterText": null,
-        "basicText": "Choose 2 different effects:{{li}} place up to 3 traps{{li}} place all of your defeated InGen Workers (if any) in Muldoon's zone{{li}} draw 2 cards",
+        "basicText": "Choose 2 different effects:\n<li /> place up to 3 traps\n<li /> place all of your defeated InGen Workers (if any) in Muldoon's zone\n<li /> draw 2 cards",
         "boost": 3,
         "cardNotes": null,
         "characterName": "MULDOON",
@@ -244,7 +244,7 @@
     ],
     "movement": 3,
     "name": "InGen",
-    "notes": "You may place a trap token in any unoccupied space in Muldoon's zone. If Muldoon's space is in more than one zone, you may pick a space in any of them. The target space cannot contain any fighters or other tokens, including other traps.{{newline}}When an opposing fighter enters a space with a trap, the trap goes off. The fighter must immediately stop moving and takes 1 damage. After the trap goes off, return it to the box.{{newline}}Muldoon's and his allies may land on or move through traps freely without setting them off.",
+    "notes": "You may place a trap token in any unoccupied space in Muldoon's zone. If Muldoon's space is in more than one zone, you may pick a space in any of them. The target space cannot contain any fighters or other tokens, including other traps.\nWhen an opposing fighter enters a space with a trap, the trap goes off. The fighter must immediately stop moving and takes 1 damage. After the trap goes off, return it to the box.\nMuldoon's and his allies may land on or move through traps freely without setting them off.",
     "quote": null,
     "set": "Jurassic Park - InGen vs. Raptors",
     "setSlug": "jurassic-park-ingen-vs-raptors",
@@ -259,7 +259,7 @@
       }
     ],
     "slug": "ingen",
-    "special": "At the start of your turn, you may place a trap.{{newline}}Whenever one of your traps is returned to the box, draw a card.{{newline}}Muldoon starts with 8 traps."
+    "special": "At the start of your turn, you may place a trap.\nWhenever one of your traps is returned to the box, draw a card.\nMuldoon starts with 8 traps."
   },
   {
     "cards": [
@@ -496,7 +496,7 @@
     "movement": 3,
     "name": "Raptors",
     "notes": null,
-    "quote": "They're lethal at eight months, and I do mean lethal.{{cite}}(Robert Muldoon)",
+    "quote": "They're lethal at eight months, and I do mean lethal.\n<cite>Robert Muldoon</cite>",
     "set": "Jurassic Park - Ingen vs. Raptors",
     "setSlug": "jurassic-park-ingen-vs-raptors",
     "sidekicks": [],

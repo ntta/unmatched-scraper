@@ -224,7 +224,7 @@
       },
       {
         "afterText": null,
-        "basicText": "Place Luke Cage adjacent to the nearest opposing fighter.{{newline}}Gain 1 action.",
+        "basicText": "Place Luke Cage adjacent to the nearest opposing fighter.\nGain 1 action.",
         "boost": 1,
         "cardNotes": null,
         "characterName": "LUKE CAGE",
@@ -267,7 +267,7 @@
       }
     ],
     "slug": "luke-cage",
-    "special": "Luke Cage takes 2 less combat damage from attacks.{{newline}}When defending, Luke Cage wins combat if he takes no damage, even if he didn't play a card."
+    "special": "Luke Cage takes 2 less combat damage from attacks.\nWhen defending, Luke Cage wins combat if he takes no damage, even if he didn't play a card."
   },
   {
     "cards": [
@@ -306,7 +306,7 @@
         "value": 3
       },
       {
-        "afterText": "Spend any amount of Hellfire, Deal that much damage to each fighter in Ghost Rider's zone {{italic}}((including Ghost Rider)).",
+        "afterText": "Spend any amount of Hellfire, Deal that much damage to each fighter in Ghost Rider's zone <i>(including Ghost Rider)</i>.",
         "basicText": null,
         "boost": 3,
         "cardNotes": null,
@@ -423,7 +423,7 @@
         "cardNotes": null,
         "characterName": "GHOST RIDER",
         "notes": null,
-        "duringText": "This card's value is +1 for each Hellfire you have.{{newline}}{{italic}}((You do not spend Hellfire for this effect.))",
+        "duringText": "This card's value is +1 for each Hellfire you have.\n<i>(You do not spend Hellfire for this effect.)</i>",
         "image": null,
         "immediateText": null,
         "other_decks": [],
@@ -469,7 +469,7 @@
       },
       {
         "afterText": null,
-        "basicText": "Move Ghost Rider and up to one adjacent fighter up to 4 spaces each.{{newline}}Gain 2 Hellfire. Gain 1 action.",
+        "basicText": "Move Ghost Rider and up to one adjacent fighter up to 4 spaces each.\nGain 2 Hellfire. Gain 1 action.",
         "boost": 3,
         "cardNotes": null,
         "characterName": "GHOST RIDER",
@@ -515,7 +515,7 @@
     "movement": 2,
     "name": "Ghost Rider",
     "notes": "If you spend a Hellfire to use Ghost Rider's ability, your movement value is set to 4, and cannot be increased by BOOSTING your maneuver.",
-    "quote": "You cannot destroy one already beyond death, villain.{{cite}}(Ghost Rider)",
+    "quote": "You cannot destroy one already beyond death, villain.\n<cite>Ghost Rider</cite>",
     "set": "Marvel - Redemption Row",
     "setSlug": "marvel-redemption-row",
     "sidekicks": [],
@@ -722,7 +722,7 @@
       },
       {
         "afterText": null,
-        "basicText": "Recover 2 health.{{newline}}If you started your turn in a different space, gain 1 action.",
+        "basicText": "Recover 2 health.\nIf you started your turn in a different space, gain 1 action.",
         "boost": 3,
         "cardNotes": null,
         "characterName": "ANY",
@@ -739,7 +739,7 @@
       },
       {
         "afterText": null,
-        "basicText": "Move your fighter up to 4 spaces. They may move through opposing fighters.{{newline}}Gain 1 action.",
+        "basicText": "Move your fighter up to 4 spaces. They may move through opposing fighters.\nGain 1 action.",
         "boost": 3,
         "cardNotes": null,
         "characterName": "ANY",
@@ -763,8 +763,8 @@
         "quantity": 1,
         "slug": "moon-knight",
         "nameOnCard": "MOON KNIGHT",
-        "quote": "I'm not real.{{cite}}(Moon Knight)",
-        "special": "At the start of your turn, move up to 2 spaces.{{newline}}At the end of your turn, change to your next identity (Khonshu)."
+        "quote": "I'm not real.\n<cite>Moon Knight</cite>",
+        "special": "At the start of your turn, move up to 2 spaces.\nAt the end of your turn, change to your next identity (Khonshu)."
       },
       {
         "attackType": "melee",
@@ -773,8 +773,8 @@
         "quantity": 1,
         "slug": "khonshu",
         "nameOnCard": "KHONSHU",
-        "quote": "You are my son.{{cite}}(Khonshu)",
-        "special": "Khonshu adds +2 to the value of his attack cards. He does not take damage from effects other than combat damage.{{newline}}At the end of your turn, change to your next identity (Mr. Knight)."
+        "quote": "You are my son.\n<cite>Khonshu</cite>",
+        "special": "Khonshu adds +2 to the value of his attack cards. He does not take damage from effects other than combat damage.\nAt the end of your turn, change to your next identity (Mr. Knight)."
       },
       {
         "attackType": "melee",
@@ -783,8 +783,8 @@
         "quantity": 1,
         "slug": "mr-knight",
         "nameOnCard": "MR. KNIGHT",
-        "quote": "I've died before.{{newline}}It was boring,{{newline}}so I stood up.{{cite}}(Mr. Knight)",
-        "special": "Mr. Knight adds +1 to all his defense values.{{newline}}At the end of your turn, change to your next identity (Moon Knight)."
+        "quote": "I've died before.\nIt was boring,\nso I stood up.\n<cite>Mr. Knight</cite>",
+        "special": "Mr. Knight adds +1 to all his defense values.\nAt the end of your turn, change to your next identity (Moon Knight)."
       }
     ],
     "movement": 3,

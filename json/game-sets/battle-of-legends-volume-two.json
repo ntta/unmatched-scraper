@@ -19,7 +19,7 @@
         "value": 3
       },
       {
-        "afterText": "{{bonusAttack}}(relentless-assault)",
+        "afterText": "<bonus-attack>Relentless Assault</bonus-attack>",
         "basicText": null,
         "boost": 3,
         "cardNotes": null,
@@ -278,7 +278,7 @@
       }
     ],
     "slug": "achilles",
-    "special": "When Patroclus is defeated, discard 2 random cards.{{newline}}While Patroclus is defeated:{{li}} Add +2 to the value of all Achilles' attacks.{{li}} If Achilles wins combat, draw 1 card."
+    "special": "When Patroclus is defeated, discard 2 random cards.\nWhile Patroclus is defeated:\n<li /> Add +2 to the value of all Achilles' attacks.\n<li /> If Achilles wins combat, draw 1 card."
   },
   {
     "cards": [
@@ -334,7 +334,7 @@
         "value": 3
       },
       {
-        "afterText": "{{bonusAttack}}(bloody-reprise)",
+        "afterText": "<bonus-attack>Bloody Reprise</bonus-attack>",
         "basicText": null,
         "boost": 4,
         "cardNotes": null,
@@ -504,7 +504,7 @@
       },
       {
         "afterText": null,
-        "basicText": "Move your fighter up to 1 space.{{newline}}Draw 1 card.{{newline}}Gain 1 action.",
+        "basicText": "Move your fighter up to 1 space.\nDraw 1 card.\nGain 1 action.",
         "boost": 2,
         "notes": "In {{deck}}(bloody-mary) deck, this card says \"Bloody Mary\" instead of \"your fighter\"",
         "characterName": "BLOODY MARY",
@@ -577,7 +577,7 @@
         "value": 2
       },
       {
-        "afterText": "If your opponent played a defense card, {{bonusAttack}}(tricked-you).",
+        "afterText": "If your opponent played a defense card, <bonus-attack>Tricked You</bonus-attack>.",
         "basicText": null,
         "boost": 3,
         "cardNotes": null,
@@ -634,7 +634,7 @@
         "value": 7
       },
       {
-        "afterText": "Take an {{bold}}(OX FORM), {{bold}}(TORTOISE FORM), or {{bold}}(PHOENIX FORM) from your discard pile and return it to your hand.",
+        "afterText": "Take an <b>OX FORM</b>, <b>TORTOISE FORM</b>, or <b>PHOENIX FORM</b> from your discard pile and return it to your hand.",
         "basicText": null,
         "boost": 2,
         "cardNotes": null,
@@ -790,10 +790,17 @@
     "set": "Battle of Legends, Volume Two",
     "setSlug": "battle-of-legends-volume-two",
     "sidekicks": [
-      { "attackType": "melee", "hp": 1, "name": "Clones", "quantity": 3, "slug": "clones", "nameOnCard": "CLONE" }
+      {
+        "attackType": "melee",
+        "hp": 1,
+        "name": "Clones",
+        "quantity": 3,
+        "slug": "clones",
+        "nameOnCard": "CLONE"
+      }
     ],
     "slug": "sun-wukong",
-    "special": "At the start of your turn, you may take 1 damage to summon a Clone in an empty space adjacent to Sun Wukong.{{newline}}Do not start with any Clones on the board."
+    "special": "At the start of your turn, you may take 1 damage to summon a Clone in an empty space adjacent to Sun Wukong.\nDo not start with any Clones on the board."
   },
   {
     "cards": [
@@ -815,7 +822,7 @@
         "value": 3
       },
       {
-        "afterText": "{{bonusAttack}}(volley)",
+        "afterText": "<bonus-attack>Volley</bonus-attack>",
         "basicText": null,
         "boost": 3,
         "cardNotes": null,
@@ -1043,7 +1050,14 @@
     "set": "Battle of Legends, Volume Two",
     "setSlug": "battle-of-legends-volume-two",
     "sidekicks": [
-      { "attackType": "ranged", "hp": 2, "name": "Archers", "quantity": 2, "slug": "archers", "nameOnCard": "ARCHER" }
+      {
+        "attackType": "ranged",
+        "hp": 2,
+        "name": "Archers",
+        "quantity": 2,
+        "slug": "archers",
+        "nameOnCard": "ARCHER"
+      }
     ],
     "slug": "yennenga",
     "special": "If Yennenga would take damage, you may assign any amount of that damage to one or more Archers in her zone instead. (You may not assign more damage to an Archer than their remaining health.)"

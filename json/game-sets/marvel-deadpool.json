@@ -530,6 +530,6 @@
     "setSlug": "marvel-deadpool",
     "sidekicks": [],
     "slug": "deadpool",
-    "special": "After you attack, Deadpool recovers 1 health.{{newline}}Also, if your opponent's real name is Logan, all your attacks are +5."
+    "special": "After you attack, Deadpool recovers 1 health.\nAlso, if your opponent's real name is Logan, all your attacks are +5."
   }
 ]

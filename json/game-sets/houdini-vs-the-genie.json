@@ -159,7 +159,7 @@
         "value": 4
       },
       {
-        "afterText": "If your fighter was defeated, set their health to 4 instead and place them in any space. {{italic}}((This effect happens even if Houdini was defeated.))",
+        "afterText": "If your fighter was defeated, set their health to 4 instead and place them in any space. <i>(This effect happens even if Houdini was defeated.)</i>",
         "basicText": "This card's effect cannot be canceled.",
         "boost": 2,
         "boostEffect": "Houdini recovers 2 health.",
@@ -178,7 +178,7 @@
       },
       {
         "afterText": null,
-        "basicText": "Draw 2 cards. Gain 1 action.{{newline}}If an effect would let an opponent look at your hand, you may reveal this card and cancel that effect.",
+        "basicText": "Draw 2 cards. Gain 1 action.\nIf an effect would let an opponent look at your hand, you may reveal this card and cancel that effect.",
         "boost": 4,
         "cardNotes": null,
         "characterName": "HOUDINI",
@@ -230,7 +230,14 @@
       }
     ],
     "heroes": [
-      { "attackType": "melee", "hp": 14, "name": "Houdini", "quantity": 1, "slug": "houdini", "nameOnCard": "HOUDINI" }
+      {
+        "attackType": "melee",
+        "hp": 14,
+        "name": "Houdini",
+        "quantity": 1,
+        "slug": "houdini",
+        "nameOnCard": "HOUDINI"
+      }
     ],
     "movement": 2,
     "name": "Houdini",
@@ -238,10 +245,17 @@
     "set": "Houdini vs. The Genie",
     "setSlug": "houdini-vs-the-genie",
     "sidekicks": [
-      { "attackType": "melee", "hp": 5, "name": "Bess", "quantity": 1, "slug": "bess", "nameOnCard": "BESS" }
+      {
+        "attackType": "melee",
+        "hp": 5,
+        "name": "Bess",
+        "quantity": 1,
+        "slug": "bess",
+        "nameOnCard": "BESS"
+      }
     ],
     "slug": "houdini",
-    "special": "When you take the maneuver action and BOOST, you may place Houdini in any space instead of moving.{{newline}}{{italic}}((Bess moves as normal.))",
+    "special": "When you take the maneuver action and BOOST, you may place Houdini in any space instead of moving.\n<i>(Bess moves as normal.)</i>",
     "specialName": "Escape Artist"
   },
   {
@@ -282,7 +296,7 @@
       },
       {
         "afterText": null,
-        "basicText": "Gain 1 action and choose one effect:{{li}} draw 5 cards{{li}} for the rest of your turn, your cards' values are 4 and cannot be changed{{li}} each opponent discards 2 cards",
+        "basicText": "Gain 1 action and choose one effect:\n<li /> draw 5 cards\n<li /> for the rest of your turn, your cards' values are 4 and cannot be changed\n<li /> each opponent discards 2 cards",
         "boost": 3,
         "cardNotes": null,
         "characterName": "THE GENIE",
@@ -491,7 +505,7 @@
     "name": "The Genie",
     "set": "Houdini vs. The Genie",
     "setSlug": "houdini-vs-the-genie",
-    "quote": "What wouldst thou have?{{cite}}(The Genie)",
+    "quote": "What wouldst thou have?\n<cite>The Genie</cite>",
     "sidekicks": [],
     "slug": "the-genie",
     "special": "At the start of your turn, you may discard 1 card to gain 1 action.",
