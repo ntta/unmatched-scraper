@@ -34,6 +34,8 @@ export const upsertDeck = async (json: JsonDeck, gameSetId: number) => {
         name: json.name.toUpperCase(),
         gameNotes: json.notes,
         quote: json.quote,
+        numberOfMinis:
+          typeof json.numberOfMinis == 'number' ? json.numberOfMinis : 1,
       },
     });
   }

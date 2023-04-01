@@ -73,16 +73,17 @@ model CardFighter {
 }
 
 model Deck {
-  id        Int        @id @default(autoincrement())
-  name      String     @unique
-  slug      String     @unique
-  quote     String?
-  sideNotes String?
-  gameNotes String?
-  gameSet   GameSet    @relation(fields: [gameSetId], references: [id])
-  gameSetId Int
-  fighters  Fighter[]
-  cardDecks CardDeck[]
+  id            Int        @id @default(autoincrement())
+  name          String     @unique
+  slug          String     @unique
+  quote         String?
+  sideNotes     String?
+  gameNotes     String?
+  gameSet       GameSet    @relation(fields: [gameSetId], references: [id])
+  gameSetId     Int
+  fighters      Fighter[]
+  cardDecks     CardDeck[]
+  numberOfMinis Int
 }
 
 model CardDeck {
@@ -96,9 +97,9 @@ model CardDeck {
 }
 
 model GameSet {
-  id          Int      @id @default(autoincrement())
-  name        String   @unique
-  slug        String   @unique
+  id          Int     @id @default(autoincrement())
+  name        String  @unique
+  slug        String  @unique
   releaseDate String
   sideNotes   String?
   gameNotes   String?

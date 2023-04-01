@@ -500,6 +500,7 @@
     "set": "Jurassic Park - Ingen vs. Raptors",
     "setSlug": "jurassic-park-ingen-vs-raptors",
     "sidekicks": [],
+    "numberOfMinis": 3,
     "slug": "raptors",
     "special": "Raptors add 1 to the value of their attack cards for each of your other Raptors adjacent to the defender."
   }

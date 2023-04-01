@@ -49,6 +49,7 @@ export type JsonDeck = {
   specialName: Nullable<string>;
   movement: number;
   quote: Nullable<string>;
+  numberOfMinis: Nullable<number>;
 };
 
 export type JsonFighter = {
